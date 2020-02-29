@@ -1,0 +1,247 @@
+% Encoding: UTF-8
+
+@Article{Setiawan2018,
+  author  = {Setiawan, D.},
+  title   = {Dampak Perkembangan Teknologi Informasi dan Komunikasi Terhadap Budaya},
+  journal = {JURNAL SIMBOLIKA: Research and Learning in Communication Study},
+  year    = {2018},
+  volume  = {4},
+  pages   = {62},
+  month   = {04},
+  doi     = {10.31289/simbollika.v4i1.1474},
+}
+
+@Article{Suryani2017,
+  author  = {D. Suryani and E. Amalia},
+  title   = {Aplikasi Chatbot Objek Wisata Jawa Timur Berbasis AIML},
+  journal = {SMARTICS Journal},
+  year    = {2017},
+  volume  = {3},
+  number  = {2},
+  pages   = {47--54},
+  issn    = {2476-9754},
+  doi     = {https://doi.org/10.21067/smartics.v3i2.1961},
+}
+
+@Article{Akhsan2017,
+  author  = {Akhsan, A. A. and Faizah, F.},
+  title   = {Analisa dan Perancangan Interaksi Chatbot Reminder dengan User-Centered Design.},
+  journal = {Jurnal Sistem Informasi},
+  year    = {2017},
+  volume  = {2},
+  number  = {13},
+  pages   = {78--89},
+  doi     = {http://dx.doi.org/10.21609/jsi.v13i2.55},
+}
+
+@Article{Hormansyah2018,
+  author  = {D. S. Hormansyah and Y. P. Utama},
+  title   = {Aplikasi Chatbot Berbasis Web pada Sistem Informasi Layanan Publik Kesehatan di Malang dengan Menggunakan Metode TF-IDF},
+  journal = {Jurnal Informatika Polinema},
+  year    = {2018},
+  volume  = {4},
+  pages   = {24--28},
+  issn    = {2614-6371},
+}
+
+@Article{Benedictus2017,
+  author  = {Benedictus, R. R. and Wowor, H. and Sambul, A.},
+  title   = {Rancang Bangun Chatbot Helpdesk untuk Sistem Informasi Terpadu Universitas Sam Ratulang},
+  journal = {EJournal Teknik Informatika},
+  year    = {2017},
+  volume  = {11},
+  number  = {1},
+  issn    = {2301-8364},
+}
+
+@Article{ElisabetNila2015,
+  author  = {Elisabet, N. S. C. P. and Afrianto, M.},
+  title   = {Rancang Bangun Aplikasi Chatbot Informasi Objek Wisata Kota Bandung Dengan Pendekatan Natural Language Processing},
+  journal = {Jurnal Ilmiah Komputer dan Informatika (KOMPUTA)},
+  year    = {2015},
+  volume  = {4},
+  number  = {1},
+  pages   = {49--54},
+  issn    = {2089-9033},
+}
+
+@Booklet{S.Kemp2019,
+  title  = {ALL THE DATA AND TRENDS YOU NEED TO UNDERSTAND INTERNET, SOCIAL MEDIA, MOBILE, AND E-COMMERCE BEHAVIOURS IN 2019},
+  author = {S.Kemp},
+  month  = jan,
+  year   = {2019},
+}
+
+@Electronic{LINE2016,
+  author = {LINE},
+  year   = {2016},
+  title  = {LINE Announces Plans for Expanded Development and Proliferation of Chatbots},
+  note   = {diakses pada 23 Januari 2020},
+  url    = {https://linecorp.com/en/pr/news/en/2016/1517},
+}
+
+@Article{Wijaya2015,
+  author  = {Wijaya, M. H. and Sotyohadi and Setiawan, R. S.},
+  title   = {Perancangan ChatBot Pembelajaran Pemrograman Berorientasi Object Berbasis Sistem Modular},
+  journal = {SENATEK (Seminar Nasional Teknologi)},
+  year    = {2015},
+  volume  = {1},
+  number  = {A},
+  pages   = {379--386},
+  issn    = {2407 – 7534},
+}
+
+@Proceedings{Chen2016,
+  title = {Platform strategies perspective on the OTT messaging services: A Case study of WeChat and Line},
+  year  = {2016},
+  month = jun,
+  note  = {Chen, H. H. In annual conference of International Telecommunication Society, Taipei, Taiwan},
+}
+
+@Article{Junadhi2019,
+  author  = {Junadhi and Mardainis.},
+  title   = {LINE Chatbot Informasi Cuaca Wilayah Indonesia},
+  journal = {Digital Zone: Jurnal Teknologi Informasi Dan Komunikasi},
+  year    = {2019},
+  volume  = {10},
+  number  = {1},
+  pages   = {101--109},
+  doi     = {https://doi.org/10.31849/digitalzone.v10i1.2467},
+}
+
+@Booklet{Novella2015,
+  title  = {INTRODUCTION MICROSOFT SQL SERVER 2012},
+  author = {A. Novella},
+  year   = {2015},
+}
+
+@Book{Vallabhaneni2015,
+  title     = {Wiley CIAexcel Exam Review 2015, Part 3: Internal Audit Knowledge Elements},
+  publisher = {John Wiley \& Sons},
+  year      = {2015},
+  author    = {S. R. Vallabhaneni},
+}
+
+@Article{Ananda2018,
+  author  = {Ananda, D. R. and Firdha, I. and Yusuf, M. A. S. and Ardiansyah},
+  title   = {APLIKASI CHATBOT (MILKI BOT) YANG TERINTEGRASI DENGAN WEB CMS UNTUK CUSTOMER SERVICE PADA UKM MINSU},
+  journal = {Jurnal Cendikia},
+  year    = {2018},
+  volume  = {XVI},
+  pages   = {100--106},
+  issn    = {2622-6782},
+}
+
+@Article{Muhammad2018,
+  author  = {Muhammad, S. S. Sadaton. and Rendra, S.},
+  title   = {Perancangan Sistem Informasi Pariwisata Kota Sorong Menggunakan WEB Dan LINE@ Chatbot Sebagai Media Informasi Pariwisata},
+  journal = {Jurnal Teknik Informasi dan Keamanan},
+  year    = {2018},
+  volume  = {4},
+  number  = {2},
+  pages   = {71--77},
+  issn    = {2614-431X},
+  doi     = {http://ejournal.um-sorong.ac.id/index.php/insect},
+}
+
+@Article{Wijaya2019,
+  author  = {Wijaya, M. and Junaedy and Arfandy, H.},
+  title   = {PERANCANGAN CHATBOT UNTUK INFORMASI PENERIMAAN MAHASISWA BARU PADA STMIK KHARISMA MAKASSAR},
+  journal = {KHARISMA Tech},
+  year    = {2019},
+  volume  = {14},
+  number  = {1},
+  pages   = {14--23},
+  note    = {Tersedia pada: https://jurnal.kharisma.ac.id/kharismatech/article/view/14 (Diakses: 23 Januari 2020).},
+}
+
+@Article{Yuniar2019,
+  author  = {Eka Yuniar and Heri Purnomo},
+  title   = {IMPLEMENTASI CHATBOT "ALITTA" ASISTEN VIRTUAL DARI BALITTAS SEBAGAI PUSAT INFORMASI DI BALITTAS},
+  journal = {Antivirus : Jurnal Ilmiah Teknik Informatika},
+  year    = {2019},
+  volume  = {13},
+  number  = {1},
+  pages   = {24-35},
+  issn    = {2527 – 337X},
+  doi     = {https://doi.org/10.35457/antivirus.v13i1.714},
+}
+
+@Article{Lestari2016,
+  author  = {Januar Lestari},
+  title   = {ANALISIS SISTEM DETEKSI KERUSAKAN KOMPUTER DENGAN MENGGUNAKAN METODE FORWARD CHAINING},
+  journal = {Jurnal Inspiraton},
+  year    = {2016},
+  volume  = {6},
+  number  = {1},
+  pages   = {19--27},
+  month   = jun,
+}
+
+@Article{Bagus2018,
+  author  = {Bagus, S. and Ari, K. and Widhi, Y.},
+  title   = {Implementasi Algoritme Blake2s pada JSON Web Token (JWT) sebagai Algoritme Hashing untuk Mekanisme Autentikasi Layanan REST-API.},
+  journal = {Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer},
+  year    = {2018},
+  volume  = {2},
+  number  = {12},
+  pages   = {6269--6276},
+  month   = dec,
+}
+
+@Article{Sidi2015,
+  author  = {Sidi, M. and Roeri, F. and Hendra, R.},
+  title   = {PENGUJIAN APLIKASI MENGGUNAKAN BLACK BOX TESTING BOUNDARY VALUE ANALYSIS(Studi Kasus : Aplikasi Prediksi Kelulusan SNMPTN).},
+  journal = {Jurnal Ilmiah Teknologi Informasi Terapan},
+  year    = {2015},
+  volume  = {1},
+  number  = {3},
+  month   = aug,
+  issn    = {2407-3911},
+}
+
+@Article{Carolina2019,
+  author  = {Carolina, I. and Adi, S.},
+  title   = {PENERAPAN METODE EXTREME PROGRAMMING DALAM PERANCANGAN APLIKASI PERHITUNGAN KUOTA SKS MENGAJAR DOSEN.},
+  journal = {Jurnal IKRA-ITH},
+  year    = {2019},
+  volume  = {3},
+  number  = {1},
+  month   = mar,
+  issn    = {2580-4316},
+}
+
+@Article{Extise2016,
+  author  = {Extise, N. and Supriandi, A.},
+  title   = {Sistem Informasi Pengolahan Data Pendidikan Anak Usia Dini (PAUD) Terpadu Amalia Syukra Padang.},
+  journal = {Jurnal Edik Informatika},
+  year    = {2016},
+  pages   = {203--212},
+  issn    = {2407-0491},
+}
+
+@Article{Mufrizal2019,
+  author  = {Mufrizal, Rizki and Indarti, Dina},
+  title   = {Refactoring Arsitektur Microservice Pada Aplikasi Absensi PT. Graha Usaha Teknik},
+  journal = {Jurnal Nasional Teknologi dan Sistem Informasi},
+  year    = {2019},
+  volume  = {5},
+  pages   = {57-68},
+  month   = {04},
+  doi     = {10.25077/TEKNOSI.v5i1.2019.57-68},
+}
+
+@Article{Jati2018,
+  author   = {Dimas Jati and Muhammad Maarif},
+  title    = {THE DEVELOPMENT OF CHATBOT APPLICATION ON LINE MESSAGING PLATFORM FOR CUSTOMER SERVICE IN JOGJA SEWA KAMERA},
+  journal  = {Compiler},
+  year     = {2018},
+  volume   = {7},
+  number   = {2},
+  pages    = {91--98},
+  issn     = {2549-2403},
+  doi      = {10.28989/compiler.v7i2.368},
+  keywords = {Chatbot; Line Messaging Platform; Customer Service},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

@@ -1,0 +1,139 @@
+% Encoding: UTF-8
+
+@Article{Abhirawa2017,
+  author  = {Abhirawa, H. and Jondri and Arifianto, A.},
+  title   = {Pengenalan Wajah Menggunakan Convolutional Neural Network.},
+  journal = {Journal E-Proceeding of Engineering},
+  year    = {2017},
+  volume  = {4},
+  number  = {3},
+  pages   = {4907 -- 4916},
+}
+
+@Article{Clarissa2018,
+  author  = {Clarissa, H. and Hidayat, B. and Suhardjo.},
+  title   = {Pengolahan Citra Deteksi Kista Melalui Periapical Radiograf Dengan Metode Local Binary Pattern Dan Learning Vector Quantization.},
+  journal = {Journal E-Proceeding of Engineering},
+  year    = {2018},
+}
+
+@Article{Collins2011,
+  author  = {Collins, Nick},
+  title   = {SCMIR: A Supercollider Music Information Retrieval Library.},
+  journal = {Brighton : University of Sussex.},
+  year    = {2011},
+}
+
+@Article{Falah2019,
+  author  = {Falah, Adnan Hassal, dan Jondri.},
+  title   = {Klasifikasi Suara Paru Normal Dan Abnormal Menggunakan Deep Neural Network dan Support Vector Machine},
+  journal = {Journal E-Proceeding of Engineering},
+  year    = {2019},
+}
+
+@Article{Fatihah2019,
+  author  = {Fatihah, N. and Karna, N. and Patmasari, R.},
+  title   = {Evaluation Of Dlx Microprocessor Instructions Efficiency For Image Compression},
+  journal = {Journal E-Proceeding of Engineering},
+  year    = {2019},
+}
+
+@Article{Gumilar2015,
+  author  = {Gumilar, T. and Suwandi and Bethaningtyas, H.},
+  title   = {Deteksi Kesalahan Nada Pada String Gitar Dengan Menggunakan Harmonic Product Spectrum},
+  journal = {Journal E-Proceeding of Engineering},
+  year    = {2015},
+}
+
+@Article{Hakim2019,
+  author  = {Hakim, D. M. and Rainarli, Ednawati.},
+  title   = {Convolutional Neural Network untuk Pengenalan Citra Notasi Musik},
+  journal = {Techno.COM},
+  year    = {2019},
+}
+
+@Article{Ibrahim2018,
+  author  = {Ibrahim, H.S., Jondri and Wlsesty, U.},
+  title   = {Analisis Deep Learning Untuk Mengenali Qrs Kompleks Pada Sinyal Ecg Dengan Metode CNN},
+  journal = {Journal E-Proceeding of Engineering},
+  year    = {2018},
+}
+
+@Article{Krebs2013,
+  author  = {Krebs, F. and Bock, S. and Widmer, G.},
+  title   = {Rhythmic Pattern Modeling For Beat And Downbeat Tracking In Musical Audio},
+  journal = {Austria : Johannes Kepler University},
+  year    = {2013},
+}
+
+@Article{Kumalasari2019,
+  author  = {Kumalasari, D. and Novamizanti, L. and Ramatryana, I.},
+  title   = {Penentuan Lokasi Chorus Pada Musik Mp3 Menggunakan Koefiesien Korelasi 2-D Pada Frame Berbasis Ciri Mel-Frequency Cepstral Coeffisient (Mfcc)},
+  journal = {Journal E-Proceeding of Engineering},
+  year    = {2019},
+}
+
+@Article{Laksana2017,
+  author  = {Laksana, E. and Sulianta, F.},
+  title   = {Analisis Dan Studi Komparatif Algoritma Klasifikasi Genre Musik},
+  journal = {STMIK AMIKOM Yogyakarta : diterbitkan},
+  year    = {2017},
+}
+
+@Article{Lionel2019,
+  author  = {Lionel, D. and Adipranata, R. and Setyati, E.},
+  title   = {Klasifikasi Genre Musik Menggunakan Metode Deep Learning Convolutional Neural Network dan Mel-Spektrogram},
+  journal = {Universitas Kristen Petra : diterbitkan},
+  year    = {2019},
+}
+
+@Article{Maharani2018,
+  author  = {Maharani, M. and Hidayat, B. and Suhardjo.},
+  title   = {Perbandingan Deteksi Pulpitis Melalui Citra Radiograf Periapikal Dengan Ekstrasi Ciri Watershed Dan Grey Level Co-Occurrence Matrix (GLCM) Dengan Klasifikasi K-Nearest Neighbour (K-NN)},
+  journal = {Journal E-Proceeding of Engineering},
+  year    = {2018},
+}
+
+@Article{Mahmud2019,
+  author  = {Mahmud, K. and Adiwijaya, Al Faraby, Said},
+  title   = {Klasifikasi Citra Multi-Kelas Menggunakan Convolutional Neural Network},
+  journal = {Journal E-Proceeding of Engineering},
+  year    = {2019},
+}
+
+@Article{Parlys2018,
+  author  = {Parlys, A. and Zahra, A. and Hidayatno, A.},
+  title   = {Penggolongan Lagu Berdasarkan Spektogram Dengan Convolution Neural Network},
+  journal = {Transient},
+  year    = {2018},
+}
+
+@Article{Permana2014,
+  author  = {Permana, T. G. and Hidayat, B. and Susatio, E.},
+  title   = {Identifikasi Akor Gitar Menggunakan Algoritma Harmonic Product Spectrum},
+  journal = {Journal E-Proceeding of Engineering},
+  year    = {2014},
+}
+
+@Article{Putra2016,
+  author  = {Putra, I. Wayan Suartika Eka.},
+  title   = {Klasifikasi Citra Menggunakan Convolutional Neural Network (CNN) Pada Caltech 101},
+  journal = {Surabaya : Institut Teknologi Sepuluh Nopember},
+  year    = {2016},
+}
+
+@Article{Waskito2019,
+  author  = {Waskito, T. and Sony, S. and Setianingsih, C.},
+  title   = {Kendali Robot Beroda Dengan Gerak Isyarat Tangan Berbasis Image Processing},
+  journal = {Journal E-Proceeding of Engineering},
+  year    = {2019},
+}
+
+@Article{Zulfikar2015,
+  author  = {Zulfikar, M. M. M.},
+  title   = {Pengenalan Dan Representasi Simbol Akor Musik Menggunakan Hidden Markov Model Dengan Pendekatan Doubly Nested Circle Of Fifth},
+  journal = {Telkom University},
+  year    = {2015},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

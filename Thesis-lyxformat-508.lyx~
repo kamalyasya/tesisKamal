@@ -1,0 +1,9513 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\begin_preamble
+\usepackage{sectsty}
+\chapterfont{\centering} 
+
+\newcommand{\Judul}{Implementasi Arsitektur REST API Pada Perpustakaan XYZ}
+\newcommand{\DosenPembimbing}{Dr. DINA INDARTI, S.Si, M.Si}
+\newcommand{\NamaMahasiswa}{Rizki Mufrizal}
+\newcommand{\NIRM}{92310029}
+\newcommand{\Tahun}{2018}
+\newcommand{\TempatLahir}{Puuk}
+\newcommand{\TglLahir}{15 November 1993}
+
+\newcommand{\TanggalLulus}{29 Maret 2012}
+\newcommand{\KataKunci}{Kata kunci disini}
+\newcommand{\JumlahHalamanDepan}{xiii}
+\newcommand{\JumlahHalaman}{117}
+\newcommand{\TahunPustaka}{2014:2017}
+
+\newcommand{\KotaPenulis}{Jakarta}
+\newcommand{\TglTulis}{Mei 2012}
+
+\newcommand{\Rektor}{Prof. Dr. E.S. Margianti, SE, MM}
+\newcommand{\Koordinator}{Prof. Dr. Yuhara Sukra MSc}
+\newcommand{\Direktur}{Prof. Dr. Dharma Tintri, SE.Ak, MBA}
+\newcommand{\Kaprodi}{Dr. Yuhilza Hanum SSi, SKom, MEng}
+
+% The following commands set the page numbers on the top right
+% except in the beginning of chapters
+\lhead{}
+\chead{}
+\rhead{\thepage}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0pt}
+
+%%%%%%%
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language bahasa
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Indeks
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 4cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{made-hypen.tex} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+sloppy 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Halaman Judul}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Judul}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{25mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/LogoGunadarma.jpg
+	width 45mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{5mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+TESIS
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{3cm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="13cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nama
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NamaMahasiswa
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NIM/ NIRM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NIRM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pembimbing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+DosenPembimbing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+vspace*{25mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+UNIVERSITAS GUNADARMA
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+PROGRAM PASCA SARJANA
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Tahun
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{3mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Halaman Pengesahan
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Halaman Pengesahan}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="35mm">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top" width="60text%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Judul Penelitian
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Judul}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nama Mahasiswa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NamaMahasiswa
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NIRM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NIRM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tanggal Lulus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TanggalLulus
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Menyetujui,
+\end_layout
+
+\begin_layout Standard
+\align center
+Komisi Pembimbing
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{15mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+DosenPembimbing
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{25mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Koordinator
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Standard
+\align center
+Anggota
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{25mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Direktur
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Standard
+\align center
+Direktur
+\end_layout
+
+\begin_layout Chapter*
+Abstraksi
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Abstraksi}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NamaMahasiswa
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NIRM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Judul}
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Kata Kunci : 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KataKunci
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JumlahHalamanDepan
+\end_layout
+
+\end_inset
+
+ + 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JumlahHalaman
+\end_layout
+
+\end_inset
+
+ + lampiran)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+Setiap perusahaan membutuhkan informasi yang cepat dan akurat.
+ Salah satu informasi yang dibutuhkan ialah informasi aset perusahaan.
+ Pengelolaan aset dalam suatu perusahaan yang terpusat (berbasis web), dapat
+ menjangkau seluruh elemen yang tersebar di berbagai tempat, karena mengurangi
+ waktu proses permintaan, pemeliharaan sampai dengan penerimaan aset.
+ Untuk mengatasi hal ini peneliti merancang suatu sistem informasi manajemen
+ dan penyusutan aset.
+ Tujuan dari penelitian ini untuk membantu kinerja karyawan yang mencakup
+ permintaan kebutuhan, persetujuan permintaan, penerimaan, pemeliharaan,
+ serta penyusutan aset.
+ 
+\end_layout
+
+\begin_layout Standard
+Secara umum pendekatan yang dipakai penulis ialah pengumpulan data, analisis
+ serta merancang sistem berdasarkan hasil penelitian yang dilakukan.
+\end_layout
+
+\begin_layout Standard
+Hasil perancangan ini dapat diperolehnya sistem informasi manajemen dan
+ penyusutan aset yang dibutuhkan, sehingga dapat mempercepat proses permintaan,
+ persetujuan permintaan, penerimaan, pemeliharaan, dan penyusutan aset,
+ serta menunjang manajemen dalam mengambil keputusan strategis.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Daftar Pustaka (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TahunPustaka
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Chapter*
+Daftar Riwayat Hidup
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Daftar Riwayat Hidup}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Penulis dilahirkan di 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TempatLahir
+\end_layout
+
+\end_inset
+
+, pada tanggal 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TglLahir
+\end_layout
+
+\end_inset
+
+, anak ketiga dari 3 bersaudara, menyelesaikan pendidikan Sekolah Dasar
+ di SDN 03 Karawaci, Tangerang dan tamat pada tahun 1999, Sekolah Pendidikan
+ Menengah Pertama di MTs Mathla'ul Huda Bogor dan tamat pada tahun 2002,
+ serta Pendidikan Menengah Atas di SMA Islamic Village Tangerang dan tamat
+ pada tahun 2005.
+ 
+\end_layout
+
+\begin_layout Standard
+Tahun 2005 melanjutkan pendidikan diploma tiga di Universitas Gunadarma
+ dengan mengambil jurusan Manajemen Informatika, dan lulus pada tahun 2008
+ dengan membuat judul penulisan 
+\begin_inset Quotes eld
+\end_inset
+
+Teknik Pembuatan Distro Linux Atunez- ME Berbasis PCLinuxOS
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Kemudian penulis melanjutkan pendidikan strata satu di Universitas Gunadarma
+ dengan mengambil jurusan Sistem Informasi, dan lulus pada 2010 dengan membuat
+ judul penulisan “Repository Mobile Laboratory”
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{25mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KotaPenulis
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TglTulis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NamaMahasiswa
+\end_layout
+
+\end_inset
+
+, S.
+ Kom
+\end_layout
+
+\begin_layout Chapter*
+Kata Pengantar
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Kata Pengantar}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Segala puji dan syukur penulis naikkan ke hadirat Allah S.W.T yang Maha Kuasa
+ yang telah memberikan berkat, anugerah dan karunia yang melimpah, sehingga
+ penulis dapat menyelesaikan Tesis yang berjudul: 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Judul}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Pada kesempatan ini penulis menyampaikan terima kasih yang sebesar-besarnya
+ kepada:
+\end_layout
+
+\begin_layout Enumerate
+Ibu 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Rektor
+\end_layout
+
+\end_inset
+
+, selaku Rektor Universitas Gunadarma yang telah memberikan kesempatan kepada
+ penulis untuk melanjutkan pendidikan dan dalam penyusunan tesis ini.
+\end_layout
+
+\begin_layout Enumerate
+Bapak 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Koordinator
+\end_layout
+
+\end_inset
+
+, selaku Koordinator Program Pasca Sarjana Universitas Gunadarma.
+\end_layout
+
+\begin_layout Enumerate
+Bapak 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Direktur
+\end_layout
+
+\end_inset
+
+, selaku Direktur Program Pasca Sarjana Universitas Gunadarma.
+\end_layout
+
+\begin_layout Enumerate
+Bapak 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Kaprodi
+\end_layout
+
+\end_inset
+
+, selaku Ketua Prodi Program Pasca Sarjana Universitas Gunadarma.
+\end_layout
+
+\begin_layout Enumerate
+Bapak 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+DosenPembimbing
+\end_layout
+
+\end_inset
+
+, selaku dosen pembimbing serta dosen pengajar yang telah banyak meluangkan
+ waktu, tenaga serta pikiran dalam membimbing dan mengarahkan penulis untuk
+ menyelesaikan penulisan tesis ini.
+\end_layout
+
+\begin_layout Enumerate
+Bapak dan Ibu Dosen Pengajar Universitas Gunadarma yang telah banyak memberikan
+ ilmu pengetahuan kepada penulis.
+\end_layout
+
+\begin_layout Enumerate
+Kedua orang tua dan kakak-kakak tercinta yang selalu mendukung dan terus
+ memberikan motivasi.
+\end_layout
+
+\begin_layout Enumerate
+Seluruh rekan seperjuangan di Universitas Gunadarma yang telah banyak membantu
+ penulis.
+\end_layout
+
+\begin_layout Enumerate
+Semua pihak yang tidak tersebutkan yang telah membantu penyelesaian Tugas
+ Akhir ini, penulis ucapkan juga terima kasih atas segala bantuan dan sarannya.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sebagai manusia biasa yang tak luput dari kesalahan, maka penulis meminta
+ maaf atas segala kekurangan dan keterbatasan dalam penyusunan Tugas Akhir
+ ini.
+ 
+\end_layout
+
+\begin_layout Standard
+Akhir kata, hanya kepada Tuhan jualah segalanya dikembalikan dan penulis
+ sadari bahwa penulisan ini masih jauh dari sempurna, disebabkan karena
+ berbagai keterbatasan yang penulis miliki.
+ Untuk itu penulis mengharapkan kritik dan saran yang bersifat membangun
+ untuk menjadi perbaikan di masa yang akan datang.
+ 
+\end_layout
+
+\begin_layout Standard
+Semoga apa yang ada pada penulisan Tesis ini dapat bermanfaat bagi kita
+ semua.
+ Amin.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{20mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KotaPenulis
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TglTulis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+Penulis
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Daftar Isi}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Daftar Gambar}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Daftar Tabel}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+PENDAHULUAN
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Latar Belakang
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Seiringnya perkembangan zaman, perkembangan teknologi terus berkembang secara
+ pesat.
+ Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "SinergiSains"
+
+\end_inset
+
+, teknologi adalah sarana untuk meningkatkan kemampuan manusia dan suatu
+ instrumen perubahan, sedangkan Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "poerwadarminta1954kamus"
+
+\end_inset
+
+, teknologi adalah ilmu pengetahuan tentang cara membuat sesuatu yang berkenaan
+ dengan hasil industri atau ilmu pengetahuan tentang cara membuat sesuatu
+ atau melakukan sesuatu.
+ 
+\end_layout
+
+\begin_layout Standard
+Penggunaan teknologi terus meningkat, hal ini dibuktikan dengan adanya survei
+ yang dilakukan Asosiasi Penyelenggara Jasa Internet Indonesia (APJII).
+ Menurut APJII selama kurun waktu 16 tahun (2000-2015) pengguna internet
+ di Indonesia meningkat dari 2 juta menjadi 139 juta pengguna.
+ Dengan meningkatnya penggunaan teknologi maka dapat dipastikan akan semakin
+ banyak akses terhadap suatu aplikasi yang telah dibangun.
+\end_layout
+
+\begin_layout Standard
+Aplikasi yang telah dirancang dan dibangun saat ini berbasis arsitektur
+ 
+\emph on
+monolithic
+\emph default
+.
+ Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "daya2016microservices"
+
+\end_inset
+
+, arsitektur 
+\emph on
+monolithic
+\emph default
+ adalah suatu arsitektur yang mengambarkan sebuah aplikasi yang menjalankan
+ semua logika dalam satu server aplikasi.
+ Dengan adanya peningkatan penggunaan teknologi, maka dapat dipastikan aplikasi
+ yang berbasis arsitektur 
+\emph on
+monolithic 
+\emph default
+memiliki banyak kekurangan, diantaranya adalah hanya menggunakan satu bahasa
+ pemrograman untuk keseluruhan aplikasi, susah dalam melakukan 
+\emph on
+maintenance
+\emph default
+, dan kompleknya proses pembaruan sebuah aplikasi 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "daya2016microservices"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Munculnya permasalahan diatas, sehingga muncul sebuah arsitektur baru dikalangan
+ para peneliti yaitu arsitektur 
+\emph on
+microservices
+\emph default
+.
+ Arsitektur 
+\emph on
+microservices
+\emph default
+ adalah gaya arsitektur perangkat lunak yang memerlukan pemecahan aplikasi
+ secara bisnis 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "messinasimplified"
+
+\end_inset
+
+, sedangkan di dalam 
+\emph on
+Research Report
+\emph default
+ IBM yang berjudul 
+\emph on
+Workload Characterization for Microservices
+\emph default
+, dijelaskan bahwa arsitektur 
+\emph on
+microservices
+\emph default
+ adalah sebuah arsitektur baru dimana pengembangan aplikasi dilakukan dalam
+ bentuk 
+\emph on
+web
+\emph default
+ 
+\emph on
+service
+\emph default
+ kecil yang saling berkomunikasi satu sama lain 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ueda2016workload"
+
+\end_inset
+
+.
+ Penggunaan arsitektur 
+\emph on
+microservices 
+\emph default
+dalam mengembangkan sebuah aplikasi tidak dapat dipisahkan dengan penggunaan
+ teknologi 
+\emph on
+container-based virtualization
+\emph default
+ yaitu docker.
+ Docker merupakan 
+\emph on
+platform open source
+\emph default
+ untuk kebutuhan pengembangan, pengemasan dan menjalankan aplikasi terdistribusi
+ secara portabel 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "vohra2015pro"
+
+\end_inset
+
+.
+ Pada penelitian ini, docker akan digunakan sebagai salah satu kebutuhan
+ dalam mengembangkan aplikasi berbasis arsitektur 
+\emph on
+microservices.
+\end_layout
+
+\begin_layout Standard
+Masalah yang terdapat pada arsitektur 
+\emph on
+monolithic 
+\emph default
+merupakan masalah yang dihadapi oleh banyak perusahaan.
+ Terdapat banyak faktor yang dihadapi perusahaan dalam menerapkan arsitektur
+ 
+\emph on
+microservices, 
+\emph default
+diantaranya adalah proses migrasi dari arsitektur 
+\emph on
+monolithic 
+\emph default
+ke arsitektur
+\emph on
+ microservices, 
+\emph default
+hal ini juga dihadapi oleh perusahaan PT Graha Usaha Teknik.
+ PT Graha Usaha Teknik adalah sebuah perusahaan swasta di indonesia yang
+ memberikan manajemen proyek profesional dan jasa implementasi di bidang
+ teknik pengadaan, konstruksi dan pemeliharaan.
+ PT Graha Usaha Teknik memiliki sebuah aplikasi absensi dengan arsitektur
+ 
+\emph on
+monolithic
+\emph default
+ yang bertujuan untuk menangani absensi setiap karyawan yang terdapat pada
+ perusahaan tersebut.
+ Seiring dengan penambahan karyawan, maka jumlah akses terhadap aplikasi
+ semakin meningkat sehingga kekurangan dari arsitektur 
+\emph on
+monolithic
+\emph default
+ semakin terlihat.
+ Untuk mengatasi masalah ini, diperlukan proses migrasi dari arsitektur
+ 
+\emph on
+monolithic 
+\emph default
+menjadi arsitektur 
+\emph on
+microservices.
+\end_layout
+
+\begin_layout Section
+Identifikasi Masalah
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aplikasi absensi PT Graha Usaha Teknik merupakan salah satu aplikasi berbasis
+ web yang digunakan karyawan untuk melakukan absensi secara individu.
+ Aplikasi absensi ini digunakan sebagai laporan perhitungan jam masuk dan
+ pulang dari karyawan pada PT Graha Usaha Teknik.
+ Aplikasi absensi PT Graha Usaha Teknik dibangun dengan bahasa pemrograman
+ java berbasis arsitektur 
+\emph on
+monolithic.
+ 
+\end_layout
+
+\begin_layout Standard
+Bertambahnya karyawan pada PT Graha Usaha Teknik merupakan sebuah masalah
+ terhadap banyaknya akses aplikasi absensi tersebut, salah satunya adalah
+ aplikasi tidak dapat melayani 
+\emph on
+request
+\emph default
+ dari pengguna.
+ Penggunaan arsitektur 
+\emph on
+monolithic 
+\emph default
+pada aplikasi absensi PT Graha Usaha Teknik mengakibatkan 
+\emph on
+service
+\emph default
+ yang tidak banyak diakses oleh pengguna akan mendapatkan masalah lambatnya
+ 
+\emph on
+response
+\emph default
+ dari aplikasi tersebut.
+\end_layout
+
+\begin_layout Standard
+Salah satu kekurangan penggunaan arsitektur 
+\emph on
+monolithic
+\emph default
+ pada aplikasi absensi PT Graha Usaha Teknik adalah susah melakukan 
+\emph on
+maintenance 
+\emph default
+aplikasi jika terjadi 
+\emph on
+error
+\emph default
+, dimana pada saat proses perbaikan sebuah 
+\emph on
+service
+\emph default
+ yang 
+\emph on
+error
+\emph default
+ pada aplikasi tersebut, maka semua 
+\emph on
+service
+\emph default
+ yang terdapat pada aplikasi tersebut juga akan diperbarui.
+ Proses pembaruan semua 
+\emph on
+service
+\emph default
+ menyebabkan seluruh 
+\emph on
+service
+\emph default
+ tidak bisa diakses oleh pengguna dalam jangka waktu tertentu.
+ Hal ini akan menjadi masalah jika proses perbaikan aplikasi dilakukan pada
+ saat tinggi nya trafik akses pada aplikasi tersebut.
+\end_layout
+
+\begin_layout Standard
+Untuk mengatasi kekurangan dari arsitektur 
+\emph on
+monolithic
+\emph default
+, maka dilakukan proses migrasi dari arsitektur 
+\emph on
+monolithic
+\emph default
+ menjadi arsitektur 
+\emph on
+microservices
+\emph default
+.
+ Proses melakukan migrasi dari arsitektur 
+\emph on
+monolithic 
+\emph default
+menjadi arsitektur 
+\emph on
+microservices 
+\emph default
+memerlukan 15 langkah 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balalaie2015microservices"
+
+\end_inset
+
+.
+ Pada penelitian ini, proses migrasi dari arsitektur 
+\emph on
+monolithic 
+\emph default
+menjadi arsitektur 
+\emph on
+microservices 
+\emph default
+dengan 15 langkah akan diimplementasikan pada PT Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Section
+Batasan Masalah
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada penelitian ini, terdapat beberapa batasan masalah diantaranya adalah
+ :
+\end_layout
+
+\begin_layout Itemize
+Pembahasan migrasi arsitektur 
+\emph on
+monolithic 
+\emph default
+menjadi arsitektur 
+\emph on
+microservices
+\emph default
+ hanya pada PT Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Itemize
+Aplikasi dibangun dengan menggunakan teknologi spring framework, docker
+ dan bahasa pemrograman kotlin.
+\end_layout
+
+\begin_layout Section
+Perumusan Masalah
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rumusan masalah pada penelitian ini adalah :
+\end_layout
+
+\begin_layout Itemize
+Bagaimana cara mengatasi banyak nya trafik akses pada aplikasi absensi PT
+ Graha Usaha Teknik ?
+\end_layout
+
+\begin_layout Itemize
+Bagaimana cara untuk menerapkan arsitektur 
+\emph on
+microservices
+\emph default
+ pada aplikasi absensi PT Graha Usaha Teknik ?
+\end_layout
+
+\begin_layout Itemize
+Bagaimana cara melakukan migrasi dari arsitektur 
+\emph on
+monolithic 
+\emph default
+menjadi arsitektur 
+\emph on
+microservices
+\emph default
+ pada PT Graha Usaha Teknik ?
+\end_layout
+
+\begin_layout Section
+Tujuan Penelitian
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tujuan dari penelitian ini adalah :
+\end_layout
+
+\begin_layout Itemize
+Melakukan migrasi dari arsitektur 
+\emph on
+monolithic 
+\emph default
+menjadi arsitektur 
+\emph on
+microservices
+\emph default
+ pada PT Graha Usaha Teknik
+\end_layout
+
+\begin_layout Itemize
+Memberikan gambaran mengenai bagaimana cara melakukan migrasi dari arsitektur
+ 
+\emph on
+monolithic 
+\emph default
+menjadi arsitektur 
+\emph on
+microservices
+\emph default
+ pada PT Graha Usaha Teknik
+\end_layout
+
+\begin_layout Section
+Manfaat Penelitian
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Penelitian ini berguna untuk menambah ilmu pengetahuan kepada penulis mengenai
+ arsitektur 
+\emph on
+microservices.
+
+\emph default
+ Diharapkan penelitian ini dapat dijadikan bahan untuk menambah wawasan
+ dalam melakukan migrasi dari arsitektur 
+\emph on
+monolithic 
+\emph default
+menjadi arsitektur 
+\emph on
+microservices.
+\end_layout
+
+\begin_layout Chapter
+LANDASAN TEORI
+\end_layout
+
+\begin_layout Chapter
+PROFIL PERUSAHAAN
+\end_layout
+
+\begin_layout Section
+PT.
+ Graha Usaha Teknik
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+PT.
+ Graha Usaha Teknik adalah sebuah perusahaan swasta di indonesia yang memberikan
+ manajemen proyek profesional dan jasa implementasi di bidang teknik pengadaan,
+ konstruksi dan pemeliharaan di dalam bidang beberapa bidang, diantaranya
+ adalah :
+\end_layout
+
+\begin_layout Itemize
+Listrik
+\end_layout
+
+\begin_layout Itemize
+Instrumentasi
+\end_layout
+
+\begin_layout Itemize
+Telekomunikasi
+\end_layout
+
+\begin_layout Itemize
+Sipil
+\end_layout
+
+\begin_layout Itemize
+Mekanik
+\end_layout
+
+\begin_layout Standard
+PT.
+ Graha Usaha Teknik diawasi oleh tim manajemen yang berpengalaman secara
+ ekstensif dengan minimum 10 tahun pengalaman menangani listrik, instrumentasi,
+ telekomunikasi, dan proyek mekanik, dan konstruksi.
+ Gagasan utama berdirinya perusahaan PT.
+ Graha Usah Teknik adalah menyediakan lapangan kerja bagi pemuda indonesia
+ dan memberikan kesempatan bagi mereka untuk mengembangkan dan meningkatkan
+ keterampilannya.
+ 
+\end_layout
+
+\begin_layout Chapter
+METODOLOGI PENELITIAN
+\end_layout
+
+\begin_layout Section
+Tahapan Penelitian
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tahapan penelitian adalah langkah - langkah pelaksanaan penelitian yang
+ dilakukan dari awal hingga akhir.
+ Gambar 4.1 adalah tahapan penelitian yang akan dilakukan pada penulisan
+ ini.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/Tahapan Penelitian.png
+	width 14.076cm
+	height 1.552cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tahapan Penelitian
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Objek Penelitian
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Objek penelitian dalam penulisan adalah PT.
+ Graha Usaha Teknik.
+ Penelitian akan dilakukan pada sistem absensi karyawan di perusahaan PT.
+ Graha Usaha Teknik.
+ Karyawan yang akan dijadikan sebagai objek penelitian adalah karyawan yang
+ langsung mengakses web absensi PT.
+ Graha Usaha Teknik.
+ Penelitian hanya dikhususkan kepada karyawan yang terdaftar di PT.
+ Graha Usaha Teknik, dimana karyawan dapat melihat laporan mengenai kehadiran,
+ jumlah jam kerja dan gaji.
+\end_layout
+
+\begin_layout Section
+Studi Pustaka Dan Lapangan
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Studi pustaka dilakukan untuk mencari suatu metode yang berfungsi memecahkan
+ sebuah masalah yang akan diteliti dan sebagai referensi untuk menerapkan
+ sebuah metode.
+ Studi pustaka dilakukan dengan mempelajari buku - buku, literatul - literatul
+ dan jurnal - jurnal yang berhubungan dengan metode 
+\emph on
+strangler pattern
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Studi lapangan dilakukan untuk melihat dan mempelajari permasalahan yang
+ terdapat pada PT.
+ Graha Usaha Teknik.
+ Studi lapangan pada penulisan ini dilakukan dengan menggunakan observasi
+ dengan melakukan wawancara langsung pada pihak PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Section
+Pengumpulan Data
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Teknik pengumpulan data yang dilakukan pada penulisan ini dengan observasi.
+ Observasi dilakukan dengan melakukan wawancara langsung pada pihak PT.
+ Graha Usaha teknik.
+ Pengumpulan data ini dilakukan untuk kebutuhan perancangan dan simulasi
+ pada penelitian ini.
+ Data yang akan digunakan pada penelitian ini adalah data primer.
+ Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bungin2005metodologi"
+
+\end_inset
+
+, data primer adalah yang langsung diperoleh dari sumber data pertama di
+ lokasi penelitian atau objek penelitian.
+\end_layout
+
+\begin_layout Chapter
+HASIL DAN PEMBAHASAN
+\end_layout
+
+\begin_layout Section
+Analisa Sistem Yang Sedang Berjalan
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada penulisan ini hanya menggunakan analisa 
+\emph on
+user
+\emph default
+, prosedur dan arsitektur pada sistem yang sedang berjalan.
+\end_layout
+
+\begin_layout Subsection
+Analisa User
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Analisa 
+\emph on
+user
+\emph default
+ bertujuan untuk mengetahui 
+\emph on
+user
+\emph default
+ yang akan menggunakan sistem.
+ Proses absensi pada perusahaan PT.
+ Graha Usaha Teknik melibatkan karyawan dan admin sebagai 
+\emph on
+user
+\emph default
+ pada sistem yang sedang berjalan.
+ Karyawan pada PT.
+ Graha Usaha Teknik dapat mengakses dan melihat informasi pada sistem yang
+ sedang berjalan.
+ Informasi yang dapat diakses oleh karyawan meliputi laporan absensi, peminjaman
+ APD dan pengajian.
+ Admin pada PT.
+ Graha Usaha Teknik dapat melakukan perubahan dan mengakses informasi pada
+ sistem yang sedang berjalan, perubahan informasi yang dapat dilakukan oleh
+ admin diantaranya adalah :
+\end_layout
+
+\begin_layout Itemize
+Pengelolaan data posisi
+\end_layout
+
+\begin_layout Itemize
+Pengelolaan data karyawan
+\end_layout
+
+\begin_layout Itemize
+Pengelolaan data jam kerja
+\end_layout
+
+\begin_layout Itemize
+Pengelolaan data APD
+\end_layout
+
+\begin_layout Itemize
+Pengelolaan data manajemen APD
+\end_layout
+
+\begin_layout Itemize
+Pengelolaan data laporan harian
+\end_layout
+
+\begin_layout Subsection
+Analisa Prosedur
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Analisa prosedur dilakukan untuk mengetahui alur prosedur absensi yang akan
+ dilakukan pada PT.
+ Graha Usaha Teknik.
+ Pada sistem absensi PT.
+ Graha Usaha Teknik terdapat beberapa prosedur yaitu :
+\end_layout
+
+\begin_layout Itemize
+Prosedur absensi
+\end_layout
+
+\begin_layout Itemize
+Prosedur peminjaman alat pelindung diri (APD)
+\end_layout
+
+\begin_layout Itemize
+Prosedur laporan harian
+\end_layout
+
+\begin_layout Subsubsection
+Prosedur Absensi
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Prosedur absensi dilakukan untuk mengetahui proses absensi seorang karyawan.
+ Prosedur absensi yang dilakukan pada PT.
+ Graha Usaha Teknik adalah sebagai berikut :
+\end_layout
+
+\begin_layout Enumerate
+Karyawan berkumpul di suatu lapangan untuk proses absensi.
+\end_layout
+
+\begin_layout Enumerate
+Admin melakukan perhitungan jumlah karyawan yang hadir.
+\end_layout
+
+\begin_layout Enumerate
+Admin melakukan input data absensi karyawan berdasarkan jam masuk kerja.
+\end_layout
+
+\begin_layout Enumerate
+Admin melakukan input data absensi karyawan berdasarkan jam selesai kerja.
+\end_layout
+
+\begin_layout Enumerate
+Karyawan melihat laporan absensi.
+\end_layout
+
+\begin_layout Subsubsection
+Prosedur Peminjaman Alat Pelindung Diri (APD)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Prosedur peminjaman APD dilakukan untuk mengetahui proses peminjaman APD
+ seorang karyawan.
+ Prosedur peminjaman APD yang dilakukan pada PT.
+ Graha Usaha Teknik adalah sebagai berikut :
+\end_layout
+
+\begin_layout Enumerate
+Karyawan memberikan informasi mengenai kebutuhan APD.
+\end_layout
+
+\begin_layout Enumerate
+Admin melakukan input data APD berdasarkan permintaan karyawan.
+\end_layout
+
+\begin_layout Enumerate
+Admin memberikan APD kepada karyawan.
+\end_layout
+
+\begin_layout Subsubsection
+Prosedur Laporan Harian
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Prosedur laporan harian dilakukan untuk mengetahui proses laporan harian
+ kerja di suatu 
+\emph on
+project
+\emph default
+.
+ Prosedur laporan harian yang dilakukan pada PT.
+ Graha Usaha Teknik adalah sebagai berikut :
+\end_layout
+
+\begin_layout Enumerate
+Admin mendatangi lokasi project.
+\end_layout
+
+\begin_layout Enumerate
+Admin melakukan pemantauan kerja karyawan.
+\end_layout
+
+\begin_layout Enumerate
+Admin melakukan pemantauan 
+\emph on
+project
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+Admin melakukan input data laporan harian.
+\end_layout
+
+\begin_layout Subsection
+Analisa Arsitektur
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Arsitektur 
+\emph on
+monolithic 
+\emph default
+dibuat dalam bentuk REST (
+\emph on
+Representational State Transfer
+\emph default
+).
+ Pembuatan REST pada arsitektur 
+\emph on
+monolithic
+\emph default
+ bertujuan agar aplikasi disisi 
+\emph on
+client
+\emph default
+ dapat langsung menggunakan API (
+\emph on
+Application Programming Interface
+\emph default
+) yang telah disediakan oleh sistem.
+ Gambar 5.1 adalah gambar arsitektur 
+\emph on
+monolithic
+\emph default
+ yang digunakan pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Current Arsitektur.png
+	width 13.864cm
+	height 4.128cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur 
+\emph on
+Monolithic
+\emph default
+ Pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Refactoring Monolithic Menjadi Microservice
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "de2016evolve"
+
+\end_inset
+
+, untuk melakukan 
+\emph on
+refactoring
+\emph default
+ 
+\emph on
+monolitich
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+, terdapat 2 strategi yang dapat digunakan yaitu :
+\end_layout
+
+\begin_layout Itemize
+Melakukan 
+\emph on
+refactoring
+\emph default
+ keseluruhan 
+\emph on
+monolitich
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+.
+ Strategi ini menggunakan konsep melakukan 
+\emph on
+refactoring
+\emph default
+ secara keseluruhan, sehingga 
+\emph on
+monolitich
+\emph default
+ tidak digunakan lagi pada sistem yang akan dibangun.
+ Strategi biasanya digunakan jika membangun sebuah sistem baru dan strategi
+ ini tidak disarankan digunakan untuk melakukan 
+\emph on
+refactoring
+\emph default
+ 
+\emph on
+monolitich
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+ pada sistem yang sedang berjalan.
+\end_layout
+
+\begin_layout Itemize
+Refactoring dilakukan secara bertahap.
+ Strategi ini disebut juga sebagai 
+\emph on
+strangler
+\emph default
+ 
+\emph on
+application
+\emph default
+ atau 
+\emph on
+strangler
+\emph default
+ 
+\emph on
+pattern
+\emph default
+, dimana ide utama dari strategi ini adalah membuat fitur yang baru pada
+ arsitektur 
+\emph on
+microservice
+\emph default
+ sehingga fitur baru tidak dikembangkan lagi pada aplikasi 
+\emph on
+monolitich
+\emph default
+.
+ Seiring berjalankan sistem, fungsi 
+\emph on
+monolitich
+\emph default
+ secara bertahap akan digantikan oleh 
+\emph on
+service
+\emph default
+ - 
+\emph on
+service
+\emph default
+ yang terdapat pada 
+\emph on
+micros
+\emph default
+ervice 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "fowler2004stranglerapplication"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Pada penelitian ini, penulis akan menggunakan strategi 
+\emph on
+strangler
+\emph default
+ 
+\emph on
+pattern
+\emph default
+ untuk melakukan refactoring 
+\emph on
+monolithic
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+ pada sistem yang sedang berjalan.
+ Berdasarkan sistem yang telah dibangun, maka urutan service - service yang
+ akan dilakukan refactoring adalah sebagai berikut.
+\end_layout
+
+\begin_layout Enumerate
+OAuth2 Service
+\end_layout
+
+\begin_layout Enumerate
+Position Time Constant Service
+\end_layout
+
+\begin_layout Enumerate
+Man Power Service
+\end_layout
+
+\begin_layout Enumerate
+ManHour Service
+\end_layout
+
+\begin_layout Enumerate
+Report Daily Service
+\end_layout
+
+\begin_layout Enumerate
+APD
+\end_layout
+
+\begin_layout Standard
+Proses pengurutan 
+\emph on
+refactoring
+\emph default
+ 
+\emph on
+service
+\emph default
+ tersebut berdasarkan banyaknya 
+\emph on
+dependency
+\emph default
+ satu 
+\emph on
+service
+\emph default
+ ke 
+\emph on
+service
+\emph default
+ yang lain.
+ Proses pemecahan dan pengurutan 
+\emph on
+refactoring
+\emph default
+ 
+\emph on
+service
+\emph default
+ akan dibahas pada langkah - langkah melakukan migrasi 
+\emph on
+monolithic 
+\emph default
+menjadi 
+\emph on
+microservice
+\emph default
+.
+ Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balalaie2015microservices"
+
+\end_inset
+
+, untuk melakukan migrasi sistem berbasis 
+\emph on
+monolithic 
+\emph default
+menjadi 
+\emph on
+microservice, 
+\emph default
+maka digunakan 15 langkah sebagai berikut.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Enable the Continuous Integration
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Recover the Current Architecture
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Decompose the Monolith
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Decompose the Monolith Based on Data Ownership
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Change Code Dependency to Service Call
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Introduce Service Discovery
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Introduce Service Discovery Client
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Introduce Internal Load Balancer
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Introduce External Load Balancer
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Introduce Circuit Breaker
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Introduce Configuration Server
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Introduce Edge Server
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Containerize the Services
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Deploy into a Cluster and Orchestrate Containers
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Monitor the System and Provide Feedback
+\end_layout
+
+\begin_layout Standard
+Pada penelitian ini, penulis akan mencoba menggunakan metode refactoring
+ 
+\emph on
+monolithic 
+\emph default
+menjadi 
+\emph on
+microservice
+\emph default
+ tersebut.
+ Berdasarkan strategi 
+\emph on
+strangler
+\emph default
+ 
+\emph on
+pattern
+\emph default
+, 15 langkah migrasi akan dilakukan berulang pada saat pengembangan service
+ baru.
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Enable the Continuous Integration
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Langkah pertama yang akan dilakukan untuk melakukan refactoring 
+\emph on
+monolithic 
+\emph default
+menjadi 
+\emph on
+microservice 
+\emph default
+adalah membuat 
+\emph on
+continuous
+\emph default
+ 
+\emph on
+integration
+\emph default
+.
+ Pada penelitian ini, penulis akan menggunakan gitlab sebagai 
+\emph on
+repository source code
+\emph default
+ dan 
+\emph on
+continuous
+\emph default
+ 
+\emph on
+integration
+\emph default
+.
+ Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "de2016evolve"
+
+\end_inset
+
+, 
+\emph on
+continuous
+\emph default
+ 
+\emph on
+integration
+\emph default
+ berfungsi untuk melakukan proses otomatisasi terhadap kegiatan build, testing
+ dan laporan jika aplikasi yang dibangun masih terdapat kesalahan.
+ Pada penelitian ini, setiap 
+\emph on
+service
+\emph default
+ akan dibuatkan 1 
+\emph on
+repository
+\emph default
+ 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+, sehingga proses 
+\emph on
+continuous
+\emph default
+ 
+\emph on
+integration
+\emph default
+ akan dilakukan secara 
+\emph on
+independent
+\emph default
+ berdasarkan 
+\emph on
+repository
+\emph default
+.
+ Dengan adanya pemisahan 
+\emph on
+service
+\emph default
+ berdasarkan 
+\emph on
+repository
+\emph default
+, maka akan mengurangi kesalahan pada saat proses 
+\emph on
+continuous
+\emph default
+ 
+\emph on
+integration 
+\emph default
+di setiap 
+\emph on
+service.
+
+\emph default
+ Tahapan 
+\emph on
+continuous
+\emph default
+ 
+\emph on
+integration
+\emph default
+ yang akan dilakukan pada penelitian ini adalah :
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Developer
+\emph default
+ melakukan 
+\emph on
+pull
+\emph default
+ 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+ dari gitlab ke komputer.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Dev
+\emph default
+eloper melakukan perubahan, 
+\emph on
+commit
+\emph default
+ dan 
+\emph on
+push
+\emph default
+ 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+ ke gitlab.
+\end_layout
+
+\begin_layout Enumerate
+Gitlab akan melakukan 
+\emph on
+pull
+\emph default
+ image dari 
+\emph on
+docker
+\emph default
+ 
+\emph on
+hub
+\emph default
+ berdasarkan kebutuhan 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+Gitlab melakukan 
+\emph on
+build
+\emph default
+, 
+\emph on
+testing
+\emph default
+, membuat dan 
+\emph on
+push
+\emph default
+ 
+\emph on
+docker
+\emph default
+ 
+\emph on
+image
+\emph default
+ ke 
+\emph on
+docker
+\emph default
+ 
+\emph on
+hub
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+Gitlab melakukan 
+\emph on
+deploy
+\emph default
+ 
+\emph on
+docker
+\emph default
+ 
+\emph on
+container
+\emph default
+ ke 
+\emph on
+server
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Gambar 5.2 adalah arsitektur 
+\emph on
+continuous
+\emph default
+ 
+\emph on
+integration
+\emph default
+ yang akan digunakan pada penelitian ini.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Continuous Integration.png
+	width 12.171cm
+	height 7.549cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur Continuous Integration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Recover the Current Architecture
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Untuk dapat melakukan 
+\emph on
+refactoring
+\emph default
+ 
+\emph on
+monolitich
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+ maka diperlukan langkah 
+\emph on
+recover
+\emph default
+ 
+\emph on
+the
+\emph default
+ 
+\emph on
+current
+\emph default
+ 
+\emph on
+architecture
+\emph default
+.
+ Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balalaie2015microservices"
+
+\end_inset
+
+,Pada langkah ini terdapat 3 hal penting yang harus dilakukan yaitu :
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Component and Service Architecture
+\emph default
+, seluruh team 
+\emph on
+development
+\emph default
+ harus mengetahui 
+\emph on
+component
+\emph default
+ dan 
+\emph on
+service
+\emph default
+ apa saja yang terdapat pada arsitektur yang sedang berjalan.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Technology Architecture
+\emph default
+, seluruh team 
+\emph on
+development
+\emph default
+ harus mengetahui teknologi apa saja yang digunakan pada arsitektur yang
+ sedang berjalan.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Deployment Architecture and Procedure
+\emph default
+, seluruh team 
+\emph on
+development
+\emph default
+ harus mengetahui bagaimana proses 
+\emph on
+deployment
+\emph default
+ aplikasi pada arsitektur yang sedang berjalan.
+\end_layout
+
+\begin_layout Subsubsection
+
+\emph on
+Component and Service Architecture
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada tahapan ini, seluruh team development akan melakukan analisis terhadap
+ 
+\emph on
+comp
+\emph default
+onent dan 
+\emph on
+service
+\emph default
+ yang digunakan pada arsitektur yang sedang berjalan.
+ Arsitektur yang sedang berjalan adalah arsitektur 
+\emph on
+monolithic
+\emph default
+ yang dibangun dalam bentuk REST (
+\emph on
+Representational State Transfer
+\emph default
+).
+ Gambar 5.3 adalah gambar 
+\emph on
+component 
+\emph default
+dan
+\emph on
+ service
+\emph default
+ pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Monolitich.png
+	width 15.593cm
+	height 10.724cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Component
+\emph default
+ Dan 
+\emph on
+Service
+\emph default
+ Pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada arsitektur 
+\emph on
+monolithic
+\emph default
+ PT.
+ Graha Usaha teknik, terdapat 7 API yang dapat digunakan oleh aplikasi disisi
+ 
+\emph on
+client
+\emph default
+ yaitu :
+\end_layout
+
+\begin_layout Itemize
+API APD (ApdTool_API) digunakan sebagai informasi data APD.
+\end_layout
+
+\begin_layout Itemize
+API Man Hour (ManHour_API) digunakan sebagai informasi data jam kerja karyawan.
+\end_layout
+
+\begin_layout Itemize
+API Man Power Has APD (MPHApd_API) digunakan sebagai informasi data peminjaman
+ APD.
+\end_layout
+
+\begin_layout Itemize
+API Man Power (ManPower_API) digunakan sebagai informasi data karyawan.
+\end_layout
+
+\begin_layout Itemize
+API Position (Position_API) digunakan sebagai informasi posisi atau jabatan.
+\end_layout
+
+\begin_layout Itemize
+API Report Daily (ReportDaily_API) digunakan sebagai informasi laporan harian.
+\end_layout
+
+\begin_layout Itemize
+API Time Constant (Timeconstant_API) digunakan sebagai informasi ketentuan
+ atau batasan jam kerja.
+\end_layout
+
+\begin_layout Standard
+Pada gambar 5.3 terdapat 9 bisnis proses, dimana bisnis proses ini digunakan
+ sebagai pemrosesan utama dari suatu sistem.
+ Berikut adalah penjelasan mengenai 9 bisnis proses pada gambar 5.3 :
+\end_layout
+
+\begin_layout Itemize
+Bisnis Proses APD (ApdTool_BP) digunakan sebagai bisnis proses untuk APD.
+\end_layout
+
+\begin_layout Itemize
+Bisnis Proses Man Hour (ManHour_BP) digunakan sebagai bisnis proses untuk
+ perhitungan jam kerja karyawan.
+\end_layout
+
+\begin_layout Itemize
+Bisnis Proses Man Power Has APD (MPHApd_BP) digunakan sebagai bisnis proses
+ untuk pengelolaan data peminjaman APD seorang karyawan.
+\end_layout
+
+\begin_layout Itemize
+Bisnis Proses Man Power Has Report Daily (MPHRDaily_BP) digunakan sebagai
+ bisnis proses untuk pengelolaan laporan harian seorang karyawan.
+\end_layout
+
+\begin_layout Itemize
+Bisnis Proses Man Power (ManPower_BP) digunakan sebagai bisnis proses untuk
+ pengelolaan data karyawan.
+\end_layout
+
+\begin_layout Itemize
+Bisnis Proses Position (Position_BP) digunakan sebagai bisnis proses untuk
+ pengelolaan posisi atau jabatan.
+\end_layout
+
+\begin_layout Itemize
+Bisnis Proses Report Daily (ReportDaily_BP) digunakan sebagai bisnis proses
+ untuk pengelolaan laporan harian.
+\end_layout
+
+\begin_layout Itemize
+Bisnis Proses Time Constant (TimeConstant_BP) digunakan sebagai bisnis proses
+ untuk pengelolaan ketentuan dan batasan jam kerja.
+\end_layout
+
+\begin_layout Itemize
+Bisnis Proses User Authentication (UserAuthentication_BP) digunakan sebagai
+ bisnis proses untuk proses 
+\emph on
+authentication
+\emph default
+ 
+\emph on
+user
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Pada gambar 5.3 juga terdapat proses 
+\emph on
+query
+\emph default
+ 
+\emph on
+database
+\emph default
+, dimana proses 
+\emph on
+query
+\emph default
+ 
+\emph on
+database
+\emph default
+ ini berfungsi untuk mengambil atau melakukan manipulasi data pada 
+\emph on
+data
+\emph default
+base.
+ Data yang berasal dari 
+\emph on
+database
+\emph default
+ nantinya akan digunakan oleh bisnis proses untuk diproses sesuai dengan
+ kebutuhan 
+\emph on
+client
+\emph default
+.
+ Proses 
+\emph on
+query
+\emph default
+ 
+\emph on
+database
+\emph default
+ pada gambar 5.3 berjumlah 9, diantaranya adalah :
+\end_layout
+
+\begin_layout Itemize
+Query APD (ApdTool_qd) digunakan untuk proses 
+\emph on
+que
+\emph default
+ry 
+\emph on
+database
+\emph default
+ pada tabel APD.
+\end_layout
+
+\begin_layout Itemize
+Query Man Hour (ManHour_qd) digunakan untuk proses 
+\emph on
+query
+\emph default
+ 
+\emph on
+database
+\emph default
+ pada tabel Man Hour.
+\end_layout
+
+\begin_layout Itemize
+Query Man Power Has APD (MPHApd_qd) digunakan untuk proses 
+\emph on
+query
+\emph default
+ 
+\emph on
+database
+\emph default
+ pada tabel Man Power Has APD.
+\end_layout
+
+\begin_layout Itemize
+Query Man Power Has Report Daily (MPHRDaily_qd) digunakan untuk proses 
+\emph on
+query
+\emph default
+ 
+\emph on
+database
+\emph default
+ pada tabel Man Power Has Report Daily.
+\end_layout
+
+\begin_layout Itemize
+Query Man Power (ManPower_qd) digunakan untuk proses 
+\emph on
+query
+\emph default
+ 
+\emph on
+database
+\emph default
+ pada tabel Man Power.
+\end_layout
+
+\begin_layout Itemize
+Query Position (Position_qd) digunakan untuk proses 
+\emph on
+query
+\emph default
+ 
+\emph on
+database
+\emph default
+ pada tabel Position.
+\end_layout
+
+\begin_layout Itemize
+Query Report Daily (ReportDaily_qd) digunakan untuk proses 
+\emph on
+query
+\emph default
+ 
+\emph on
+datab
+\emph default
+ase pada tabel Report Daily.
+\end_layout
+
+\begin_layout Itemize
+Query Time Constant (TimeConstant_qd) digunakan untuk proses 
+\emph on
+query
+\emph default
+ 
+\emph on
+database
+\emph default
+ pada tabel Time Constant.
+\end_layout
+
+\begin_layout Itemize
+Query User (User_qd) digunakan untuk proses 
+\emph on
+query
+\emph default
+ 
+\emph on
+database
+\emph default
+ pada tabel 
+\emph on
+User
+\emph default
+.
+\end_layout
+
+\begin_layout Subsubsection
+
+\emph on
+Technology Architecture
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada tahapan ini, teknologi yang digunakan oleh arsitektur yang sedang berjalan
+ juga harus dijelaskan kepada seluruh team development.
+ Teknologi yang digunakan pada PT.
+ Graha Usaha Teknik adalah :
+\end_layout
+
+\begin_layout Itemize
+PostgreSQL digunakan sebagai database.
+\end_layout
+
+\begin_layout Itemize
+Bahasa Pemrograman Java digunakan sebagai bahasa pemrograman utama untuk
+ membangun arsitektur yang sedang berjalan.
+\end_layout
+
+\begin_layout Itemize
+Spring Framework digunakan sebagai framework java untuk membangun arsitektur
+ yang sedang berjalan.
+\end_layout
+
+\begin_layout Itemize
+Bootstrap Material digunakan sebagai framework untuk membuat tampilan pada
+ arsitektur yang sedang berjalan.
+\end_layout
+
+\begin_layout Itemize
+Angular JS digunakan sebagai client yang dapat mengakses API.
+\end_layout
+
+\begin_layout Subsubsection
+
+\emph on
+Deployment Architecture and Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Proses analisis 
+\emph on
+deployment architecture 
+\emph default
+dan
+\emph on
+ procedure 
+\emph default
+bertujuan untuk pengembangan 
+\emph on
+deployment
+\emph default
+ dengan menggunakan pendekatan 
+\emph on
+continuous
+\emph default
+ 
+\emph on
+integration
+\emph default
+.
+ Dengan adanya proses ini, maka seluruh team development dapat mengetahui
+ bagaimana proses deployment pada arsitektur yang sedang berjalan dan mempermuda
+h team development untuk membuat proses 
+\emph on
+continuous
+\emph default
+ 
+\emph on
+integration
+\emph default
+.
+ 
+\emph on
+Deployment architecture 
+\emph default
+dan
+\emph on
+ procedure
+\emph default
+ yang digunakan pada PT.
+ Graha Usaha teknik adalah sebagai berikut.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Developer
+\emph default
+ akan melakukan pull source code.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Dev
+\emph default
+eloper melakukan perubahan, 
+\emph on
+commit
+\emph default
+ dan 
+\emph on
+push
+\emph default
+ 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+ ke gitlab.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Developer
+\emph default
+ akan melakukan 
+\emph on
+build
+\emph default
+, 
+\emph on
+testin
+\emph default
+g dan 
+\emph on
+deploy
+\emph default
+ aplikasi ke 
+\emph on
+server
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Gambar 5.4 adalah 
+\emph on
+Deployment Architecture 
+\emph default
+dan
+\emph on
+ Procedure
+\emph default
+ yang digunakan pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Current Deployment.png
+	width 5.186cm
+	height 6.844cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Deployment Architecture 
+\emph default
+dan
+\emph on
+ Procedure 
+\emph default
+Pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Decompose the Monolith
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Decompose the monolith 
+\emph default
+adalah proses pemecahan 
+\emph on
+service
+\emph default
+ yang terdapat pada arsitektur 
+\emph on
+monolitich
+\emph default
+ menjadi 
+\emph on
+service
+\emph default
+ 
+\emph on
+microservice
+\emph default
+.
+ Proses pemecahan pada penelitian ini berdasarkan bisnis proses yang terdapat
+ di dalam arsitektur 
+\emph on
+monolitich
+\emph default
+.
+ Setiap bisnis proses dapat dipisah menjadi service yang lebih kecil, akan
+ tetapi pada penelitian ini tidak semua service dipisah dikarenakan bisnis
+ proses tersebut sederhana dan mempunyai bisnis proses yang saling membutuhkan.
+ Contohnya yaitu bisnis proses APD dan Man Power Has APD akan dikembangkan
+ di dalam 1 service, dimana pada saat proses inputan data baru pada bisnis
+ proses Man Power Has APD, maka dibutuhkan data yang berasal dari APD.
+ Gambar 5.5 adalah decompose the 
+\emph on
+Monolith 
+\emph default
+pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/Microservice Dependency Graph.png
+	width 15.628cm
+	height 7.761cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Decompose
+\emph default
+ 
+\emph on
+the
+\emph default
+ 
+\emph on
+Monolith 
+\emph default
+pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gambar 5.5 memiliki warna panah yang berbeda - beda, berikut adalah penjelasan
+ dari warna panah tersebut.
+\end_layout
+
+\begin_layout Itemize
+Panah warna hitam adalah proses komunikasi antara API dan bisnis proses,
+ biasanya proses komunikasi ini melalui pemanggailan method di dalam source
+ code.
+\end_layout
+
+\begin_layout Itemize
+Panah warna kuning adalah proses komunikasi antara satu bisnis proses dengan
+ bisnis proses lain melalui pemanggailan method di dalam 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+Panah warna hijau adalah proses komunikasi antara satu bisnis proses dengan
+ bisnis proses lain melalui pemanggailan API, biasanya pemanggilan ini melibatka
+n protokol http.
+\end_layout
+
+\begin_layout Itemize
+Panah warna merah adalah proses komunikasi antara bisnis proses dengan 
+\emph on
+database
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Decompose the Monolith Based on Data Ownership
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada tahap sebelumnya, penulis telah memecah 
+\emph on
+service
+\emph default
+ berdasarkan bisnis proses.
+ Pada tahap ini, akan dilakukan pemecahan 
+\emph on
+service
+\emph default
+ berdasarkan 
+\emph on
+data
+\emph default
+ 
+\emph on
+ownership
+\emph default
+, dimana pada proses ini akan dilakukan mapping antara bisnis proses dengan
+ tabel pada 
+\emph on
+database
+\emph default
+.
+ Gambar 5.6 adalah 
+\emph on
+Decompose the Monolith Based on Data Ownership
+\emph default
+ pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Microservice Database Decomposition.png
+	width 14.464cm
+	height 8.996cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Decompose the Monolith Based on Data Ownership
+\emph default
+ pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada gambar 5.6 terdapat 10 tabel dan 9 bisnis proses, dimana 1 bisnis proses
+ dapat mengakses lebih dari 1 tabel.
+ Jika tabel tidak terdapat pada service tertentu tapi service tersebut membutuhk
+an tabel tersebut maka bisnis proses tersebut akan melakukan komunikasi
+ dengan bisnis proses lain melalui API, contohnya adalah bisnis proses Man
+ Hour (ManHour_BP) memerlukan data dari tabel tb_man_power, akan tetapi
+ tabel tb_man_power tidak terdapat di dalam service Man Hour maka service
+ Man Hour akan melakukan pemanggilan API Man Power.
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Change Code Dependency to Service Call
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada tahap ini, semua 
+\emph on
+code
+\emph default
+ 
+\emph on
+dependency
+\emph default
+ atau pemanggilan fungsi dengan menggunakan akan diubah menjadi pemanggilan
+ 
+\emph on
+service
+\emph default
+ melalui API.
+ Berdasarkan tahapan sebelumnya yaitu 
+\emph on
+Decompose the Monolith dan Decompose the Monolith Based on Data Ownership,
+ 
+\emph default
+terdapat 5 bisnis proses yang memiliki 
+\emph on
+code
+\emph default
+ 
+\emph on
+dependency
+\emph default
+ yaitu :
+\end_layout
+
+\begin_layout Itemize
+Bisnis proses Man Power Has APD yang memerlukan data Man Power.
+\end_layout
+
+\begin_layout Itemize
+Bisnis proses Man Hour yang memerlukan data Man Power dan Time Constant.
+\end_layout
+
+\begin_layout Itemize
+Bisnis proses Position yang memerlukan data Man Power.
+\end_layout
+
+\begin_layout Itemize
+Bisnis proses Man Power yang memerlukan data position.
+\end_layout
+
+\begin_layout Itemize
+Bisnis proses Report Daily yang memerlukan data Man Power.
+\end_layout
+
+\begin_layout Standard
+Semua bisnis proses yang memiliki 
+\emph on
+code
+\emph default
+ 
+\emph on
+dependency
+\emph default
+ akan dirubah menjadi 
+\emph on
+service
+\emph default
+ 
+\emph on
+call
+\emph default
+ melalui API.
+ Gambar 5.7 adalah gambar bisnis proses yang akan melakukan 
+\emph on
+service
+\emph default
+ 
+\emph on
+call
+\emph default
+ melalui API dan menggantikan 
+\emph on
+code
+\emph default
+ 
+\emph on
+dependency
+\emph default
+ antar sesama bisnis proses.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Service Call.png
+	width 14.217cm
+	height 4.762cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Change Code Dependency to Service Call 
+\emph default
+pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Introduce Service Discovery
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Permasalahan yang sering terjadi pada sebuah arsitektur microservice adalah
+ bagaimana suatu 
+\emph on
+service
+\emph default
+ dapat mengetahui IP, port dari 
+\emph on
+se
+\emph default
+rvice lain nya, dan bagaimana sebuah 
+\emph on
+api
+\emph default
+ 
+\emph on
+gateway
+\emph default
+ atau 
+\emph on
+load
+\emph default
+ 
+\emph on
+balan
+\emph default
+cer dapat mengetahui seluruh daftar 
+\emph on
+service
+\emph default
+ yang tersedia 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balalaie2015microservices"
+
+\end_inset
+
+.
+ Untuk menyelesaikan permasalahan ini, maka digunakan sebuah 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ yang berfungsi untuk menampung daftar seluruh 
+\emph on
+service
+\emph default
+ yang terdapat pada 
+\emph on
+microservice
+\emph default
+.
+ Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "microservicesbestpracticesforjava"
+
+\end_inset
+
+, terdapat beberapa solusi untuk 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ yang dapat digunakan, diantaranya adalah 
+\emph on
+consul
+\emph default
+, 
+\emph on
+eureka
+\emph default
+ dan 
+\emph on
+Amalgam8
+\emph default
+.
+ 
+\emph on
+Eureka
+\emph default
+ merupakan bagian dari projek 
+\emph on
+netflix
+\emph default
+ sehingga akan mempermudah melakukan integrasi dengan solusi yang dikembangkan
+ oleh 
+\emph on
+netflix
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "microservicesbestpracticesforjava"
+
+\end_inset
+
+.
+ 
+\emph on
+Service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ yang digunakan pada penulisan ini 
+\emph on
+Eureka
+\emph default
+.
+ 
+\emph on
+Service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ yang akan digunakan sebagai 
+\emph on
+server
+\emph default
+, sehingga 
+\emph on
+eureka
+\emph default
+ yang digunakan adalah 
+\emph on
+eureka
+\emph default
+ 
+\emph on
+server
+\emph default
+.
+ Pada penulisan ini, 
+\emph on
+eureka
+\emph default
+ akan dijalankan lebih dari satu 
+\emph on
+instance
+\emph default
+ dikarenakan jika satu 
+\emph on
+instance
+\emph default
+ mati maka akan digantikan oleh 
+\emph on
+instance
+\emph default
+ yang lain.
+ Gambar 5.8 adalah arsitektur 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ yang akan digunakan pada 
+\emph on
+microservice
+\emph default
+ PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Discovery Service.png
+	width 14.781cm
+	height 6.174cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur 
+\emph on
+Service
+\emph default
+ 
+\emph on
+Discovery
+\emph default
+ pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gambar 5.8 terdapat beberapa panah yang mengambarkan sebuah alur.
+ Berikut adalah penjelasan dari warna - warna panah tersebut.
+\end_layout
+
+\begin_layout Itemize
+Panah warna hijau berfungsi untuk melakukan komunikasi antar service.
+\end_layout
+
+\begin_layout Itemize
+Panah warna merah adalah proses komunikasi antara service dengan service
+ discovery.
+\end_layout
+
+\begin_layout Itemize
+Panah warna biru adalah proses komunikasi antar service discovery.
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Introduce Service Discovery Client
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Setelah membuat 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+, masalah selanjutnya yang muncul adalah bagaimana 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ dapat mengetahui 
+\emph on
+service
+\emph default
+ yang telah berhasil dijalankan atau 
+\emph on
+service
+\emph default
+ yang telah mati 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balalaie2015microservices"
+
+\end_inset
+
+.
+ Untuk dapat menyelesaikan masalah ini, maka setiap 
+\emph on
+service
+\emph default
+ harus mengetahui IP dan 
+\emph on
+port
+\emph default
+ 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ sehingga 
+\emph on
+service
+\emph default
+ tersebut dapat melakukan pendaftaran secara otomatis pada 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ yang dituju.
+ Proses pendaftaran otomatis yang dilakukan oleh 
+\emph on
+service
+\emph default
+ menggunakan solusi 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ 
+\emph on
+client
+\emph default
+ yaitu 
+\emph on
+eureka
+\emph default
+ 
+\emph on
+client
+\emph default
+.
+ Setiap 
+\emph on
+service
+\emph default
+ yang telah terdaftar di 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ secara periodik akan mengirimkan status 
+\emph on
+service
+\emph default
+, sehingga 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ dapat mengetahui apakah sebuah 
+\emph on
+service
+\emph default
+ dalam keadaan hidup atau mati.
+ Berikut adalah proses yang dilakukan pada saat proses registrasi 
+\emph on
+service
+\emph default
+ dan mengirim status di setiap 
+\emph on
+service
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ dijalankan
+\end_layout
+
+\begin_layout Enumerate
+Semua 
+\emph on
+Service
+\emph default
+ akan dijalankan.
+ Pada saat dijalankan, masing - masing 
+\emph on
+service
+\emph default
+ akan melakukan registrasi 
+\emph on
+service
+\emph default
+ pada 
+\emph on
+discovery
+\emph default
+ 
+\emph on
+service
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+Semua service yang telah terdaftar pada 
+\emph on
+discovery
+\emph default
+ 
+\emph on
+service
+\emph default
+ akan mengirimkan status 
+\emph on
+service
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Gambar 5.9 adalah arsitektur 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ 
+\emph on
+client
+\emph default
+ yang akan digunakan pada 
+\emph on
+microservice
+\emph default
+ PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Service Discovery Client.png
+	width 14.393cm
+	height 6.315cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur 
+\emph on
+Service Discovery Client
+\emph default
+ pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada gambar 5.9 terdapat penambahan yaitu di masing - masing service terdapat
+ client, client disini berfungsi sebagai service discovery client.
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Introduce Internal Load Balancer
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Langkah selanjutnya untuk melakukan refactoring 
+\emph on
+monolithic
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+ adalah menambahkan 
+\emph on
+internal
+\emph default
+ 
+\emph on
+load
+\emph default
+ 
+\emph on
+balancer
+\emph default
+ diantara sesama 
+\emph on
+service
+\emph default
+.
+ Penggunaan 
+\emph on
+load
+\emph default
+ 
+\emph on
+balancer
+\emph default
+ berfungsi untuk mendistribusikan beban kerja secara merata kepada beberapa
+ 
+\emph on
+node
+\emph default
+ yang bekerja 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "rosalia2016implementasi"
+
+\end_inset
+
+.
+ Penggunaan 
+\emph on
+internal
+\emph default
+ 
+\emph on
+load
+\emph default
+ 
+\emph on
+balancer
+\emph default
+ biasanya digunakan untuk melakukan komunikasi 
+\emph on
+internal
+\emph default
+ antar 
+\emph on
+service
+\emph default
+.
+ Penggunaan 
+\emph on
+internal
+\emph default
+ 
+\emph on
+load
+\emph default
+ 
+\emph on
+balancer
+\emph default
+ ini juga disebabkan adanya replikasi 
+\emph on
+service
+\emph default
+ sehingga dibutuhkan internal load balancer diantara 
+\emph on
+service
+\emph default
+ tersebut.
+ Pada penelitian ini, penulis akan menggunakan teknologi 
+\emph on
+ribbon
+\emph default
+ yang dikembangkan oleh netflix sebagai 
+\emph on
+internal
+\emph default
+ 
+\emph on
+load
+\emph default
+ 
+\emph on
+balancer
+\emph default
+.
+ Gambar 5.10 adalah arsitektur 
+\emph on
+internal
+\emph default
+ 
+\emph on
+load
+\emph default
+ 
+\emph on
+balancer
+\emph default
+ yang akan dikembangkan pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Internal Load Balancer.png
+	width 14.393cm
+	height 6.279cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur 
+\emph on
+Internal
+\emph default
+ 
+\emph on
+Load
+\emph default
+ 
+\emph on
+Balancer
+\emph default
+ pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada gambar 5.10, service User Authentication tidak memiliki 
+\emph on
+internal
+\emph default
+ 
+\emph on
+load
+\emph default
+ 
+\emph on
+balancer
+\emph default
+ disebabkan tidak ada 
+\emph on
+service
+\emph default
+ yang akan mengakses 
+\emph on
+service
+\emph default
+ User Authentication dan 
+\emph on
+service
+\emph default
+ tersebut tidak melakukan akses ke 
+\emph on
+service
+\emph default
+ yang lain.
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Introduce External Load Balancer
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada langkah sebelumnya, pemasalahan load balancer terdapat jika service
+ dilakukan replikasi lebih dari satu.
+ Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balalaie2015microservices"
+
+\end_inset
+
+, permasalahan juga akan terjadi jika terdapat service dicovery yang lebih
+ dari 1 sehingga membutuhkan 
+\emph on
+load
+\emph default
+ 
+\emph on
+balancer
+\emph default
+ antara 
+\emph on
+service
+\emph default
+ dengan 
+\emph on
+service
+\emph default
+ 
+\emph on
+disc
+\emph default
+overy.
+ Untuk dapat menyelesaikan masalah tersebut, maka digunakan 
+\emph on
+external
+\emph default
+ 
+\emph on
+load
+\emph default
+ 
+\emph on
+balancer
+\emph default
+ diantara 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ dan 
+\emph on
+service
+\emph default
+.
+ Pada penelitian ini, penulis menggunakan eureka sebagai 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ dan eureka telah mendukung 
+\emph on
+external
+\emph default
+ 
+\emph on
+load
+\emph default
+ 
+\emph on
+balancer
+\emph default
+.
+ Gambar 5.11 adalah arsitektur 
+\emph on
+external
+\emph default
+ 
+\emph on
+load
+\emph default
+ 
+\emph on
+balancer
+\emph default
+ yang akan dikembangkan pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/External Load Balancer.png
+	width 10.548cm
+	height 10.089cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur 
+\emph on
+External
+\emph default
+ 
+\emph on
+Load
+\emph default
+ 
+\emph on
+Balancer
+\emph default
+ pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Introduce Circuit Breaker
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ biasanya digunakan untuk memastikan jika terjadi kegagalan pada suatu 
+\emph on
+service
+\emph default
+ maka 
+\emph on
+service
+\emph default
+ yang lain tidak akan terganggu.
+ 
+\emph on
+Circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ akan melakukan pengecekan pada saat 
+\emph on
+service
+\emph default
+ melakukan 
+\emph on
+request
+\emph default
+ ke 
+\emph on
+service
+\emph default
+ yang lainnya
+\begin_inset CommandInset citation
+LatexCommand cite
+key "daya2016microservices"
+
+\end_inset
+
+.
+ Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "article"
+
+\end_inset
+
+, di dalam 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ terdapat 3 state yaitu 
+\emph on
+closed
+\emph default
+, 
+\emph on
+open
+\emph default
+ dan 
+\emph on
+half-open
+\emph default
+.
+ Adapun cara kerja dari 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ adalah
+\end_layout
+
+\begin_layout Enumerate
+Jika tidak terjadi kegagalan pada saat request maka circuit breaker akan
+ berada pada 
+\emph on
+state
+\emph default
+ 
+\emph on
+closed
+\emph default
+, dimana 
+\emph on
+service
+\emph default
+ dapat mengembalikan 
+\emph on
+response
+\emph default
+.
+ Gambar 5.12 adalah 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ dalam keadaan 
+\emph on
+closed
+\emph default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Circuit Breaker Closed.png
+	width 8.925cm
+	height 5.115cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Circuit
+\emph default
+ 
+\emph on
+Breaker
+\emph default
+ 
+\emph on
+Closed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Jika terjadi kegagalan dalam pemanggilan 
+\emph on
+service
+\emph default
+ maka 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ akan pindah ke 
+\emph on
+state
+\emph default
+ 
+\emph on
+open
+\emph default
+, dimana pada 
+\emph on
+state
+\emph default
+ 
+\emph on
+open
+\emph default
+ ini terdapat 
+\emph on
+fallback
+\emph default
+ yang langsung mengembalikan 
+\emph on
+response
+\emph default
+ 
+\emph on
+error
+\emph default
+ sehingga 
+\emph on
+service
+\emph default
+ yang melakukan request mengetahui bahwa 
+\emph on
+service
+\emph default
+ yang sedang dipanggil dalam keadaan 
+\emph on
+error
+\emph default
+.
+ Gambar 5.13 adalah 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ dalam keadaan 
+\emph on
+open
+\emph default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Circuit Breaker Open.png
+	width 8.925cm
+	height 5.115cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Circuit
+\emph default
+ 
+\emph on
+Breaker
+\emph default
+ 
+\emph on
+Open
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Jika 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ berada pada 
+\emph on
+state
+\emph default
+ 
+\emph on
+open
+\emph default
+, maka 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ akan melakukan pengecekan secara periodik pada 
+\emph on
+service
+\emph default
+ tersebut.
+ Jika 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ melakukan pengecekan ini, maka 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ sedang berada pada 
+\emph on
+state
+\emph default
+ 
+\emph on
+half-open
+\emph default
+.
+ Apabila pada saat melakukan pengecekan dan 
+\emph on
+service
+\emph default
+ mengembalikan 
+\emph on
+response
+\emph default
+ 
+\emph on
+timeout
+\emph default
+ maka 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ akan berubah menjadi 
+\emph on
+state
+\emph default
+ 
+\emph on
+open
+\emph default
+, sedangkan apabila 
+\emph on
+service
+\emph default
+ mengembalikan 
+\emph on
+response
+\emph default
+ sukses maka 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ akan berubah menjadi 
+\emph on
+state
+\emph default
+ 
+\emph on
+closed
+\emph default
+.
+ Gambar 5.14 adalah 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ dalam keadaan 
+\emph on
+half-open.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Circuit Breaker Half-Open.png
+	width 8.925cm
+	height 7.655cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Circuit
+\emph default
+ 
+\emph on
+Breaker
+\emph default
+ 
+\emph on
+Half-Open
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Pada penelitian ini, penulis menggunakan teknologi hystrix yang dikembangkan
+ oleh netflix sebagai 
+\emph on
+circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+.
+ 
+\emph on
+Circuit
+\emph default
+ 
+\emph on
+breaker
+\emph default
+ ini akan digunakan disetiap 
+\emph on
+service
+\emph default
+ yang akan melakukan pemanggilan kepada 
+\emph on
+service
+\emph default
+ yang lain.
+ Setiap pemanggilan 
+\emph on
+service
+\emph default
+, hystrix akan mencatat apakah 
+\emph on
+response
+\emph default
+ yang dihasilkan gagal atau sukses.
+ Gambar 5.15 adalah arsitektur 
+\emph on
+circuit breaker
+\emph default
+ yang akan dikembangkan pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Circuit Breaker.png
+	width 14.393cm
+	height 6.279cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur 
+\emph on
+Circuit Breaker
+\emph default
+ pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Introduce Configuration Server
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Permasalahan yang muncul pada saat melakukan refactoring 
+\emph on
+monolitich
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+ adalah bagaimana jika terdapat konfigurasi yang berubah tanpa perlu melakukan
+ 
+\emph on
+restart
+\emph default
+ 
+\emph on
+service
+\emph default
+, sehingga 
+\emph on
+service
+\emph default
+ tetap berjalan dengan konfigurasi yang diubah tanpa melakukan 
+\emph on
+restart
+\emph default
+ 
+\emph on
+service
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balalaie2015microservices"
+
+\end_inset
+
+.
+ Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balalaie2015microservices"
+
+\end_inset
+
+, untuk menyelesaikan permasalahan ini maka dibutuhkan sebuah 
+\emph on
+configuration
+\emph default
+ 
+\emph on
+server
+\emph default
+ yang berfungsi untuk menyimpan semua konfigurasi 
+\emph on
+service
+\emph default
+ - 
+\emph on
+service
+\emph default
+ yang terdapat pada 
+\emph on
+microservice
+\emph default
+.
+ Setiap 
+\emph on
+service
+\emph default
+ yang akan berjalan akan melakukan 
+\emph on
+request
+\emph default
+ konfigurasi terlebih dahulu kepada 
+\emph on
+configuration
+\emph default
+ 
+\emph on
+server
+\emph default
+, lalu 
+\emph on
+configuration
+\emph default
+ 
+\emph on
+server
+\emph default
+ akan memberikan konfigurasi sesuai dengan permintaan 
+\emph on
+service
+\emph default
+ tersebut.
+ Adapun proses yang akan dilakukan 
+\emph on
+service
+\emph default
+ pada saat melakukan request konfigurasi kepada 
+\emph on
+configuration
+\emph default
+ 
+\emph on
+server
+\emph default
+ adalah sebagai berikut :
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Configuration
+\emph default
+ 
+\emph on
+server
+\emph default
+ dijalankan.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Configuration
+\emph default
+ 
+\emph on
+server
+\emph default
+ melakukan 
+\emph on
+clone
+\emph default
+ 
+\emph on
+repository
+\emph default
+ konfigurasi yang terdapat pada gitlab.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Service
+\emph default
+ akan dijalankan.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Service
+\emph default
+ melakukan registrasi pada 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Service
+\emph default
+ melakukan 
+\emph on
+lookup
+\emph default
+ 
+\emph on
+configuraton
+\emph default
+ 
+\emph on
+server
+\emph default
+ untuk menemukan IP dan port dari 
+\emph on
+configuration
+\emph default
+ 
+\emph on
+server
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Service
+\emph default
+ melakukan 
+\emph on
+request
+\emph default
+ konfigurasi kepada 
+\emph on
+configuration
+\emph default
+ 
+\emph on
+server
+\emph default
+ berdasarkan nama 
+\emph on
+service
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Configuration
+\emph default
+ 
+\emph on
+server
+\emph default
+ mengirimkan konfigurasi kepada 
+\emph on
+service
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Seluruh konfigurasi 
+\emph on
+service
+\emph default
+ akan disimpan pada sebuah 
+\emph on
+repository
+\emph default
+ git.
+ Pada penelitian ini, penulis menggunakan gitlab sebagai 
+\emph on
+repository
+\emph default
+ git dan spring 
+\emph on
+config
+\emph default
+ 
+\emph on
+server
+\emph default
+ sebagai 
+\emph on
+configuration
+\emph default
+ 
+\emph on
+server
+\emph default
+.
+ Gambar 5.16 adalah arsitektur 
+\emph on
+configuration server
+\emph default
+ yang akan dikembangkan pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Configuration Server.png
+	width 14.111cm
+	height 9.313cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur 
+\emph on
+Configuration Server 
+\emph default
+pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada gambar 5.16 terdapat penambahan panah berwarna ungu, panah ini berfungsi
+ sebagai alur 
+\emph on
+request
+\emph default
+ konfigurasi yang berasal dari 
+\emph on
+service
+\emph default
+ kepada 
+\emph on
+configuration
+\emph default
+ 
+\emph on
+server
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Introduce Edge Server (API Gateway)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "article"
+
+\end_inset
+
+, 
+\emph on
+edge
+\emph default
+ 
+\emph on
+server
+\emph default
+ (API 
+\emph on
+gateway
+\emph default
+) adalah sebuah 
+\emph on
+service
+\emph default
+ yang menyediakan akses ke banyak API dimana 
+\emph on
+service
+\emph default
+ ini menyediakan fungsi untuk mempubliskasikan API dan dapat memberikan
+ hak akses yang berbeda kepada setiap 
+\emph on
+client
+\emph default
+.
+ Pada langkah - langkah 
+\emph on
+refactoring
+\emph default
+ 
+\emph on
+monolitich
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+, diperlukan sebuah 
+\emph on
+edge
+\emph default
+ 
+\emph on
+server
+\emph default
+ (API 
+\emph on
+gateway
+\emph default
+) untuk menyembunyikan struktur dari 
+\emph on
+ser
+\emph default
+vice 
+\emph on
+microservice
+\emph default
+ dan memonitor status dan penggunaan 
+\emph on
+service
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balalaie2015microservices"
+
+\end_inset
+
+.
+ Penggunaan 
+\emph on
+edge
+\emph default
+ 
+\emph on
+server
+\emph default
+ (API 
+\emph on
+gateway
+\emph default
+) ini juga berfungsi agar client dapat melakukan akses pada 1 gerbang, tanpa
+ harus mengetahui keberadaan 
+\emph on
+service
+\emph default
+.
+ Pada penelitian ini, penulis menggunakan 
+\emph on
+spring
+\emph default
+ 
+\emph on
+cloud
+\emph default
+ 
+\emph on
+zuul
+\emph default
+ sebagai 
+\emph on
+edge
+\emph default
+ 
+\emph on
+server
+\emph default
+ (API 
+\emph on
+gateway
+\emph default
+) yang akan menjembatani antara 
+\emph on
+client
+\emph default
+ dan 
+\emph on
+service
+\emph default
+ - 
+\emph on
+service
+\emph default
+ pada 
+\emph on
+microservice
+\emph default
+.
+ Gambar 5.17 adalah arsitektur edge server (API gateway) yang akan dikembangkan
+ pada PT.
+ Graha Usaha Teknik.
+ Pada gambar 5.17 terdapat penambahan panah berwarna jingga, panah ini berfungsi
+ sebagai alur 
+\emph on
+request
+\emph default
+ yang berasal dari 
+\emph on
+client
+\emph default
+ lalu diteruskan ke 
+\emph on
+service
+\emph default
+ - 
+\emph on
+service
+\emph default
+ melalui 
+\emph on
+edge
+\emph default
+ 
+\emph on
+server
+\emph default
+ (API 
+\emph on
+gateway
+\emph default
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/api gateway.png
+	width 14.182cm
+	height 12.171cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur 
+\emph on
+Edge
+\emph default
+ 
+\emph on
+Server
+\emph default
+ (API 
+\emph on
+Gateway
+\emph default
+)
+\emph on
+ 
+\emph default
+pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Containerize the Services
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Microservice
+\emph default
+ terdiri dari banyak 
+\emph on
+service
+\emph default
+, dimana 
+\emph on
+service
+\emph default
+ - 
+\emph on
+service
+\emph default
+ ini dapat kita lakukan 
+\emph on
+deployment
+\emph default
+ secara independen.
+ Proses 
+\emph on
+deployment
+\emph default
+ ini membutuhkan 2 
+\emph on
+environment
+\emph default
+ yaitu 
+\emph on
+environment
+\emph default
+ 
+\emph on
+production
+\emph default
+ dan 
+\emph on
+development
+\emph default
+.
+ Permasalahan yang terjadi pada saat melakukan 
+\emph on
+refactoring
+\emph default
+ 
+\emph on
+monolitich
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+ adalah bagaimana cara melakukan 
+\emph on
+deployment
+\emph default
+ kepada 2 
+\emph on
+environment
+\emph default
+ yang berbeda dengan menggunakan 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+ yang sama 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balalaie2015microservices"
+
+\end_inset
+
+.
+ Salah satu solusi yang dapat dilakukan adalah dengan melakukan 
+\emph on
+deployment
+\emph default
+ masing - masing 
+\emph on
+service
+\emph default
+ pada sebuah 
+\emph on
+server
+\emph default
+, akan tetapi solusi ini tidak disarankan dikarenakan diperlukan banyak
+ 
+\emph on
+server
+\emph default
+ untuk mendeploy banyak 
+\emph on
+service
+\emph default
+ sehingga memerlukan 
+\emph on
+resource
+\emph default
+ yang sangat banyak.
+ Untuk menghemat penggunaan 
+\emph on
+resource
+\emph default
+, maka setiap 
+\emph on
+service
+\emph default
+ akan dilakukan proses 
+\emph on
+containerize
+\emph default
+, sehingga didalam 1 
+\emph on
+container
+\emph default
+ hanya terdapat 1 
+\emph on
+service
+\emph default
+ yang berjalan.
+ Strategi yang akan digunakan adalah setiap satu 
+\emph on
+server
+\emph default
+ akan memiliki satu teknologi 
+\emph on
+container
+\emph default
+, dimana dengan teknologi 
+\emph on
+container
+\emph default
+ ini maka beberapa 
+\emph on
+service
+\emph default
+ dapat dijalankan secara bersamaan di dalam sebuah 
+\emph on
+server
+\emph default
+.
+ Pada penulisan ini, penulis akan menggunakan docker sebagai teknologi 
+\emph on
+container
+\emph default
+.
+ Gambar 5.18 adalah arsitektur docker yang akan dikembangkan pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Docker Container.png
+	width 14.146cm
+	height 11.712cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur Docker pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Deploy into a Cluster and Orchestrate Containers
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pemanfaatan docker 
+\emph on
+container
+\emph default
+ untuk melakukan 
+\emph on
+deployment
+\emph default
+ 
+\emph on
+service
+\emph default
+ di satu 
+\emph on
+server
+\emph default
+ merupakan solusi yang tidak disarankan, hal ini disebabkan jika 
+\emph on
+server
+\emph default
+ tersebut dalam keadaan mati maka seluruh 
+\emph on
+service
+\emph default
+ tidak dapat diakses.
+ Permasalahan timbul ketika melakukan 
+\emph on
+deployment
+\emph default
+ sebuah 
+\emph on
+service
+\emph default
+, 
+\emph on
+deployment
+\emph default
+ harus dilakukan secara manual yaitu menjalankan 
+\emph on
+command
+\emph default
+ 
+\emph on
+line
+\emph default
+ 
+\emph on
+docker
+\emph default
+ untuk melakukan 
+\emph on
+deployment
+\emph default
+ 
+\emph on
+service
+\emph default
+.
+ Permasalahan juga timbul ketika 
+\emph on
+service
+\emph default
+ ingin melakukan 
+\emph on
+redeploy
+\emph default
+ 
+\emph on
+container
+\emph default
+, maka kita harus mematikan 
+\emph on
+container
+\emph default
+ dan menjalankan 
+\emph on
+container
+\emph default
+ tersebut secara manual, permasalahan ini dapat menyebabkan 
+\emph on
+human
+\emph default
+ 
+\emph on
+error
+\emph default
+ dan membutuhkan waktu yang lama untuk melakukan proses 
+\emph on
+redeploy
+\emph default
+ 
+\emph on
+container
+\emph default
+.
+ Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balalaie2015microservices"
+
+\end_inset
+
+, permasalahan tersebut dapat diatasi dengan membuat 
+\emph on
+cluster
+\emph default
+ pada docker.
+ Untuk membuat 
+\emph on
+cluster
+\emph default
+ pada docker, maka dibutuhkan sebuah sistem untuk manajemen docker yaitu
+ kubernetes.
+ Kubernetes adalah salah satu produk 
+\emph on
+open
+\emph default
+ 
+\emph on
+source
+\emph default
+ untuk sistem manajemen 
+\emph on
+container
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "reuther2018scalable"
+
+\end_inset
+
+.
+ Pada penelitian ini, penulis akan menggunakan 3 komputer dengan spesifikasi
+ seperti berikut.
+\end_layout
+
+\begin_layout Itemize
+Node Master berfungsi sebagai manajemen 
+\emph on
+deployment
+\emph default
+, semua 
+\emph on
+container
+\emph default
+ akan dilakukan 
+\emph on
+deployment
+\emph default
+ melalui node master.
+ Pada node master terdapat sebuah 
+\emph on
+web
+\emph default
+ 
+\emph on
+dashboard
+\emph default
+ kubernetes yang berfungsi untuk 
+\emph on
+monitoring
+\emph default
+ aktifitas kubernetes.
+\end_layout
+
+\begin_layout Itemize
+Node Worker 1 berfungsi sebagai tempat 
+\emph on
+deploy
+\emph default
+ 
+\emph on
+container
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+Node Worker 2 berfungsi sebagai tempat 
+\emph on
+deploy
+\emph default
+ 
+\emph on
+container
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Untuk menghubungkan ketiga komputer tersebut maka akan digunakan jaringan
+ fisik berupa wifi atau LAN, sedangkan untuk menghubungkan 
+\emph on
+container
+\emph default
+ yang terdapat pada 3 komputer tersebut maka digunakan jaringan 
+\emph on
+overlay
+\emph default
+.
+ Jaringan 
+\emph on
+overlay
+\emph default
+ adalah sebuah jaringan yang dibangun diatas jaringan lain 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "firdhous2012multicasting"
+
+\end_inset
+
+.
+ Untuk membuat jaringan 
+\emph on
+overlay
+\emph default
+ pada kubernetes, maka digunakan flannel dimana flannel berfungsi memberi
+ subnet ke masing - masing 
+\emph on
+host
+\emph default
+ untuk digunakan pada 
+\emph on
+container
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sayfan2017mastering"
+
+\end_inset
+
+.
+ Gambar 5.19 adalah arsitektur kubernetes yang akan dikembangkan pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Kubernetes Orchestrate.png
+	width 13.688cm
+	height 17.533cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur Kubernetes pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Monitor the System and Provide Feedback
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Langkah yang terakhir untuk melakukan 
+\emph on
+refactoring
+\emph default
+ 
+\emph on
+monolitich
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+ adalah melakukan 
+\emph on
+monitoring
+\emph default
+ terhadap 
+\emph on
+service
+\emph default
+ - 
+\emph on
+service
+\emph default
+ yang sedang berjalan.
+ Untuk melakukan 
+\emph on
+monitoring
+\emph default
+ setiap 
+\emph on
+service
+\emph default
+ maka diperlukan 
+\emph on
+log
+\emph default
+ dari setiap 
+\emph on
+service
+\emph default
+, dimana 
+\emph on
+log
+\emph default
+ tersebut berisi mengenai apa yang dikerjakan oleh masing - masing 
+\emph on
+service
+\emph default
+.
+ Pada penelitian ini, penulis menggunakan 3 produk 
+\emph on
+open
+\emph default
+ 
+\emph on
+source
+\emph default
+ untuk kebutuhan 
+\emph on
+monitoring
+\emph default
+ 
+\emph on
+service
+\emph default
+ - 
+\emph on
+service
+\emph default
+ pada 
+\emph on
+microservice
+\emph default
+ yaitu zipkin , spring boot admin dan kubernetes dashboard.
+ Zipkin adalah 
+\emph on
+distribute
+\emph default
+ 
+\emph on
+tracing
+\emph default
+ yang dapat mengambil data 
+\emph on
+latency
+\emph default
+ pada saat proses 
+\emph on
+request
+\emph default
+ antar 
+\emph on
+service
+\emph default
+ sehingga 
+\emph on
+developer
+\emph default
+ dapat mengetahui 
+\emph on
+latency
+\emph default
+ antar 
+\emph on
+service
+\emph default
+.
+ Spring boot admin adalah 
+\emph on
+library
+\emph default
+ yang digunakan untuk 
+\emph on
+administrasi
+\emph default
+ 
+\emph on
+service
+\emph default
+ pada spring boot dan berfungsi untuk menampilkan berbagai informasi masing
+ - masing 
+\emph on
+service
+\emph default
+.
+ Kubernetes dashboard adalah sebuah software open source yang berfungsi
+ untuk monitoring kubernetes.
+ Gambar 5.20 adalah arsitektur monitoring yang akan dikembangkan pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Monitoring.png
+	width 10.724cm
+	height 15.275cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur Monitoring pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Refactoring Database
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "messinasimplified"
+
+\end_inset
+
+, terdapat 3 pola database yang dapat digunakan pada arsitektur 
+\emph on
+microservice
+\emph default
+ yaitu :
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Private-tables-per-service
+\emph default
+ yaitu semua 
+\emph on
+service
+\emph default
+ menggunakan 
+\emph on
+database
+\emph default
+ yang sama, akan tetapi setiap 
+\emph on
+service
+\emph default
+ hanya dapat mengakses tabel yang telah ditentukan.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Schema-per-service
+\emph default
+ yaitu semua 
+\emph on
+service
+\emph default
+ memiliki database masing - masing akan tetapi 
+\emph on
+database
+\emph default
+ tersebut berada pada 1 
+\emph on
+node
+\emph default
+ 
+\emph on
+database
+\emph default
+ 
+\emph on
+server
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Database-server-per-service
+\emph default
+ yaitu semua 
+\emph on
+service
+\emph default
+ memiliki database masing - masing dan berada pada masing - masing 
+\emph on
+node
+\emph default
+ 
+\emph on
+database
+\emph default
+ 
+\emph on
+server
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Pada penelitian ini, penulis akan menggunakan 
+\emph on
+Schema-per-service
+\emph default
+ untuk pengembangan arsitektur microservice pada PT.
+ Graha Usaha Teknik.
+ Penggunaan pola 
+\emph on
+Schema-per-service 
+\emph default
+dikarenkan untuk mengurangi penggunaan 
+\emph on
+resource
+\emph default
+ yang berlebihan, sehingga hanya diperlukan 1 
+\emph on
+container
+\emph default
+ untuk menampung beberapa 
+\emph on
+database
+\emph default
+ yang diperlukan oleh masing - masing service.
+ Menurut 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "MigratingtoMicroservice"
+
+\end_inset
+
+, Untuk memecah database 
+\emph on
+monolitich
+\emph default
+ menjadi database 
+\emph on
+berbasis
+\emph default
+ 
+\emph on
+distributed
+\emph default
+ dapat menggunakan 4 skenario yaitu :
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Add a Column Migration
+\emph default
+ yaitu membuat 
+\emph on
+database
+\emph default
+ baru untuk keperluan migration database.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Rename a Column Migration
+\emph default
+ yaitu merubah beberapa column untuk keperluan migration database.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Change Type/Format of a Column Migration
+\emph default
+ yaitu merubah beberapa tipe column untuk keperluan migration database.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Delete a Column Migration
+\emph default
+ yaitu menghapus column yang sudah tidak digunakan.
+\end_layout
+
+\begin_layout Standard
+Pada penelitian ini, penulis menggunakan skenario 
+\emph on
+Add a Column Migration
+\emph default
+ untuk mengurangi kesalahan, duplikasi data pada 
+\emph on
+database
+\emph default
+, kegagalan pada saat proses migrasi dan kehilangan data.
+ Pada skenario ini terdapat 4 langkah yang dijalankan yaitu
+\begin_inset CommandInset citation
+LatexCommand cite
+key "MigratingtoMicroservice"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Add Column 
+\emph default
+yaitu membuat 
+\emph on
+column
+\emph default
+ pada tabel berdasarkan 
+\emph on
+database
+\emph default
+ yang akan digunakan oleh 
+\emph on
+service
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Code computes the read value and writes to new column
+\emph default
+ yaitu 
+\emph on
+service
+\emph default
+ akan membaca dan menambah data pada column yang baru, jika data tidak tersedia
+ di masing - masing 
+\emph on
+column
+\emph default
+ maka 
+\emph on
+service
+\emph default
+ akan melakukan proses untuk mencari data atau 
+\emph on
+service
+\emph default
+ menggunakan data 
+\emph on
+default
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Update
+\emph default
+ 
+\emph on
+data
+\emph default
+ 
+\emph on
+using shards
+\emph default
+ yaitu proses melakukan replikasi data dari 
+\emph on
+database
+\emph default
+ lama ke 
+\emph on
+database
+\emph default
+ baru.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Code reads and writes from the new column
+\emph default
+ yaitu service akan membaca dan menambah data pada 
+\emph on
+column
+\emph default
+ yang baru.
+\end_layout
+
+\begin_layout Section
+
+\emph on
+Refactoring
+\emph default
+ 
+\emph on
+Source
+\emph default
+ 
+\emph on
+Code
+\emph default
+ 
+\emph on
+Monolitich
+\emph default
+ Menjadi 
+\emph on
+Microservice
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tahapan penelitian ini berfungsi untuk mengubah 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+ 
+\emph on
+monolitich
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+.
+ 
+\emph on
+Source
+\emph default
+ 
+\emph on
+code
+\emph default
+ 
+\emph on
+monolitich
+\emph default
+ akan dipecah berdasarkan bisnis proses sesuai dengan tahapan 
+\emph on
+Decompose
+\emph default
+ 
+\emph on
+the
+\emph default
+ 
+\emph on
+Monolith
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "balalaie2015microservices"
+
+\end_inset
+
+.
+ Proses 
+\emph on
+refactoring
+\emph default
+ 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+ akan dilakukan secara bertahap, adapun proses 
+\emph on
+refactoring
+\emph default
+ 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+ 
+\emph on
+monolitich
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+ adalah sebagai berikut.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Developer
+\emph default
+ akan melakukan 
+\emph on
+clone
+\emph default
+ 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+ 
+\emph on
+monolitich
+\emph default
+ dari gitlab.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Developer
+\emph default
+ membuat 
+\emph on
+repository
+\emph default
+ baru untuk 
+\emph on
+service
+\emph default
+ yang akan dikembangkan.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Developer
+\emph default
+ akan melakukan 
+\emph on
+refactoring
+\emph default
+ 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+ dengan cara melakukan 
+\emph on
+copy
+\emph default
+ 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+ dari 
+\emph on
+monolitich
+\emph default
+ ke 
+\emph on
+service
+\emph default
+ 
+\emph on
+microservice
+\emph default
+.
+ Jika pada saat 
+\emph on
+refactoring
+\emph default
+ ini membutuhkan 
+\emph on
+service
+\emph default
+ lain misalnya seperti pemanggilan 
+\emph on
+method
+\emph default
+ 
+\emph on
+service
+\emph default
+ maka akan diganti dengan pemanggilan API.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Developer
+\emph default
+ akan membuat 
+\emph on
+testing
+\emph default
+ untuk 
+\emph on
+service
+\emph default
+ yang telah selesai dikembangkan.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Developer
+\emph default
+ akan melakukan 
+\emph on
+push
+\emph default
+ 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+ ke 
+\emph on
+repository
+\emph default
+ gitlab.
+\end_layout
+
+\begin_layout Standard
+Proses diatas akan dilakukan secara bertahap berdasarkan urutan 
+\emph on
+service
+\emph default
+ yang telah dijelaskan pada langkah 
+\emph on
+refactoring
+\emph default
+ 
+\emph on
+monolithic
+\emph default
+ menjadi 
+\emph on
+microservice
+\emph default
+.
+ 
+\emph on
+Source
+\emph default
+ 
+\emph on
+code
+\emph default
+ masing - masing 
+\emph on
+service
+\emph default
+ akan ditulis dengan menggunakan bahasa pemrograman kotlin.
+ Gambar 5.21 adalah arsitektur microservice yang akan dikembangkan pada PT.
+ Graha Usaha Teknik.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Microservice Architecture.png
+	width 14.711cm
+	height 10.548cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Arsitektur Microservice Pada PT.
+ Graha Usaha Teknik
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Pembuatan Docker Image
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada tahapan 
+\emph on
+containerize the services
+\emph default
+, masing - masing 
+\emph on
+service
+\emph default
+ akan dibuatkan sebuah 
+\emph on
+container
+\emph default
+ untuk menjalankan 
+\emph on
+service
+\emph default
+ tersebut.
+ Untuk dapat menjalankan 
+\emph on
+service
+\emph default
+ tersebut maka diperlukan pembuatan docker 
+\emph on
+image
+\emph default
+ yang nantinya akan dijalankan diatas 
+\emph on
+container
+\emph default
+.
+ Pembuatan docker 
+\emph on
+image
+\emph default
+ pada penelitian ini akan dilakukan jika seluruh 
+\emph on
+unit
+\emph default
+ 
+\emph on
+testing
+\emph default
+ telah berhasil dijalankan.
+ Pembuatan docker 
+\emph on
+image
+\emph default
+ akan dijalankan setiap ada pembaruan dari 
+\emph on
+source
+\emph default
+ 
+\emph on
+code
+\emph default
+ dan bersifat 
+\emph on
+automatic
+\emph default
+ dengan 
+\emph on
+continuous
+\emph default
+ 
+\emph on
+integration
+\emph default
+.
+ Seluruh docker 
+\emph on
+image
+\emph default
+ akan di 
+\emph on
+push
+\emph default
+ ke sebuah 
+\emph on
+registry
+\emph default
+ yaitu docker hub.
+ Docker hub adalah layanan 
+\emph on
+cloud
+\emph default
+ 
+\emph on
+registry
+\emph default
+ untuk 
+\emph on
+sharing
+\emph default
+ 
+\emph on
+image
+\emph default
+ sebuah aplikasi 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "shu2017study"
+
+\end_inset
+
+.
+ Pada penelitian ini, semua docker 
+\emph on
+image
+\emph default
+ dari masing - masing 
+\emph on
+service
+\emph default
+ akan di 
+\emph on
+push
+\emph default
+ ke docker hub.
+ Gambar 5.22 adalah contoh docker 
+\emph on
+image
+\emph default
+ 
+\emph on
+service
+\emph default
+ 
+\emph on
+discovery
+\emph default
+ yang telah berhasil di 
+\emph on
+push
+\emph default
+ ke docker hub.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/docker hub discovery service.png
+	width 13.547cm
+	height 8.467cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Docker Image Service Discovery Pada Docker Hub
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\emph on
+Deployment
+\emph default
+ Ke 
+\emph on
+Server
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Proses 
+\emph on
+deployment
+\emph default
+ pada penelitian ini akan dilakukan pada 2 
+\emph on
+enviroment
+\emph default
+ yang berbeda yaitu 
+\emph on
+production
+\emph default
+ dan 
+\emph on
+development
+\emph default
+.
+ Proses 
+\emph on
+deployment
+\emph default
+ pada 
+\emph on
+environment
+\emph default
+ 
+\emph on
+development
+\emph default
+ akan dilakukan pada 3 komputer sesuai dengan penjelasan pada tahapan 
+\emph on
+deploy into a cluster and orchestrate containers.
+ 
+\emph default
+Proses 
+\emph on
+deployment
+\emph default
+ pada 
+\emph on
+environment
+\emph default
+ 
+\emph on
+production
+\emph default
+ akan dilakukan pada google kubernetes engine.
+ Proses 
+\emph on
+deployment
+\emph default
+ pada
+\emph on
+ environment
+\emph default
+ 
+\emph on
+development
+\emph default
+ akan dilakukan secara bertahap dan bersifat 
+\emph on
+automatic
+\emph default
+ dengan 
+\emph on
+continuous
+\emph default
+ 
+\emph on
+integration, 
+\emph default
+sedangkan proses 
+\emph on
+deployment
+\emph default
+ 
+\emph on
+pada environment
+\emph default
+ 
+\emph on
+production
+\emph default
+ juga akan dilakukan juga secara bertahap dan bersifat 
+\emph on
+automatic
+\emph default
+ dengan 
+\emph on
+continuous
+\emph default
+ 
+\emph on
+integration
+\emph default
+ akan tetapi melalui persetujuan dari manager IT.
+ Adapun proses pada saat deployment pada environment devlopment adalah sebagai
+ berikut.
+\end_layout
+
+\begin_layout Enumerate
+Gitlab melakukan clone source code terbaru dari repository.
+\end_layout
+
+\begin_layout Enumerate
+Gitlab melakukan build, testing dan pembuatan docker image.
+\end_layout
+
+\begin_layout Enumerate
+Gitlab melakukan deployment ke server.
+\end_layout
+
+\begin_layout Standard
+Sedangkan proses pada saat deployment pada environment production adalah
+ sebagai berikut.
+\end_layout
+
+\begin_layout Enumerate
+Gitlab melakukan clone source code terbaru dari repository.
+\end_layout
+
+\begin_layout Enumerate
+Gitlab melakukan build, testing dan pembuatan docker image.
+\end_layout
+
+\begin_layout Enumerate
+Manager menyetujui proses deployment ke server.
+\end_layout
+
+\begin_layout Enumerate
+Gitlab melakukan deployment ke server.
+\end_layout
+
+\begin_layout Section
+
+\emph on
+Testing
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada penelitian ini, proses 
+\emph on
+testing
+\emph default
+ akan dilakukan pada 
+\emph on
+enviroment
+\emph default
+ 
+\emph on
+development
+\emph default
+.
+ 
+\emph on
+Testing
+\emph default
+ yang akan dilakukan adalah 
+\emph on
+performace
+\emph default
+ 
+\emph on
+testing
+\emph default
+, yang berfungsi untuk mengukur 
+\emph on
+performance
+\emph default
+ dari masing - masing 
+\emph on
+service
+\emph default
+.
+ 
+\emph on
+Software
+\emph default
+ yang akan digunakan untuk melakukan 
+\emph on
+performance
+\emph default
+ 
+\emph on
+testing
+\emph default
+ adalah gatling.
+ Adapun tahapan yang akan dilakukan untuk melakukan 
+\emph on
+testing
+\emph default
+ adalah.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Download
+\emph default
+ 
+\emph on
+software
+\emph default
+ gatling dari https://gatling.io/.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Extract
+\emph default
+ 
+\emph on
+software
+\emph default
+ tersebut, lalu buatlah sebuah 
+\emph on
+script
+\emph default
+ berikut untuk melakukan 
+\emph on
+performance
+\emph default
+ 
+\emph on
+testing
+\emph default
+ untuk setiap 
+\emph on
+service
+\emph default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset listings
+lstparams "language=Java,basicstyle={\small},showstringspaces=false,tabsize=2"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+package computerdatabase
+\end_layout
+
+\begin_layout Plain Layout
+
+import io.gatling.core.Predef._ 
+\end_layout
+
+\begin_layout Plain Layout
+
+import io.gatling.http.Predef._ 
+\end_layout
+
+\begin_layout Plain Layout
+
+import scala.concurrent.duration._
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+class BasicSimulation extends Simulation {
+\end_layout
+
+\begin_layout Plain Layout
+
+  val httpConf = http.baseURL("http://computer-database.gatling.io")
+\end_layout
+
+\begin_layout Plain Layout
+
+					 .acceptHeader("text/html")
+\end_layout
+
+\begin_layout Plain Layout
+
+				    .doNotTrackHeader("1")
+\end_layout
+
+\begin_layout Plain Layout
+
+                    .acceptLanguageHeader("en-US,en;q=0.5")
+\end_layout
+
+\begin_layout Plain Layout
+
+                    .acceptEncodingHeader("gzip, deflate")
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+  val headers_10 = Map("Content-Type" -> "application/x-www-form-urlencoded")
+\end_layout
+
+\begin_layout Plain Layout
+
+    val scn = scenario("Scenario Name")
+\end_layout
+
+\begin_layout Plain Layout
+
+				.exec(http("request_1")
+\end_layout
+
+\begin_layout Plain Layout
+
+				.get("/"))
+\end_layout
+
+\begin_layout Plain Layout
+
+  setUp(scn.inject(atOnceUsers(1)).protocols(httpConf))
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Lalu jalankan gatling dengan menggunakan perintah ./gatling.sh.
+\end_layout
+
+\begin_layout Standard
+Gambar 5.23 adalah informasi mengenai 
+\emph on
+performance
+\emph default
+ 
+\emph on
+testing
+\emph default
+ yang berhasil dijalankan.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/Sample-gatling.png
+	width 13.547cm
+	height 8.467cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Hasil Testing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\emph on
+Monitoring
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Proses 
+\emph on
+monitoring
+\emph default
+ berfungsi untuk melihat status informasi dan 
+\emph on
+latency
+\emph default
+ dari masing - masing 
+\emph on
+service
+\emph default
+.
+ Gambar 5.24 adalah 
+\emph on
+dashboard
+\emph default
+ zipkin 
+\emph on
+server
+\emph default
+ untuk memonitoring 
+\emph on
+latency
+\emph default
+ antar 
+\emph on
+service
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/zipkin.png
+	width 13.781cm
+	height 7.748cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Dashboard
+\emph default
+ Zipkin 
+\emph on
+Server
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gambar 5.25 adalah gambar 
+\emph on
+dashboard
+\emph default
+ zipkin 
+\emph on
+server
+\emph default
+ yang memperlihatkan 
+\emph on
+latency
+\emph default
+ yang terjadi antar 
+\emph on
+service
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/zipkin trace.png
+	width 13.781cm
+	height 7.748cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Monitoring
+\emph default
+ 
+\emph on
+Latency
+\emph default
+ Antar 
+\emph on
+Service
+\emph default
+ Pada 
+\emph on
+Dashboard
+\emph default
+ Zipkin 
+\emph on
+Server
+\emph default
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gambar 5.26 adalah gambar 
+\emph on
+dashboard
+\emph default
+ zipkin 
+\emph on
+server
+\emph default
+ yang memperlihatkan 
+\emph on
+dependency
+\emph default
+ yang terjadi antar 
+\emph on
+service
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/zipkin-dependency.png
+	width 13.781cm
+	height 7.748cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Monitoring
+\emph default
+ 
+\emph on
+Dependency
+\emph default
+ Antar 
+\emph on
+Service
+\emph default
+ Pada Dashboard Zipkin 
+\emph on
+Server
+\emph default
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gambar 5.27 adalah 
+\emph on
+dashboard
+\emph default
+ 
+\emph on
+administrator
+\emph default
+ untuk melihat status dan informasi dari masing - masing 
+\emph on
+service
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/admin-dashboard.png
+	width 13.781cm
+	height 7.748cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Dashboard
+\emph default
+ 
+\emph on
+Administrator
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gambar 5.28 adalah gambar 
+\emph on
+monitoring
+\emph default
+ hystrix yang terdapat pada 
+\emph on
+dashboard
+\emph default
+ 
+\emph on
+administrator
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/hystrix.png
+	width 13.781cm
+	height 7.748cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Monitoring
+\emph default
+ Hystrix Pada 
+\emph on
+Dashboard
+\emph default
+ 
+\emph on
+Administrator
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Gambar 5.29 adalah gambar kubernetes 
+\emph on
+dashboard
+\emph default
+ yang berfungsi untuk 
+\emph on
+monitoring
+\emph default
+ kubernetes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/kubernetes.png
+	width 13.781cm
+	height 7.748cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Kubernetes 
+\emph on
+Dashboard
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+KESIMPULAN DAN SARAN
+\end_layout
+
+\begin_layout Section
+Kesimpulan
+\end_layout
+
+\begin_layout Section
+Saran
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+bibname{DAFTAR PUSTAKA}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "biblio"
+options "apalike"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Daftar Pustaka}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Lampiran 1
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{fancy}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhead{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyfoot[C]{L 
+\backslash
+thepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Lampiran}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Proin eu leo quis risus congue aliquam quis nec mauris.
+ Donec cursus pretium diam, eget sagittis massa aliquet ut.
+ Suspendisse potenti.
+ Vestibulum adipiscing lorem et urna imperdiet interdum ornare eros aliquet.
+ Aliquam quis ligula in libero condimentum pulvinar.
+ Integer a ante metus.
+ Sed eu quam eu lorem cursus posuere.
+ Duis sed ligula leo, a scelerisque elit.
+ Nam pretium, leo in rhoncus scelerisque, felis lacus imperdiet mi, vitae
+ semper lectus nisl volutpat mi.
+ Vivamus id augue mi, quis lacinia enim.
+ Proin tincidunt mattis lacus eu sollicitudin.
+ Maecenas varius diam quis ipsum pharetra a venenatis dui elementum.
+ 
+\end_layout
+
+\begin_layout Standard
+Proin eu leo quis risus congue aliquam quis nec mauris.
+ Donec cursus pretium diam, eget sagittis massa aliquet ut.
+ Suspendisse potenti.
+ Vestibulum adipiscing lorem et urna imperdiet interdum ornare eros aliquet.
+ Aliquam quis ligula in libero condimentum pulvinar.
+ Integer a ante metus.
+ Sed eu quam eu lorem cursus posuere.
+ Duis sed ligula leo, a scelerisque elit.
+ Nam pretium, leo in rhoncus scelerisque, felis lacus imperdiet mi, vitae
+ semper lectus nisl volutpat mi.
+ Vivamus id augue mi, quis lacinia enim.
+ Proin tincidunt mattis lacus eu sollicitudin.
+ Maecenas varius diam quis ipsum pharetra a venenatis dui elementum.
+ 
+\end_layout
+
+\begin_layout Standard
+Proin eu leo quis risus congue aliquam quis nec mauris.
+ Donec cursus pretium diam, eget sagittis massa aliquet ut.
+ Suspendisse potenti.
+ Vestibulum adipiscing lorem et urna imperdiet interdum ornare eros aliquet.
+ Aliquam quis ligula in libero condimentum pulvinar.
+ Integer a ante metus.
+ Sed eu quam eu lorem cursus posuere.
+ Duis sed ligula leo, a scelerisque elit.
+ Nam pretium, leo in rhoncus scelerisque, felis lacus imperdiet mi, vitae
+ semper lectus nisl volutpat mi.
+ Vivamus id augue mi, quis lacinia enim.
+ Proin tincidunt mattis lacus eu sollicitudin.
+ Maecenas varius diam quis ipsum pharetra a venenatis dui elementum.
+ 
+\end_layout
+
+\begin_layout Standard
+Proin eu leo quis risus congue aliquam quis nec mauris.
+ Donec cursus pretium diam, eget sagittis massa aliquet ut.
+ Suspendisse potenti.
+ Vestibulum adipiscing lorem et urna imperdiet interdum ornare eros aliquet.
+ Aliquam quis ligula in libero condimentum pulvinar.
+ Integer a ante metus.
+ Sed eu quam eu lorem cursus posuere.
+ Duis sed ligula leo, a scelerisque elit.
+ Nam pretium, leo in rhoncus scelerisque, felis lacus imperdiet mi, vitae
+ semper lectus nisl volutpat mi.
+ Vivamus id augue mi, quis lacinia enim.
+ Proin tincidunt mattis lacus eu sollicitudin.
+ Maecenas varius diam quis ipsum pharetra a venenatis dui elementum.
+ 
+\end_layout
+
+\begin_layout Standard
+Proin eu leo quis risus congue aliquam quis nec mauris.
+ Donec cursus pretium diam, eget sagittis massa aliquet ut.
+ Suspendisse potenti.
+ Vestibulum adipiscing lorem et urna imperdiet interdum ornare eros aliquet.
+ Aliquam quis ligula in libero condimentum pulvinar.
+ Integer a ante metus.
+ Sed eu quam eu lorem cursus posuere.
+ Duis sed ligula leo, a scelerisque elit.
+ Nam pretium, leo in rhoncus scelerisque, felis lacus imperdiet mi, vitae
+ semper lectus nisl volutpat mi.
+ Vivamus id augue mi, quis lacinia enim.
+ Proin tincidunt mattis lacus eu sollicitudin.
+ Maecenas varius diam quis ipsum pharetra a venenatis dui elementum.
+ 
+\end_layout
+
+\begin_layout Standard
+Proin eu leo quis risus congue aliquam quis nec mauris.
+ Donec cursus pretium diam, eget sagittis massa aliquet ut.
+ Suspendisse potenti.
+ Vestibulum adipiscing lorem et urna imperdiet interdum ornare eros aliquet.
+ Aliquam quis ligula in libero condimentum pulvinar.
+ Integer a ante metus.
+ Sed eu quam eu lorem cursus posuere.
+ Duis sed ligula leo, a scelerisque elit.
+ Nam pretium, leo in rhoncus scelerisque, felis lacus imperdiet mi, vitae
+ semper lectus nisl volutpat mi.
+ Vivamus id augue mi, quis lacinia enim.
+ Proin tincidunt mattis lacus eu sollicitudin.
+ Maecenas varius diam quis ipsum pharetra a venenatis dui elementum.
+ 
+\end_layout
+
+\begin_layout Chapter*
+Lampiran 2
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{fancy}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyhead{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fancyfoot[C]{L 
+\backslash
+thepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
