@@ -1609,84 +1609,24 @@ JumlahHalaman
 
 \begin_layout Standard
 \paragraph_spacing single
-Permintaan layanan informasi pada suatu bagian dalam satu perusahaan tentu
- menjadi sebuah kegiatan yang rutin terjadi, namun jika permintaan layanan
- informasi dilakukan dalam jumlah yang banyak dan waktu yang padat tentu
- akan menjadi sebuah masalah.
- Untuk menangani permasalahan menumpuknya permintaan layanan informasi tersebut
- banyak diterapkan pengembangan asisten virtual atau biasa disebut dengan
- 
-\emph on
-chatbot
-\emph default
-.
- 
-\emph on
-Chatbot
-\emph default
- merupakan sebuah aplikasi asisten virtual yang memungkinkan pemakai untuk
- berinteraksi untuk mendapatkan respon tertentu secara langsung tanpa perlu
- menunggu operator untuk membalas pesan yang dikirim, sehingga pengembangan
- 
-\emph on
-chatbot
-\emph default
- dirasa cocok untuk menangani permasalahan permintaan layanan informasi
- yang menumpuk.
- Selain itu, pengembangan 
-\emph on
-chatbot
-\emph default
- juga berguna untuk melakukan penghematan terhadap biaya operasional yang
- dikeluarkan oleh perusahaan.
- Pada penelitian ini, dilakukan pembuatan suatu aplikasi 
-\emph on
-chatbot
-\emph default
- dengan 
-\emph on
-platform
-\emph default
- LINE dengan menggunakan metode 
-\emph on
-extreme programming
-\emph default
- dan startegi 
-\emph on
-forward chaining
-\emph default
- yang bertujuan untuk memenuhi kebutuhan informasi bagi kolektor di PT.
- Indomobil Finance Indonesia serta melakukan penghematan terhadap biaya
- operasional yang dikeluarkan oleh PT.
- Indomobil Finance Indonesia.
- Hasil dari pengembangan sistem berjalan pada layanan informasi kolektor
- PT.
- Indomobil Finance Indonesia menghasilkan sebuah aplikasi 
-\emph on
-chatbot
-\emph default
- berbasis LINE.
- Hasil dari pengujian 
-\emph on
-blackbox
-\emph default
- 
-\emph on
-testing
-\emph default
- serta 
-\emph on
-user acceptance test
-\emph default
- telah manghasilkan persentase keberhasilan aplikasi Chatbot Kolektor mencapai
- 95% dan persentase kegagalan 5%, hal tersebut menunjukkan bahwa proses
- pembuatan aplikasi 
-\emph on
-chatbot
-\emph default
- untuk memenuhi kebutuhan layanan informasi bagi kolektor PT.
- Indomobil Finance Indonesia berhasil dilakukan dan seluruh fungsional berjalan
- sesuai dengan yang diharapkan
+Implementasi kecerdasan buatan dalam dunia diskusi telah diklasifikasikan
+ banyak, tetapi banyak dari implementasi ini masih kurang akurat dalam hal
+ akurasi seperti Chord Recognition.
+ Pengenalan Akor adalah sistem atau aplikasi untuk mengetahui atau mengukur
+ akor dengan benar.
+ Untuk membangun sistem, diperlukan metode agar akurasi yang dihasilkan
+ tinggi.
+ Beberapa metode yang sering digunakan adalah metode Convolutional Neural
+ Network (CNN).
+ Penelitian ini bertujuan untuk mengukur akurasi pengenalan akor dari piano
+ dan audio bass dengan menggunakan metode Convolutional Neural Network (CNN)
+ dan memanfaatkan chromagram dalam transformasi audio ke bentuk gambar.
+ Data yang digunakan dalam penelitian ini terdiri dari 12 kelas utama dan
+ 12 kelas minor.
+ Berdasarkan hasil tes yang dilakukan, akurasi setiap kelas memberikan nilai
+ F1 yang cukup bagus.
+ Nilai rata-rata F1 dari tes pengenalan akor keseluruhan berdasarkan nada
+ akar adalah 87%.
 \end_layout
 
 \begin_layout Standard
@@ -1919,33 +1859,24 @@ JumlahHalaman
 
 \begin_layout Standard
 \paragraph_spacing single
-Requests for information services in a section of one company would be a
- routine activity, but if the demand for information services is done in
- large quantities and time-consuming, it would be a problem.
- To deal with the problem of piling up requests for information services,
- many have applied the development of virtual assistants or commonly called
- chatbots.
- Chatbot is a virtual assistant application that allows users to interact
- to get certain responses directly without the need to wait for the operator
- to reply to messages sent, so that the chatbot development is considered
- suitable to handle the problems of information service requests that accumulate.
- In addition, the development of chatbot is also useful to make savings
- on operational costs incurred by the company.
- In this research, a chatbot application with LINE platform was made using
- extreme programming methods and forward chaining strategies aimed to fullfil
- the information needs of collectors at PT.
- Indomobil Finance Indonesia as well as making savings on operational costs
- incurred by PT.
- Indomobil Finance Indonesia.
- The results of the development of the system running on the information
- service collector PT.
- Indomobil Finance Indonesia produces a LINE-based chatbot application.
- The results of the blackbox testing and user acceptance tests have resulted
- in the success of the Chatbot Collector application reaching 95% and the
- failure percentage of 5%, it shows that the process of making the chatbot
- application to meet the information service needs of the PT.
- Indomobil Finance Indonesia was successfully carried out and all functional
- functions were as expected.
+The implementation of artificial intelligence in the world of discussion
+ has been classified as many, but many of these implementations are still
+ less accurate in terms of accuracy such as Chord Recognition.
+ Chord Recognition is a system or application for knowing or measuring chords
+ correctly.
+ To build the system, methods are needed so that the accuracy generated
+ is high.
+ Some methods that are often used are Convolutional Neural Network (CNN)
+ methods.
+ This study aims to measure the accuracy of chord recognition from piano
+ and bass audio by using the Convolutional Neural Network (CNN) method and
+ utilizing chromagrams in the transformation of audio to image form.
+ The data used in this study consisted of 12 major classes and 12 minor
+ classes.
+ Based on the results of tests conducted, the accuracy of each class gives
+ a pretty good F1 value.
+ The average F1 value of the whole chord recognition test based on the root
+ tone is 87%.
 \end_layout
 
 \begin_layout Standard
@@ -2793,7 +2724,7 @@ DosenPembimbing
 
 \begin_layout Enumerate
 Ibu Dr.
- Dina Anggraini, selaku dosen pendamping yang banyak membantu dalam mengarahkan
+ Bertalya, selaku dosen pendamping yang banyak membantu dalam mengarahkan
  penulis untuk menyelesaikan tesis ini.
  
 \end_layout
@@ -4168,7 +4099,7 @@ TELAAH PUSTAKA
 \begin_layout Section
 
 \emph on
-Chatbot
+Tinjauan Pustaka Penelitian
 \end_layout
 
 \begin_layout Standard
@@ -4188,166 +4119,14 @@ noindent
 \end_layout
 
 \begin_layout Standard
-
-\emph on
-Chatbot
-\emph default
- adalah suatu sistem yang memungkinkan untuk membalas pesan yang dikirim
- oleh pengguna secara otomatis tanpa perlu pengawasan.
- 
-\emph on
-Chatbot
-\emph default
- merupakan penggabungan dua kata yaitu 
-\emph on
-chat
-\emph default
- dan 
-\emph on
-bot
-\emph default
-.
- 
-\emph on
-Chat
-\emph default
- adalah sebuha bentuk komunikasi yang dilakukan melalui sebuah tulisan.
- 
-\emph on
-Bot
-\emph default
- merupakan program yang disusun sedemikian rupa yang memiliki pengetahuan
- didalamnya untuk dapat memberikan respon secara otomatis.
- Sehingga 
-\emph on
-Chatbot
-\emph default
- dapat diartikan sebagai sebuah program yang mampu memberikan respon secara
- otomatis melalui media pesan atau tulisan serta dapat memberikan informasi
- dengan cepat dan efisien 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Waskito2019"
-literal "false"
-
-\end_inset
-
-.
+Penelitian ini dilakukan dengan terlebih dahulu membahas sejumlah teori
+ dan konsep yang berhubungan dengan metode CNN.
+ Landasan teori yang dibahas terdiri dari audio, akor, bass, Beat Tracking,
+ Chromagram, dan Metode CNN.
 \end_layout
 
-\begin_layout Standard
-
-\emph on
-Chatbot
-\emph default
- (juga dikenal sebagai 
-\emph on
-talkbot
-\emph default
-, 
-\emph on
-chatterbot
-\emph default
-, 
-\emph on
-bot
-\emph default
-) juga dapat diartikan sebagai sebuah perankat lunak yang dirancang secara
- khusus untuk mensimulasikan percakapan intelektual dengan satu atau lebih
- manusia.
- Contoh dari penggunaan 
-\emph on
-chatbot
-\emph default
- secara yang saat ini sudah berjalan antara lain 
-\emph on
-weather bot 
-\emph default
-untuk mengetahui cuaca terkini, 
-\emph on
-grocery bot
-\emph default
- untuk membantu memilih dan memesan bahan makanan, 
-\emph on
-news bot 
-\emph default
-untuk memberikan informasi terbaru, 
-\emph on
-life advice bot
-\emph default
- untuk membantu memberikan solusi atas suatu masalah yang ditentukan pada
- 
-\emph on
-chatbot
-\emph default
-, 
-\emph on
-personal finance bot
-\emph default
- untuk membantu mengatur rencana keuangan, 
-\emph on
-scheduling bot
-\emph default
- untuk membantu menyusun jadwal kegiatan sehari-hari.
-\end_layout
-
-\begin_layout Standard
-Cara kerja 
-\emph on
-chatbot
-\emph default
- ini adalah dengan mengirim permintaan dalam bentuk teks lalu mereka akan
- memberikan respon sesuai kebutuhan yang diminta oleh pengguna.
- Ada dua jenis 
-\emph on
-chatbot
-\emph default
-, pertama berdasarkan pada seperangkat aturan, dan versi yang lebih canggih
- lainnya menggunakan 
-\emph on
-machine learning
-\emph default
-.
- 
-\emph on
-Chatbot
-\emph default
- yang berfungsi berdasarkan aturan hanya dapat memberikan respon kepada
- perintah yang sudah ditentukan dalam tahap 
-\emph on
-coding
-\emph default
- pembuatan 
-\emph on
-chatbot
-\emph default
- tersebut.
- 
-\emph on
-Chatbot
-\emph default
- yang menggunakan 
-\emph on
-machine learning
-\emph default
- atau biasa dikenal sebagai 
-\emph on
-smartbot
-\emph default
- adalah 
-\emph on
-chatbot
-\emph default
- yang dapat menganggapi permintaan dalam bahasa natural yang bebas, tidak
- sebatas perintah yang sudah ditentukan polanya .
-\end_layout
-
-\begin_layout Section
-LINE (
-\emph on
-Messaging LINE API
-\emph default
-)
+\begin_layout Subsection
+Audio 
 \end_layout
 
 \begin_layout Standard
@@ -4367,178 +4146,38 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Line adalah sebuah aplikasi pengirim pesan instan yang dapat digunakan pada
- berbagai 
-\emph on
-platform
-\emph default
- seperti 
-\emph on
-smartphone
-\emph default
-, tablet, atau komputer.
- LINE difungsikan dengan menggunakan jaringan internet sehingga pengguna
- LINE dapat melakukan aktivitas seperti mengirim pesan teks, mengirim gambar,
- video, pesan suara, dan aktivitas lainnya.
- LINE diklaim sebagai aplikasi pengirim pesan instan terlaris di 42 negara
- .
-\end_layout
-
-\begin_layout Standard
-LINE 
-\emph on
-platform
-\emph default
- akan mengirimkan informasi ke server setiap kali ada interaksi antara pengguna
- dengan akun yang telah dibuat.
- Terdapat dua jenis interaksi yang dikenali oleh 
-\emph on
-platform
-\emph default
- Line :
-\end_layout
-
-\begin_layout Enumerate
-Pengguna mengirimkan pesan.
-\end_layout
-
-\begin_layout Enumerate
-Pengguna melakukan sebuah aksi atau sebuah operasi, seperti menjadikan akun
- bisnis sebagai teman.
-\end_layout
-
-\begin_layout Standard
-Informasi dikirim dalam format 
-\emph on
-JSON
-\emph default
- melalui protokol 
-\emph on
-HTTPS
-\emph default
- ke 
-\emph on
-URL
-\emph default
- yang sudah didaftarkan sebagai 
-\emph on
-webhook
-\emph default
-.
- Struktur data 
-\emph on
-JSON
-\emph default
- yang dikirim akan bervariasi tergantung dari jenis pesan atau operasi yang
- akan digunakan oleh pengguna.
- Setiap 
-\emph on
-request
-\emph default
- menyertakan kode 
-\emph on
-access token
-\emph default
- yang wajib digunakan untuk memverifikasi bahwa 
-\emph on
-request
-\emph default
- yang diterima adalah benar-benar dari 
-\emph on
-platform
-\emph default
- LINE.
- Jika 
-\emph on
-access token
-\emph default
- tidak dikenali, maka 
-\emph on
-request
-\emph default
- dianggap tidak valid dan tidak akan mendapatkan respon dari LINE.
-\end_layout
-
-\begin_layout Standard
-Ada beberapa fitur yang dapat dimanfaatkan pada 
-\emph on
-Messaging API
-\emph default
- pada 
-\emph on
-plaform
-\emph default
- LINE, yaitu :
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-Push Message
-\emph default
- yang digunakan untuk Mengirim pesan langsung kepada pengguna yang sudah
- menambahkan akun 
-\emph on
-bot
-\emph default
- sebagai teman.
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-Reply Message
-\emph default
- Membalas pesan yang dikirim pengguna ke akun 
-\emph on
-bot
-\emph default
-.
- Notifikasi terkait aksi yang dilakukan oleh pengguna akan dikirimkan ke
+Audio adalah sebuah deret waktu, dimana sumbu y adalah amplitudo arus yang
+ sesuai dengan sebuah membran loudspeaker dan sumbu x adalah sumbu yang
+ sesuai dengan satuan waktu data tersebut.
+ Telinga manusia hanya dapat mendengar bunyi dengan rentang frekuensi antara
+ 20 Hz hingga 20 KHz (20.000Hz).
+ Angka 20 Hz sebagai frekuensi suara terendah yang dapat didengar, sedangkan
+ 20 KHz merupakan frekuensi tertinggi yang dapat didengar.
+ Gelombang suara mengandung sejumlah komponen penting, seperti amplitudo,
+ panjang gelombang, dan frekuensi.
+ Komponen-komponen tersebut mampu membuat suara yang satu berbeda dengan
+ suara yang lain.
  
-\emph on
-URL webhook
-\emph default
-.
 \end_layout
 
-\begin_layout Enumerate
-
-\emph on
-Imagemap Message
-\emph default
- Mengirim gambar dengan teks dan tautan didalamnya.
- 
-\emph on
-Imagemap 
-\emph default
-dapat digunakan untuk mengirim konten seperti berita pengumuman, kupon,
- promo spesial, dan posting blog.
+\begin_layout Standard
+Amplitudo sendiri merupakan kekuatan atau daya gelombang sebuah sinyal.
+ Nilai amplitudo diinterpretasikan sebagai volume.
+ Semakin besar nilai dari sebuah amplitudo, maka semakin keras suara yang
+ dihasilkan.
+ Sebaliknya, jika nilai dari suatu amplitudo semakin kecil, maka suara yang
+ dihasilkan semakin lemah.
+ Frekuensi adalah jumlah dari siklus yang terjadi dalam satu detik dan memiliki
+ satuan Hertz (Hz).
+ Getaran gelombang suara yang cepat membuat frekuensi semakin tinggi.
+ Misalnya, menyanyi nada tinggi membuat tali suara pada pita suara bergetar
+ secara cepat.
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Subsection
 
 \emph on
-Template messages
-\emph default
- Mengirimkan pesan dengan bentuk dan format yang beragam, seperti gambar,
- teks, opsi pilihan dan tombol.
-\end_layout
-
-\begin_layout Enumerate
-Menjalankan 
-\emph on
-Bot
-\emph default
- di 
-\emph on
-Room
-\emph default
- dan 
-\emph on
-Group 
-\emph default
-Berinteraksi dengan pengguna di dalam grup seperti halnya chat ke personal.
+Akor
 \end_layout
 
 \begin_layout Standard
@@ -4558,92 +4197,69 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Secara umum, arsitektur dari line ditunjukan pada gambar berikut ini :
+Akor adalah sebuah kombinasi tiga nada atau lebih yang dibunyikan secara
+ bersamaan.
+ Akor tiga not yang berjarak tiga scale pada root sampai not ketiga disebut
+ triad.
+ Untuk mempermudah pemusik dalam menentukan apakah suatu kombinasi dari
+ tiga nada tertentu merupakan sebuah triad atau bukan, maka pemusik dapat
+ membentuk diagram circle of thirds.
+ Scale atau skala nada merupakan jarak yang menandakan lokasi suatu nada
+ dengan titik mulai tertentu.
+ Terdapat empat jenis triad yang dibedakan berdasarkan skala nadanya, diantarany
+a :
+\end_layout
+
+\begin_layout Enumerate
+Major Triad
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Arsitektur_Line_Messaging.png
-	scale 50
-
-\end_inset
-
-
+Major triad merupakan tiga nada yang dibunyikan dengan skala nada 1-2- 1,5.
+ Akor major menunjukan identitas suatu bagian lagu lebih dekat dengan root
+ karena ada satu buah akor major yang menempati Scale I.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Arsitektur
-\emph on
- LINE Messaging API
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+\begin_layout Enumerate
+Minor triad
 \end_layout
 
 \begin_layout Standard
-LINE memberikan fasilitas untuk membuat akun bisnis yang dapat memungkinkan
- 
-\emph on
-bot 
-\emph default
-mengirim pesan ke 
-\emph on
-customer 
-\emph default
-dan juga berkomunikasi langsung dengan pelanggan.
- Komunikasi tersebut dapat berbentuk chat langsung maupun dengan menggunakan
- fasitiliras 
-\emph on
-auto reply 
-\emph default
-dan 
-\emph on
-keyword reply
-\emph default
- yang disediakan oleh LINE.
- 
-\emph on
-Messaging API 
-\emph default
-dapat membuat respon yang fleksibel sehingga mampu disesuaikan dengan kebutuhan
- khusus yang tak tertangani fitur 
-\emph on
-auto reply 
-\emph default
-dan 
-\emph on
-keyword reply 
-\emph default
-standar.
- Melalui penggunaan 
-\emph on
-Messaging API
-\emph default
-, aplikasi akan mampu bertukar informasi dengan server melalui platform
- LINE .
+Minor triad merupakan tiga nada yang dibunyikan dengan skala 1-1,5-2.
 \end_layout
 
-\begin_layout Section
+\begin_layout Enumerate
+Diminished triad
+\end_layout
 
-\emph on
-Extreme Programming
+\begin_layout Standard
+Diminished triad merupakan tiga nada yang dibunyikan dengan skala 1- 1,5-1,5.
+\end_layout
+
+\begin_layout Enumerate
+Augmented triad
+\end_layout
+
+\begin_layout Standard
+Augmented triad merupakan tiga nada yang dibunyikan dengan skala 1- 1,5-2,5.
+\end_layout
+
+\begin_layout Standard
+Akor seventh merupakan akor empat not yang kelas pitchnya dapat diatur sebagai
+ sepertiga.
+ Skala nada akor major seventh adalah 1-2-1,5-2.
+ Sedangkan skala nada untuk minor seventh adalah 1-1,5-2-2.
+ Sama halnya dengan triad, kelas nada yang dimiliki oleh akor seventh menempati
+ posisi yang berdekatan (rumpun empat kelas) pada lingkaran pertiga.
+ Keempat anggota akor ketujuh adalah root, third, fifth, dan seventh.
+ Terdapat suatu cara untuk melakukan teknik blocking pada akor minor seventh.
+ Dengan memanfaatkan teknik blocking, maka root dapat berperan sebagai nada
+ bass.
+ Sementara third, fifth, dan seventh sebagai major triad.
+\end_layout
+
+\begin_layout Subsection
+Beat Tracking
 \end_layout
 
 \begin_layout Standard
@@ -4663,360 +4279,28 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Metode pengembangan sistem yang digunakan adalah menggunakan metodologi
- 
-\emph on
-Extreme Programming
-\emph default
-.
-
-\emph on
- Extreme Programming (XP)
-\emph default
- merupakan salah satu metode pengembangan perangkat lunak yang termasuk
- dalam metode pengembangan perangkat lunak 
-\emph on
-agile development
-\emph default
-.
- 
-\emph on
-Extreme Programming (XP)
-\emph default
- menggunakan pendekatan 
-\emph on
-object oriented 
-\emph default
-dan mencakup seperangkat aturan yang terjadi dalam 4 kerangka kegiatan:
- 
-\emph on
-planning
-\emph default
-, 
-\emph on
-design
-\emph default
-, 
-\emph on
-coding
-\emph default
-, and 
-\emph on
-testing
-\emph default
- .
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-Planning
-\emph default
-, tahapan awal dari 
-\emph on
-extreme programming 
-\emph default
-adalah dengan mengumpulkan kebutuhan yang memungkinkan para anggota dari
- tim XP untuk dapat memahami konteks bisnis dari perangkat lunak yang akan
- dibuat.
- Hal ini juga bertujuan untuk mendapat wawasan yang luas untuk 
-\emph on
-output
-\emph default
- apa yang diperlukan serta fitur-fitur utama dari perangkat lunak yang akan
- dibangun.
- Tahap ini akan mengarah pada pembuatan “
-\emph on
-stories
-\emph default
-” atau alur cerita yang menggambarkan 
-\emph on
-output
-\emph default
- yang dibutuhkan, fitur, dan fungsi dari perangkat lunak yang akan dibuat.
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-Design
-\emph default
-, metode XP identik dengan aturan KIS (
-\emph on
-KeepItSimple
-\emph default
-).
- Aturan ini berjalan dengan cara konsep desain yang sederhana selalu diutamakan
- dibandingkan dengan representasi yang kompleks.
- Jika terdapat design yang sulit, XP akan menerapkan cara pembuatan 
-\emph on
-design
-\emph default
- yang dilakukan seacar segera, dan dibuat langsung ke tujuannya.
- XP juga mendukung adanya 
-\emph on
-refactoring
-\emph default
- yang memungkinkan untuk melakukan perubahan pada kode program untuk disederhana
-kan tanpa merubah cara kode tersebut bekerja.
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-Coding
-\emph default
-, setelah “
-\emph on
-stories
-\emph default
-” atau alur cerita sudah dirancang dan desain awal sudah disetujui oleh
- user, tim tidak langsung memulai tahap 
-\emph on
-code
-\emph default
-, tetapi sebelum memulai tahap 
-\emph on
-code
-\emph default
-, tim terlebih dahulu merancang beberapa 
-\emph on
-unit test
-\emph default
- yang digunakan untuk menjalankan “
-\emph on
-stories
-\emph default
-” dan disertakan pada 
-\emph on
-software release
-\emph default
- saat itu.
- Setelah itu, pengembang fokus untuk mengimplementasikannya.
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-Testing
-\emph default
-, tahap testing dengan melakukan pengujian kode pada 
-\emph on
-unit test 
-\emph default
-yang telah dibuat sebelumnya.
- Pada metode XP dilakukan 
-\emph on
-user acceptance test
-\emph default
- (
-\emph on
-UAT
-\emph default
-) atau biasa disebut
-\emph on
- customer test
-\emph default
-.
- Tes ini diberikan kepada 
-\emph on
-user 
-\emph default
-yang akan menggunakan fitur dan fungsi sistem yang sedang dibuat.
+Beat tracking digunakan untuk menentukan contoh waktu dalam rekaman audio,
+ di mana pendengar manusia cenderung mengetuk kakinya ke musik.
+ Beat tracking pada rancangan menggunakan metode dynamic programming.
+ Dynamic programming atau dynamic optimization bukan merupakan rumus matematika
+ yang mampu memberikan jawaban dengan hanya sekedar memberikan input.
+ Sebaliknya, dynamic programming adalah kombinasi pemikiran terstruktur
+ dan pola pikir analitis untuk menyelesaikan sebuah permasalahan.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
+Untuk melakukan beat tracking, hal yang harus dilakukan terlebih dahulu
+ adalah mencari sinyal yang berupa onset.
+ Onset merupakan lokasi dimana sinyal berada pada nilai yang tinggi secara
+ tiba-tiba.
+ Onset yang ditemukan kemudian dilakukan penandaan.
+ Onset yang ditemukan bisa saja merupakan false positive.
+ Untuk mengurangi false positive tersebut, maka harus dilakukan perhitungan
+ untuk menemukan urutan umum terpanjang dari onset.
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Extreme_Programming.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Arsitektur
-\emph on
- Extreme Programming
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Visual Basic Net.
- 2010
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Microsoft Visual Studio adalah sebuah 
-\emph on
-Integrated Development Environment
-\emph default
- yang dibuat dan dikembangkan oleh Microsoft Corporation.
- Microsoft Visual Studio dapat digunakan sebagai media untuk mengembangkan
- aplikasi dengan cara 
-\emph on
-native code
-\emph default
- (dalam bentuk bahasa mesin yang berjalan di atas Windows) maupun dengan
- cara 
-\emph on
-managed code
-\emph default
- (dalam bentuk Microsoft 
-\emph on
-Intermediate Language
-\emph default
- yang berjalan di atas .NET Framework).
- Selain itu, Visual Studio juga dapat digunakan untuk mengembangkan aplikasi
- 
-\emph on
-Windows Mobile
-\emph default
- (yang berjalan di atas .NET Compact Framework).
- Visual Basic mencakup sebuah kode editor yang didukung oleh fitur 
-\emph on
-intellisense
-\emph default
- atau yang disebut dengan 
-\emph on
-code refactoring
-\emph default
-.
- 
-\emph on
-Debugger
-\emph default
- telah terintegrasi dalam bahasa pemrograman Visual Basic ini.
- 
-\emph on
-Toll built in 
-\emph default
-mencakup 
-\emph on
-form
-\emph default
- desainer untuk membangun sebuah aplikasi GUI, 
-\emph on
-web designer
-\emph default
-, 
-\emph on
-class designer
-\emph default
- dan 
-\emph on
-database schema designer
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Microsoft Visual Studio didukung bahasa pemrograman yang berbeda.
- Bahasa pemrograman yang didukung oleh Visual Basic Studio antara lain bahasa
- pemrograman C++, Visual Basic, dan Visual C#.
- Visual Studio juga dapat mendukung bahasa pemrograman lain seperti M, phyton
- dan ruby yang semuanya itu terdapat pada paket 
-\emph on
-install 
-\emph default
-yang terpisah dari visual studio.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Visual_Studio_2010.jpg
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Tampilan antarmuka Visual Studio 2010
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
+\begin_layout Subsection
 SQL Server 2012
 \end_layout
 
@@ -5037,245 +4321,38 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Microsoft SQL Server 2012 adalah sebuah media penyimpanan untuk data dan
- objek, termasuk didalamnya tabel, 
-\emph on
-view
-\emph default
-, 
-\emph on
-stored procedure
-\emph default
-, akun pengguna, dan 
-\emph on
-tools 
-\emph default
-manajemen lainnya.
- Database SQL Server selalu memiliki 1 esensi tunggal, yang didalamnya didukung
- oleh beberapa file fisik.
+Chromagram adalah transformasi properti frekuensi-waktu sinyal menjadi prekursor
+ pitch yang berubah-ubah untuk sementara waktu.
+ Transformasi ini didasarkan pada pengamatan persepsi tentang sistem pendengaran
+ dan telah terbukti memiliki beberapa sifat matematika yang menarik.
+ Chromagram memperluas konsep chroma untuk memasukkan dimensi waktu.
+ Seperti halnya kita menggunakan spektrogram untuk menyimpulkan properti
+ tentang distribusi energi sinyal dari frekuensi dan waktu, chromagram dapat
+ digunakan untuk menyimpulkan properti tentang distribusi energi sinyal
+ terhadap kroma dan waktu.
  
 \end_layout
 
 \begin_layout Standard
-Ketika aplikasi client mengirim perintah ke mesin database sebagai sebuah
- pernyataan T-SQL, SQL server melakukan semua kegiatan terhadap berkas,
- 
-\emph on
-memory
-\emph default
-, dan pemanfaatan prosesor atas nama 
-\emph on
-user
-\emph default
-.
- 
-\emph on
-User
-\emph default
- tidak pernah mengakses 
-\emph on
-database
-\emph default
- secara langsung, seperti aplikasi dalam aplikasi 
-\emph on
-database 
-\emph default
-desktop.
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Pada arsitektur Microsoft SQL Server 2012 memiliki tiga macam bagian, yaitu
- :
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-Service
-\emph default
- yang didalamnya terdapat beberapa layanan dari SQL Server 2012 : 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-SQL Server 
-\emph on
-database engine 
-\emph default
-2012, yang bertanggung jawab untuk melaksanakan perintah yang disampaikan
- dalam Transact-SQL, ORT-SQL, bahasa, manajemen 
-\emph on
-database
-\emph default
-, memori dan alokasi 
-\emph on
-disk
-\emph default
-, dan fitur inti lainnya dari SQL Server.
-\end_layout
-
-\begin_layout Itemize
-SQL 
-\emph on
-Server Agent
-\emph default
-, yang bertanggung jawab untuk melaksanakan pekerjaan dijadwalkan, pemantauan
- sistem untuk kondisi waspada didefinisikan, dan tugas-tugas administrasi
- lainnya.
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-Business Intelligence Components 
-\emph default
-(Komponen Intelijen Bisnis), termasuk SQL Server 
-\emph on
-Reporting Services
-\emph default
-, SQL Server 
-\emph on
-Analysis Services
-\emph default
-, dan SQL Server 
-\emph on
-Integration Services
-\emph default
-.
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-
-\emph on
-Instances
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-Unit dasar instalasi dan Program eksekusi untuk SQL Server adalah 
-\emph on
-Instances
-\emph default
-.
- 
-\emph on
-Instances 
-\emph default
-merupakan salinan dari program SQLServer.exe, yang berjalan pada layanan
- Windows.
- Sebuah 
-\emph on
-Instances
-\emph default
- mewakili program dan alokasi sumber daya yang mendukung sebuah salinan
- dari SQL Server yang sedang berjalan pada komputer, seperti 
-\emph on
-memory
-\emph default
-, konfigurasi file, dan CPU.
- Setiap 
-\emph on
-Instances 
-\emph default
-terisolasi dari 
-\emph on
-instances 
-\emph default
-lain pada komputer yang sama, termasuk file 
-\emph on
-disk 
-\emph default
-yang digunakan, izin keamanan, dan sumber daya yang dialokasikan.
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-
-\emph on
-Tools
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-Bekerja dengan SQL Server Management Studio, atau yang biasa disebut dengan
- SSMS.
- SSMS adalah manajemen terpadu, yang memiliki pengembangan, dan penerapan
- 
-\emph on
-query 
-\emph default
-dengan banyak fitur untuk menjelajahi dan bekerja dengan 
-\emph on
-database
-\emph default
-.
- Berikut fitur dari Microsoft SQL Server 2012 :
-\end_layout
-
-\begin_layout Itemize
-SQL Server Pusat Instalasi, yang menyediakan kemampuan untuk menambah, menghapus
-, dan memodifikasi fitur program SQL Server.
-\end_layout
-
-\begin_layout Itemize
-SQL Server 
-\emph on
-Configuration Manager
-\emph default
-, yang mengatur alat untuk administrator, juga termasuk fitur yang berguna
- untuk mengelola 
-\emph on
-software 
-\emph default
-SQL Server untuk dapat diinstal pada mesin klien, seperti kemampuan untuk
- membuat dan mengelola alias untuk SQL Server.
-\end_layout
-
-\begin_layout Itemize
-SQLCMD, adalah baris perintah yang memungkinkan 
-\emph on
-user
-\emph default
- untuk mengirimkan perintah T-SQL sebagai alternatif menggunakan aplikasi
- grafis SSMS.
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
+Terdapat dua masalah yang muncul dalam mengembangkan konsep chromagram ini,
+ yakni definisi dan bagaimana cara menghitung chromagram.
+ Chroma adalah pemetaan banyak-ke-satu (many-to-one) frekuensi, sementara
+ chromagram adalah ukuran kekuatan sinyal sebagai fungsi dari chroma dan
+ waktu.
+ Oleh karena itu, chromagram dapat didefinisikan sebagai pemetaan banyak-ke-satu
+ (many-to-one) kekuatan sinyal pada frekuensi milik kelas chroma yang sama.
+ Pembagian antara transformasi langsung dari sinyal asli dan transformasi
+ dari gambar frekuensiwaktu dapat digunakan untuk menghitung chromagram.
+ Contoh chromagram dapat dilihat dengan jelas pada Gambar 1.3.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/SQL_Server_2012.jpg
-	scale 50
-
-\end_inset
-
 
 \end_layout
 
@@ -5283,7 +4360,9 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Tampilan Antarmuka SQL Server 2012
+ini Isi nya gambar Gambar 1.3 Chromagram dari sebuah alat musik Clarinet
+ [https://users.cs.northwestern.edu/~pardo/courses/eecs352/lectures/MPM16-
+ topic7-Spectrogram-Chroma-Cepstra.pdf]
 \end_layout
 
 \end_inset
@@ -5291,15 +4370,19 @@ Tampilan Antarmuka SQL Server 2012
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 
 \emph on
-Restful Web Service
+Windowing
 \end_layout
 
 \begin_layout Standard
@@ -5319,179 +4402,201 @@ noindent
 \end_layout
 
 \begin_layout Standard
-
-\emph on
-Representational State Transfer
-\emph default
- (REST) adalah sebuah bagian dari protokol HTTP (
-\emph on
-Hypertext Transfer Protocol
-\emph default
-) dimana 
-\emph on
-REST
-\emph default
- mampu menyediakan antarmuka yang dapat membuat, mengambil, memperbarui,
- menghapus dan memanipulasi sumber daya dengan pertukaran representasi .
+Windowing berfungsi untuk meminimalisir sinyal yang tak kontinu pada awal
+ dan akhir masing-masing frame.
+ Nilai panjang filter didapatkan dengan menggunakan rumus di bawah.
+ Nilai panjang tersebut akan dipakai untuk membuat respon impulse di simulasi
+ dan implementasi.
+ Nilai panjang filter juga akan berpengaruh kepada faktor roll-off atau
+ faktor kelandaian dari suatu filter.
+ 
 \end_layout
 
 \begin_layout Standard
-Metode yang dapat dilakukan didalam sebuah 
-\emph on
-RESTful Web Service
-\emph default
-, diantaranya:
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-GET
-\emph default
-, digunakan untuk mendapatkan sebuah sumber daya yang diidentifikasi dengan
- URI (
-\emph on
-Uniform Resource Identifier
-\emph default
-).
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-POST
-\emph default
-, digunakan untuk mengirimkan sumber daya ke server.
- Metode POST ini digunakan untuk membuat sumber daya baru.
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-PUT
-\emph default
-, digunakan untuk mengirimkan sumber daya ke server.
- Metode POST ini digunakan untuk memasukkan atau memperbarui sumber daya
- yang telah ada.
-\end_layout
-
-\begin_layout Enumerate
-
-\emph on
-DELETE
-\emph default
-, digunakan untuk menghapus sumber daya yang diidentifikasi dengan URI
+Rumus untuk menghitung window dapat dilihat pada persamaan 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
+1.
+ 
 \end_layout
 
-\end_inset
+\begin_layout Standard
+𝑌𝑡(𝑛) = 𝑥𝑡(𝑛) 𝑤(𝑛), 0 ≤ 𝑛 ≤ 𝑁 − 1 (1) 
+\end_layout
 
+\begin_layout Standard
+Rumus untuk menghitung Hamming Window dapat dilihat pada persamaan
+\end_layout
+
+\begin_layout Standard
+2.
+ 
+\end_layout
+
+\begin_layout Standard
+𝑤(𝑛) = 0.54 − 0.46 𝑐𝑜𝑠 𝑐𝑜𝑠 (2𝑁𝜋−𝑛1) , 0 ≤ 𝑛 ≤ 𝑁 − 1 (2)
+\end_layout
+
+\begin_layout Standard
+Keterangan: 
+\end_layout
+
+\begin_layout Standard
+𝑁 = Panjang setiap frame 
+\end_layout
+
+\begin_layout Standard
+𝑥𝑡(𝑛) = Sinyal masukan ke-n pada frame ke-t 
+\end_layout
+
+\begin_layout Standard
+𝑤(𝑛) = Fungsi Hamming Window 
+\end_layout
+
+\begin_layout Standard
+𝑌𝑡(𝑛) = Nilai hasil windowing untuk sinyal masukan ke-n pada frame ke-t
+\end_layout
+
+\begin_layout Standard
+Data mentah dari masukan yang pertama kali dibaca oleh bahasa pemrograman
+ Python adalah sinyal dalam domain waktu.
+ Data sinyal dalam domain waktu tersebut perlu diubah ke dalam satuan frekuensi.
+ Proses untuk mengubah data mentah yang berbentuk sinyal tersebut diubah
+ dengan menggunakan metode Discrete Fourier Transform (DFT).
+ Pada tahap ini, setiap frame yang terdiri dari N sampel dikonversi dari
+ domain waktu ke domain frekuensi.
+ Rumus dari DFT dapat dilihat di dalam persamaan 3.
+\end_layout
+
+\begin_layout Standard
+𝑋(𝑘) = ∑𝑁 𝑛=−01 𝑥(𝑛)𝑒(−𝑗2𝑁𝜋𝑛𝑘), 𝑘 = 0,1, … , 𝑁 − 1 (3)
+\end_layout
+
+\begin_layout Standard
+Keterangan: 
+\end_layout
+
+\begin_layout Standard
+𝑋(𝑘) = Nilai transformasi Fourier (FT) ke-k 
+\end_layout
+
+\begin_layout Standard
+𝑥(𝑛) = Input signal ke-n 
+\end_layout
+
+\begin_layout Standard
+𝑁 = Panjang input signal
+\end_layout
+
+\begin_layout Standard
+Hasil proses windowing pada persamaan 1 kemudian dimasukan sebagai input
+ signal ke-n, sehingga menghasilkan persamaan 4.
+\end_layout
+
+\begin_layout Standard
+𝑍𝑡(𝑘) = ∑𝑁 𝑛=−01 𝑌𝑡(𝑛)𝑒(−𝑗2𝑁𝜋𝑛𝑘), 𝑘 = 0,1, … , 𝑁 − 1 (4)
+\end_layout
+
+\begin_layout Standard
+𝑒𝑖𝜃 =𝑐𝑜𝑠 𝑐𝑜𝑠 𝜃 +𝑠𝑖𝑛 𝑠𝑖𝑛 𝜃 (5) 
+\end_layout
+
+\begin_layout Standard
+Berdasarkan rumus Euler pada persamaan 5, dengan e adalah bilangan eksponen,
+ i adalah bilangan imajiner, dan cos dengan sin adalah fungsi trigonometri.
+ Jika persamaan 5 disubstitusikan ke persamaan 4 maka rumus DFT menjadi
+ persamaan 6 di bawah ini.
+\end_layout
+
+\begin_layout Standard
+𝑍𝑡(𝑘) = ∑𝑁 𝑛=−01 𝑌𝑡(𝑛) [𝑐𝑜𝑠 𝑐𝑜𝑠 (2𝜋𝑛𝑘 𝑁 ) − 𝑗 𝑠𝑖𝑛 𝑠𝑖𝑛 (2𝜋𝑛𝑘 𝑁 ) ] (6) 
+\end_layout
+
+\begin_layout Standard
+𝑘 = 0,1, … , 𝑁 − 1 
+\end_layout
+
+\begin_layout Standard
+Keterangan: 
+\end_layout
+
+\begin_layout Standard
+𝑍𝑡(𝑘) = Nilai FT yang mengandung bilangan kompoleks 
+\end_layout
+
+\begin_layout Standard
+𝑌𝑡(𝑛) = Nilai hamming window ke-n pada frame ke-t 
+\end_layout
+
+\begin_layout Standard
+𝑗 = Bilangan imajiner
+\end_layout
+
+\begin_layout Standard
+Hasil perhitungan pada persamaan 6 mengandung bilangan riil dan imajiner.
+ Oleh karena itu, nilai Fourier spektrum didapat dari nilai magnitude yang
+ dibentuk kedua bilangan riil dan imajiner.
+ Besar nilai magnitude dari persamaan z = x + y tersebut dihitung di dalam
+ persamaan 7.
+\end_layout
+
+\begin_layout Standard
+𝑟 = 𝑀(𝑛) = √𝑥2 + 𝑦2 (7)
+\end_layout
+
+\begin_layout Standard
+Keterangan: 
+\end_layout
+
+\begin_layout Standard
+𝑧 = Nilai FT yang mengandung bilangan kompleks 
+\end_layout
+
+\begin_layout Standard
+𝑀(𝑛) = Magnitude 
+\end_layout
+
+\begin_layout Standard
+𝑥 = koefisien bagian riil 
+\end_layout
+
+\begin_layout Standard
+𝑦 = Koefisien bagian imajiner
+\end_layout
+
+\begin_layout Subsection
+
+\emph on
+Convolutional Neural Network (CNN)
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/arsitektur_rest.jpg
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Arsitektur
-\emph on
- RESTful API
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-
-\emph on
-Forward Chaining
+Convolutional Neural Network (CNN) adalah salah satu jenis neural network
+ yang biasa digunakan pada data image.
+ CNN bisa digunakan untuk mendeteksi dan mengenali objek pada sebuah image.
+ CNN terdiri dari neuron yang memiliki weight, bias, dan fungsi aktivasi.
+ Cara kerja CNN memiliki kesamaan pada MLP, namun dalam CNN setiap neuron
+ dipresentasikan dalam bentuk dua dimensi, tidak seperti MLP yang setiap
+ neuron hanya berukuran satu dimensi.
+ Pada CNN, data yang dipropagasikan oleh jaringan adalah data dua dimensi,
+ sehingga operasi linear dan parameter bobot pada CNN berbeda.
+ Pada CNN operasi linear menggunakan operasi konvolusi, sedangkan bobot
+ tidak lagi satu dimensi saja, namun berbentuk empat dimensi yang merupakan
+ kumpulan kernel konvolusi.
+ Karena sifat proses konvolusi, maka CNN hanya dapat digunakan pada data
+ yang memiliki struktur dua dimensi seperti citra dan suara.
+ Arsitektur dari CNN dibagi menjadi dua bagian besar, Feature Extraction
+ Layer dan Fully-Connected Layer (MLP).
+ Arsitektur CNN dapat dilihat pada Gambar 1.4.
 \end_layout
 
 \begin_layout Standard
-Metode 
-\emph on
-Forward Chaining
-\emph default
- adalah sebuah metode pencarian yang digunakan dengan cara teknik pelacakan
- ke depan.
- Metode ini dimulai dengan informasi yang ada dan digabungkan dengan rule
- untuk menghasilkan suatu kesimpulan atau tujuan .
- Metode 
-\emph on
-Forward chaining 
-\emph default
-secara umum menghasilkan sebuah tujuan atau kesimpulan, dan merupakan suatu
- metode inferensi yang melakukan penalaran dari suatu masalah kepada solusinya.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Forward_Chaining.jpg
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Arsitektur
-\emph on
- Forward Chaining
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+Gambar 1.4 Arsitektur Convolutional Neural Network
 \end_layout
 
 \begin_layout Section
