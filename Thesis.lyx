@@ -4572,10 +4572,6 @@ Convolutional Neural Network (CNN)
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 Convolutional Neural Network (CNN) adalah salah satu jenis neural network
  yang biasa digunakan pada data image.
  CNN bisa digunakan untuk mendeteksi dan mengenali objek pada sebuah image.
@@ -4599,82 +4595,44 @@ Convolutional Neural Network (CNN) adalah salah satu jenis neural network
 Gambar 1.4 Arsitektur Convolutional Neural Network
 \end_layout
 
-\begin_layout Section
-Pengujian Perangkat Lunak
+\begin_layout Standard
+I Wayan Suartika Eka Putra (2016) dalam penelitiannya yang berjudul Klasifikasi
+ Citra Menggunakan Convolutional Neural Network (CNN) pada Caltech 101 mengimple
+mentasikan.
+ salah satu metode machine learning yang dapat digunakan untuk klasifikasi
+ citra objek yaitu CNN.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
+Pada penelitian yang dilakukan, peneliti mengimplementasikan metode CNN
+ yang terdiri dari dua tahap.
+ Tahap pertama adalah klasifikasi citra menggunakan feedforward.
+ Tahap kedua merupakan tahap pembelajaran dengan metode backpropagation.
+ Hasil uji coba dari klasifikasi citra objek dengan tingkat confusion yang
+ berbeda pada basis data Caltech 101 menghasilkan rata-rata nilai akurasi
+ tergolong tinggi, sehingga dapat disimpulkan bahwa metode CNN yang digunakan
+ pada penelitian tersebut mampu melakukan klasifikasi dengan baik.
 \end_layout
 
 \begin_layout Standard
-Pengujian perangkat lunak sangat dibutuhkan disetiap pengembangan atau pembuatan
- perangkat lunak.
- Hal ini bertujuan untuk memastikan sebuah perangkat lunak sudah sesuai
- dengan fungsional yang diharapkan.
- Umumnya, Pengujian perangkat lunak dilakukan setelah proses pengembangan
- aplikasi selesai, jika terdapat fungsional yang tidak sesuai harapan maka
- perangkat lunak dilakukan perbaikan.
- Menurut literatur Shi, pengujian atau 
-\emph on
-testing
-\emph default
- sendiri merupakan elemen kritis untuk menjamin kualitas dari suatu perangkat
- lunak dan merupakan bagian yang tidak terpisah dari siklus hidup pengembangan
- 
-\emph on
-software 
-\emph default
-seperti halnya analisis, desain, dan pengkodean .
- Tahapan
-\emph on
--
-\emph default
-tahapan yang digunakan untuk melakukan pengujian perangkat lunak adalah
- 
-\end_layout
-
-\begin_layout Enumerate
-Perencanaan pengujian perangkat lunak yaitu melakukan perencanaan mengenai
- kebutuhan pengujian dari sebuah perangkat lunak yang akan diuji.
-\end_layout
-
-\begin_layout Enumerate
-Analisis dan perancangan pengujian perangkat lunak yaitu menganalisa dan
- merancang berbagai skenario yang digunakan untuk menguji sebuah perangkat
- lunak.
-\end_layout
-
-\begin_layout Enumerate
-Implementasi pengujian perangkat lunak yaitu menjalankan berbagai skenario
- pengujian pada aplikasi yang dituju.
-\end_layout
-
-\begin_layout Enumerate
-Menganalisis dan mengevaluasi hasil pengujian perangkat lunak yaitu melakukan
- evaluasi mengenai hasil pengujian perangkat lunak yang telah selesai.
-\begin_inset Newpage pagebreak
-\end_inset
-
-
+Berbeda dengan Dzikry Maulana Hakim dan Ednawati Rainarli(2019) dalam penelitian
+nya yang berjudul Convolutional Neural Network untuk Pengenalan Citra Notasi
+ Musik.
+ Peneliti melakukan pengujian untuk melakukan pengenalan citra notasi musik
+ dengan dua cara.
+ Pertama, peneliti menguji performa CNN menggunakan data notasi musik yang
+ telah dipotong dan yang kedua peneliti melakukan pengujian menggunakan
+ sebaris notasi musik.
+ Nilai akurasi yang didapatkan untuk pengenalan sebaris notasi musik tidak
+ terlalu besar, yaitu 26,19%.
+ Walaupun untuk proses segmentasi masih belum maksimal dalam memotong setiap
+ notasi, namun metode CNN bekerja sangat baik untuk mengenali setiap notasi
+ musik yang telah dipotong dengan benar.
+ Hal ini ditunjukkan dari nilai akurasi yang mencapai 95,56%.
 \end_layout
 
 \begin_layout Subsection
-
-\emph on
-Black Box Testing
+Music Information Retrieval
 \end_layout
 
 \begin_layout Standard
@@ -4694,56 +4652,42 @@ noindent
 \end_layout
 
 \begin_layout Standard
+Music Information Retrieval (MIR) terutama berkaitan dengan ekstraksi dan
+ inferensi fitur yang berarti dari musik seperti sinyal audio, representasi
+ simbolik atau sumber eksternal seperti halaman web.
+ Berikut merupakan contoh tugas MIR, antara lain fingerprinting, cover song
+ detection, genre recognition, key detection, beat tracking, symbolic melodic
+ similarity, source separation, pitch tracking, tempo estimation, dan masih
+ banyak lagi.
+ MIR digunakan pada sistem untuk menyiapkan data mentah menjadi bentuk data
+ yang dapat dilakukan observasi oleh model.
+ Berikut merupakan beberapa fitur pada MIR yang digunakan oleh sistem :
+\end_layout
 
-\emph on
-Black Box Testing
-\emph default
- (Pengujian Kotak Hitam) merupakan sebuah metode pengujian perangkat lunak
- yang berfokus pada kebutuhan fungsional dari aplikasi yang dikembangkan.
- Pengujian kotak hitam ini menguji perangkat lunak dengan menggunakan sudut
- pandang pengguna aplikasi.
- Tujuan dari pengujian kotak hitam ini adalah memastikan data diproses seperti
- seharusnya tanpa mengecek logika dari perangkat lunak 
+\begin_layout Enumerate
+Beat Tracking
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/blackbox_testing.jpg
-	scale 30
-
-\end_inset
-
-
+Sistem memanfaatkan fitur beat tracking yang disediakan oleh pustaka librosa
+ yang menghasilkan keluaran dalam bentuk list.
+ Nilai yang dihasilkan dalam satuan detik.
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Arsitektur
-\emph on
- Blackbox Testing
+\begin_layout Enumerate
+Harmonic Separation
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+\begin_layout Standard
+Fitur harmonic separation berfungsi untuk memisahkan data masukan berupa
+ harmonic dan percussive.
+ Contoh dari harmonic adalah nada yang dibunyikan oleh piano dan suara vokal,
+ sedangkan percussive merupakan kumpulan data suara yang dimainkan dengan
+ cara dipukul, digesek, maupun dikocok.
 \end_layout
 
 \begin_layout Section
-Kajian Penelitian
+Penelitian Terdahulu
 \end_layout
 
 \begin_layout Standard
@@ -4763,24 +4707,80 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Pada Tabel 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Ringkasan-Kajian-Penelitian"
-plural "false"
-caps "false"
-noprefix "false"
+I Wayan Suartika Eka Putra (2016) dalam penelitiannya yang berjudul Klasifikasi
+ Citra Menggunakan Convolutional Neural Network (CNN) pada Caltech 101 mengimple
+mentasikan salah satu metode machine learning yang dapat digunakan untuk
+ klasifikasi citra objek yaitu CNN.
+ Pada penelitian yang dilakukan, peneliti mengimplementasikan metode CNN
+ yang terdiri dari dua tahap.
+ Tahap pertama adalah klasifikasi citra menggunakan feedforward.
+ Tahap kedua merupakan tahap pembelajaran dengan metode backpropagation.
+ Sebelum melakukan klasifikasi, terlebih dahulu dilakukan praproses dengan
+ metode wrapping dan cropping untuk memfokuskan objek yang akan diklasifikasi.
+ Selanjutnya dilakukan training menggunakan metode feedforward dan backpropagati
+on.
+ Terakhir adalah tahap klasifikasi menggunakan metode feedforward dengan
+ bobot dan bias yang diperbarui.
+ Hasil uji coba dari klasifikasi citra objek dengan tingkat confusion yang
+ berbeda pada basis data Caltech 101 menghasilkan rata-rata nilai akurasi
+ tergolong tinggi, sehingga dapat disimpulkan bahwa metode CNN yang digunakan
+ pada penelitian tersebut mampu melakukan klasifikasi dengan baik.
+\end_layout
 
-\end_inset
+\begin_layout Standard
+Danny Lionel, Rudy Adipranata dan Endang Setyati (2016) dalam penelitian
+ yang berjudul Klasifikasi Genre Musik Menggunakan Metode Deep Learning
+ Convolutional Neural Network dan MelSpektrogram mengimplementasikan metode
+ Mel-spectrogram.
+ Dimana Mel spektrogram merupakan hasil pemetaan fitur yang telah diambil
+ oleh metode MFCC, yang akan diklasifikasikan dan dimasukkan ke dalan Convolutio
+nal Neural Network.
+ Yang akan dibedakan activation function nya yaitu ReLU dan ELU.
+ Penelitian ini menunjukkan bahwa pengambilan fitur dari audio dengan menggunaka
+n MFCC merupakan metode yang benar dan dalam hasil pengujian, banyaknya
+ dataset, iterasi training, dan spesifikasi komputer sangat mempengaruhi
+ tingkat akurasi dan lama pembuatan neural network model yang optimal.
+ Dalam hasil penelitian ini telah diuji beberapa kali didapatkan hasil akurasi
+ yang paling optimal yaitu 99%.
+\end_layout
 
- adalah beberapa penelitian terdahulu yang telah dilakukan terkait pembuatan
- aplikasi 
-\emph on
-chatbot
-\emph default
-.
- Berikut ringkasan kajian terdahulu yang mengimplementasikan penelitian
- serupa.
+\begin_layout Standard
+Dzikry Maulana Hakim dan Ednawati Rainarli (2019) pada penelitiannya yang
+ berjudul Convolutional Neural Network untuk Pengenalan Citra Notasi Musik
+ melakukan penelitian untuk mengenali citra notasi musik dengan metode CNN.
+ Pada penelitian ini, untuk pengenalan notasi musik digunakan Convolutional
+ Neural Network (CNN).
+ Arsitektur CNN yang dipakai adalah kernel 3x3, jumlah layer pada feature
+ learning sebanyak 3 convolutional layer, 3 pooling layer, filter pada convoluti
+onal layer 64,128, 256, dan jumlah neuron pada hidden layer sebanyak 7168.
+ Pengujian dilakukan dengan dua cara, yang pertama menguji performa CNN
+ menggunakan data notasi musik yang telah dipotong dan yang kedua adalah
+ melakukan pengujian menggunakan sebaris notasi musik.
+ Nilai akurasi yang didapatkan untuk pengenalan sebaris notasi musik tidak
+ terlalu besar, yaitu 26,19%.
+ Walaupun untuk proses segmentasi masih belum maksimal dalam memotong setiap
+ notasi, namun metode CNN bekerja sangat baik untuk mengenali setiap notasi
+ musik yang telah dipotong dengan benar.
+ Hal ini ditunjukkan dari nilai akurasi yang mencapai 95,56%.
+\end_layout
+
+\begin_layout Standard
+Nick Collins melakukan penelitian dengan membuat library SuperCollider Music
+ Information Retrieval (SCMIR).
+ SCMIR adalah set ekstensi untuk bahasa pemrograman audio yang berfungsi
+ untuk melakukan analisis otomatis sebuah file audio.
+ Library ini mendukung teknologi pencarian informasi musik umum, termasuk
+ untuk pemrosesan batch di seluruh file suara.
+ Library memiliki kelebihan yang diambil dari mode Non-Real-time scsynth
+ dan plug-in untuk ekstraksi fitur cepat, serta fitur tambahan untuk perhitungan
+ intensif.
+ Hasil dari penelitian ini adalah Nick Collins dapat meningkatkan hubungan
+ antara sintesis pencocokan fitur, mendengarkan mesin dalam sistem interaktif,
+ dan tugas MIR, melintasi real time task dan non-real time dengan memprioritaska
+n adopsi teknologi MIR dalam sistem interaktif.
+ Selain itu, library SCMIR juga membawa teknologi pencarian informasi musik
+ ke bahasa pemrograman komputer musik yang sudah terkenal.
+ Rincian mengenai penelitian terdahulu dapat dilihat pada tabel 2.1.
 \end_layout
 
 \begin_layout Standard
@@ -5101,13 +5101,13 @@ bot
 
 \begin_layout Standard
 \align center
-Lanjutan Tabel 2.1: Ringkasan Kajian Penelitian
+Tabel 2.1 Penelitian Terdahulu
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="6">
+<lyxtabular version="3" rows="7" columns="6">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0.5cm">
 <column alignment="center" valignment="top" width="1cm">
@@ -5176,6 +5176,196 @@ Hasil
 \begin_inset Text
 
 \begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I Wayan Suartika Eka Putra
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Klasifikasi Citra Menggunakan Convolutional Neural Network (CNN) pada Caltech
+ 101
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mengimplementasika n salah satu metode machine learning yang dapat digunakan
+ untuk klasifikasi citra objek yaitu CNN
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hasil uji coba dari klasifikasi citra objek dengan tingkat confusion yang
+ berbeda pada basis data Caltech 101 menghasilkan rata-rata nilai akurasi
+ tergolong tinggi, sehingga dapat disimpulkan bahwa metode CNN yang digunakan
+ pada penelitian tersebut mampu melakukan klasifikasi dengan baik
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Danny Lionel, Rudy Adipranata dan Endang Setyati
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Klasifikasi Genre Musik Menggunakan Metode Deep Learning Convolutional Neural
+ Network dan MelSpektrogram
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mengimplementasika n metode agar suatu audio file dapat dikenali secara
+ otomatis dari fiturfitur yang telah diekstrak sebelumnya dengan bantuan
+ MFCC (Mel Frequency Cepstral Coefficients) dan ANN (Artificial Neural Network).
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Penelitian ini menunjukkan bahwa pengambilan fitur dari audio dengan menggunakan
+ MFCC merupakan metode yang benar dan dalam hasil pengujian, banyaknya dataset,
+ iterasi training, dan spesifikasi komputer sangat mempengaruhi tingkat
+ akurasi dan lama pembuatan neural network model yang optimal.
+ Dalam hasil penelitian ini telah diuji beberapa kali didapatkan hasil akurasi
+ yang paling optimal yaitu 99%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dzikry Maulana Hakim dan Ednawati Rainarli
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Convolutional Neural Network untuk Pengenalan Citra Notasi Musik
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mengetahui cara agar sistem dapat mendeteksi sebuah notasi musik dan kemudian
+ mengenali notasi musik tersebut
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pengujian dilakukan dengan dua cara, yang pertama menguji performa CNN menggunak
+an data notasi musik yang telah dipotong dan yang kedua adalah melakukan
+ pengujian menggunakan sebaris notasi musik.
+ Nilai akurasi yang didapatkan untuk pengenalan sebaris notasi musik tidak
+ terlalu besar, yaitu 26,19%.
+ Walaupun untuk proses segmentasi masih belum maksimal dalam memotong setiap
+ notasi, namun metode CNN bekerja sangat baik untuk mengenali setiap notasi
+ musik yang telah dipotong dengan benar.
+ Hal ini ditunjukkan dari nilai akurasi yang mencapai 95,56%.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 4
 \end_layout
 
@@ -5185,16 +5375,7 @@ Hasil
 \begin_inset Text
 
 \begin_layout Plain Layout
-2019
-\end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Junadhi, Mardainis
 \end_layout
 
 \end_inset
@@ -5203,7 +5384,7 @@ Junadhi, Mardainis
 \begin_inset Text
 
 \begin_layout Plain Layout
-LINE Chatbot Informasi Cuaca Wilayah Indonesia
+Nick Collins
 \end_layout
 
 \end_inset
@@ -5212,11 +5393,17 @@ LINE Chatbot Informasi Cuaca Wilayah Indonesia
 \begin_inset Text
 
 \begin_layout Plain Layout
-Metode yang digunakan adalah metode yang 
-\emph on
-waterfall
-\emph default
- dengan penggunaan platform LINE yang digunakan peneliti
+SCMIR: A SUPERCOLLIDE R MUSIC INFORMATION RETRIEVAL LIBRARY
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Membuat sebuah library extension set untuk menganalisis file audio secara
+ otomatis
 \end_layout
 
 \end_inset
@@ -5225,8 +5412,75 @@ waterfall
 \begin_inset Text
 
 \begin_layout Plain Layout
-metode yang diusulkan oleh peneliti berhasil menampilkan informasi mengenai
- cuaca berdasarkan format masukan yang ditentukan
+Peneliti berhasil mengembangkan library SCMIR sehingga dapat meningkatkan
+ hubungan antara sintesis pencocokan fitur, mendengarkan mesin dalam sistem
+ interaktif, dan mampu melintasi pekerjaan realtime dan non-realtime dengan
+ memprioritaskan adopsi teknologi MIR dalam sistem interaktif.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Florian Krebs, Sebastian Bo ̈ck, and Gerhard Widmer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RHYTHMIC PATTERN MODELING FOR BEAT AND DOWNBEAT TRACKING IN MUSICAL AUDIO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Menyelidiki penggunaan pemodelan pola ritmis untuk menyimpulkan struktur
+ metrik dalam rekaman audio musikal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Penelitian yang dilakukan menunjukkan bahwa menghitung fitur onset setidaknya
+ untuk dua band frekuensi yang berbeda meningkatkan kinerja pelacakan suram
+ secara signifikan dibandingkan dengan fitur tunggal yang mencakup seluruh
+ rentang frekuensi.
+ Dalam perbandingan dengan enam sistem referensi, pemodelan gaya tarian
+ secara eksplisit sebagai pola ritmik terbukti mengurangi kesalahan oktaf
+ (mendeteksi setengah atau tempo ganda) dalam pelacakan ketukan.
+ Selain itu, pelacakan suram ditingkatkan secara substansial dibandingkan
+ dengan varian yang hanya memodelkan meter dan dua sistem referensi.
 \end_layout
 
 \end_inset
@@ -5237,7 +5491,7 @@ metode yang diusulkan oleh peneliti berhasil menampilkan informasi mengenai
 \begin_inset Text
 
 \begin_layout Plain Layout
-5
+6
 \end_layout
 
 \end_inset
@@ -5246,7 +5500,7 @@ metode yang diusulkan oleh peneliti berhasil menampilkan informasi mengenai
 \begin_inset Text
 
 \begin_layout Plain Layout
-2019
+
 \end_layout
 
 \end_inset
@@ -5255,7 +5509,7 @@ metode yang diusulkan oleh peneliti berhasil menampilkan informasi mengenai
 \begin_inset Text
 
 \begin_layout Plain Layout
-Marline Wijaya, Junaedy, Hamdan Arfandy
+Albert Parlys, Ajub Ajulian Zahra, dan Achmad Hidayatno
 \end_layout
 
 \end_inset
@@ -5264,8 +5518,7 @@ Marline Wijaya, Junaedy, Hamdan Arfandy
 \begin_inset Text
 
 \begin_layout Plain Layout
-Perancangan Chatbot Untuk Informasi Penerimaan Mahasiswa Baru Pada STMIK
- Kharisma Makassar
+Penggolongan Lagu Berdasarkan Spektogram dengan Convolutional Neural Network
 \end_layout
 
 \end_inset
@@ -5274,15 +5527,12 @@ Perancangan Chatbot Untuk Informasi Penerimaan Mahasiswa Baru Pada STMIK
 \begin_inset Text
 
 \begin_layout Plain Layout
-Metode yang digunakan adalah pemanfaatan 
-\emph on
-cloud service
-\emph default
- sebagai jembatan antara 
-\emph on
-chatbot
-\emph default
- dengan sumber data
+Penelitian ini akan membahas perancangan sebuah sistem untuk menggolongan
+ lagu berdasarkan spektogram.
+ Masukan sistem berupa lagu dengan format audio MP3 yang diubah ke dalam
+ bentuk spektogram kemudian dilatih menggunakan Convolutional Neural Network.
+ Ciri lagu akan diperoleh kemudian diklasifikan ke dalam lima genre berbeda
+ yaitu pop, rock, classic, dubstep, dan reggae
 \end_layout
 
 \end_inset
@@ -5291,13 +5541,12 @@ chatbot
 \begin_inset Text
 
 \begin_layout Plain Layout
-Penelitian berhasil menerapkan sistem layanan chatbot yang 
-\emph on
-web service
-\emph default
-nya diletakkan pada 
-\emph on
-cloud service
+Berdasarkan hasil pelatihan dan pengujian dengan filter 3x3 didapat nilai
+ akurasi penggolongan lagu sebesar 100% pada 750 data latih dan 98% pada
+ 50 lagu data uji.
+ Algoritme pembelajaran terbaik pada pelatihan dengan filter yang sama adalah
+ algoritme Adam yang lebih cepat dibandingkan dengan Adadelta, Adagrad,
+ dan SGD
 \end_layout
 
 \end_inset
@@ -5308,240 +5557,6 @@ cloud service
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Pada Tahun 2018 telah dilakukan penelitian oleh Ananda Dwi R dan kawan-kawan
- , pada penelitian tersebut pembuatan 
-\emph on
-chatbot
-\emph default
- dilakukan menggunakan metode seperti yang peneliti gunakan yaitu metode
- 
-\emph on
-extreme programming
-\emph default
-, penelitian yang dilakukan oleh Ananda Dwi R dan kawan-kawan membahas tentang
- bagaimana mengimplementasikan 
-\emph on
-chatbot
-\emph default
- untuk menggantikan peran 
-\emph on
-customer service
-\emph default
- dengan tujuan untuk memudahkan proses jual beli, selain itu pengembangan
- aplikasi 
-\emph on
-chatbot
-\emph default
- pada penelitian tersebut juga bertujuan untuk menekan biaya operasional
- yang dikeluarkan oleh UKM Wisnu.
- Penelitian ini menghasilkan sebuah aplikasi 
-\emph on
-chatbot
-\emph default
- dengan memanfaatkan web 
-\emph on
-cms
-\emph default
- yang sudah tersedia, cara kerja 
-\emph on
-chatbot 
-\emph default
-dibuat terkoneksi dengan 
-\emph on
-cms
-\emph default
- yang sudah tersedia, sehingga 
-\emph on
-chat 
-\emph default
-yang terdapat pada 
-\emph on
-chatbot 
-\emph default
-juga akan terhubung dengan web 
-\emph on
-cms 
-\emph default
-untuk menampilkan informasi serta mengirimkan validasi kepada admin.
- Penelitian ini juga menjadi dasar bagi peneliti untuk melakukan pengembangan
- layanan 
-\emph on
-chatbot
-\emph default
- untuk menangani permasalahan yang dihadapi oleh PT.
- Indomobil Finance Indonesia.
-\end_layout
-
-\begin_layout Standard
-Pada tahun yang sama seperti Ananda Dwi R.
- dan kawan-kawan, Penelitian tentang chatbot juga dilakukan oleh Muhammad
- Sahid dan Rendra, dalam penelitian yang dilakukan oleh Muhammad Sahid dan
- Rendra proses pembuatan chatbot dilakukan dengan metode waterfall sehingga
- waktu yang diperlukan untuk membangun chatbot sedikit lebih lama jika dibanding
-kan dengan metode yang dikerjakan oleh Ananda Dwi R.
- dan kawan-kawan , yaitu metode 
-\emph on
-extreme programming
-\emph default
-.
- Dari penelitian tersebut langkah yang diambil sebelum melakukan pembuatan
- 
-\emph on
-chatbot 
-\emph default
-lebih panjang dan juga memakan waktu namun hasil yang didapat cenderung
- lebih matang dibanding metode 
-\emph on
-extreme programming
-\emph default
-.
- Hasil dari penelitian yang dilakukan oleh Muhammad Sahid adalah Chatbot
- yang melakukan interaksi dengan pengguna tanpa ada campur tangan manusia,
- berbeda dengan penelitian milik 
-\emph on
-chatbot 
-\emph default
-yang masih 
-\emph on
-semi auto
-\emph default
- karena masih membutuhkan 
-\emph on
-input 
-\emph default
-balasan dari sisi admin untuk verifikasi pembayaran dan konfirmasi pengiriman
- serta penerimaan.
- 
-\end_layout
-
-\begin_layout Standard
-Di tahun berikutnya, yaitu tahun 2019 terdapat 3 penelitian lain yang membahas
- tentang 
-\emph on
-chatbot.
- 
-\emph default
-yaitu penelitian yang dilakukan oleh Junadhi dan Mardainis, Marline Wijaya
- dan kawan-kawan , serta Eka Yuniar dan Heri Purnomo.
- Penelitian yang dilakukan oleh Junadhi dan Mardainis melanjutkan penelitian
- milik Muhammad Sahid dan Rendra , dengan metode yang sama yaitu 
-\emph on
-waterfall, 
-\emph default
-penelitian ini berhasil membangun sebuah aplikasi 
-\emph on
-chatbot 
-\emph default
-yang berguna untuk memberikan informasi mengenai cuaca.
-\end_layout
-
-\begin_layout Standard
-Sedikit berbeda dengan penelitian sebelumnya, pada penelitian Marline Wijaya
- dan kawan-kawan , peneliti melakukan pengembangan aplikasi 
-\emph on
-chatbot 
-\emph default
-dengan memanfaatkan layanan 
-\emph on
-cloud 
-\emph default
-sehingga resource yang digunakan dapat lebih ringan serta dapat diakses
- oleh semua pihak.
- Perbedaan yang paling mencolok adalah letak 
-\emph on
-data knowledge 
-\emph default
-pada aplikasi 
-\emph on
-chatbot 
-\emph default
-yang dilakukan pada penelitian berada pada 
-\emph on
-cloud service,
-\emph default
- artinya 
-\emph on
-data knowledge 
-\emph default
-tidak memerlukan sebuah server fisik dan aplikasi 
-\emph on
-database 
-\emph default
-yang terpasang pada server fisik untuk dapat diakses dan menampung transaksi
- ke dalam database.
- 
-\end_layout
-
-\begin_layout Standard
-Selain itu pengembangan aplikasi 
-\emph on
-chatbot 
-\emph default
-juga dapat dilakukan pada 
-\emph on
-platform 
-\emph default
-berbeda dan dengan menambahkan pengetahuan atau 
-\emph on
-NLP
-\emph default
- ke dalam 
-\emph on
-chatbot
-\emph default
-, seperti contoh pada penelitian 
-\emph on
-chatbot 
-\emph default
-dibangun dengan 
-\emph on
-platform 
-\emph default
-telegram, pada dasarnya konsep membangun aplikasi 
-\emph on
-chatbot
-\emph default
-nya sama seperti penelitian-penelitian sebelumnya, yang membedakan pada
- penelitian 
-\emph on
-chatbot 
-\emph default
-ditambahkan kecerdasan buatan dengan 
-\emph on
-platform 
-\emph default
-tambahan, sehingga membuat 
-\emph on
-chatbot 
-\emph default
-mampu belajar dari masukan yang berasal dari pengguna, sekalipun masukan
- tersebut belum pernah disiapkan responnya oleh pengembang aplikasi.
-\end_layout
-
-\begin_layout Standard
-Dari beberapa penelitian tersebut maka pada penelitian ini dilakukan pembuatan
- 
-\emph on
-chatbot
-\emph default
- dengan 
-\emph on
-platform
-\emph default
- LINE berdasarkan metode 
-\emph on
-Exteme Programming 
-\emph default
-dan 
-\emph on
-Forward Chaining
-\emph default
- seperti pada penelitian dan proses chatbot dipersiapkan untuk memberikan
- respon sesuai dengan masukan yang sudah disiapkan oleh pengembang seperti
- pada penelitian dan 
 \end_layout
 
 \begin_layout Chapter
