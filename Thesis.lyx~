@@ -4343,7 +4343,7 @@ Terdapat dua masalah yang muncul dalam mengembangkan konsep chromagram ini,
  (many-to-one) kekuatan sinyal pada frekuensi milik kelas chroma yang sama.
  Pembagian antara transformasi langsung dari sinyal asli dan transformasi
  dari gambar frekuensiwaktu dapat digunakan untuk menghitung chromagram.
- Contoh chromagram dapat dilihat dengan jelas pada Gambar 1.3.
+ Contoh chromagram dapat dilihat dengan jelas pada Gambar 2.1.4.
 \end_layout
 
 \begin_layout Standard
@@ -4360,7 +4360,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-ini Isi nya gambar Gambar 1.3 Chromagram dari sebuah alat musik Clarinet
+ini Isi nya gambar Gambar 2.1.4 Chromagram dari sebuah alat musik Clarinet
  [https://users.cs.northwestern.edu/~pardo/courses/eecs352/lectures/MPM16-
  topic7-Spectrogram-Chroma-Cepstra.pdf]
 \end_layout
@@ -4588,11 +4588,11 @@ Convolutional Neural Network (CNN) adalah salah satu jenis neural network
  yang memiliki struktur dua dimensi seperti citra dan suara.
  Arsitektur dari CNN dibagi menjadi dua bagian besar, Feature Extraction
  Layer dan Fully-Connected Layer (MLP).
- Arsitektur CNN dapat dilihat pada Gambar 1.4.
+ Arsitektur CNN dapat dilihat pada Gambar 2.1.6.
 \end_layout
 
 \begin_layout Standard
-Gambar 1.4 Arsitektur Convolutional Neural Network
+Gambar 2.1.6 Arsitektur Convolutional Neural Network
 \end_layout
 
 \begin_layout Standard
@@ -5559,240 +5559,6 @@ Berdasarkan hasil pelatihan dan pengujian dengan filter 3x3 didapat nilai
 
 \end_layout
 
-\begin_layout Standard
-Pada Tahun 2018 telah dilakukan penelitian oleh Ananda Dwi R dan kawan-kawan
- , pada penelitian tersebut pembuatan 
-\emph on
-chatbot
-\emph default
- dilakukan menggunakan metode seperti yang peneliti gunakan yaitu metode
- 
-\emph on
-extreme programming
-\emph default
-, penelitian yang dilakukan oleh Ananda Dwi R dan kawan-kawan membahas tentang
- bagaimana mengimplementasikan 
-\emph on
-chatbot
-\emph default
- untuk menggantikan peran 
-\emph on
-customer service
-\emph default
- dengan tujuan untuk memudahkan proses jual beli, selain itu pengembangan
- aplikasi 
-\emph on
-chatbot
-\emph default
- pada penelitian tersebut juga bertujuan untuk menekan biaya operasional
- yang dikeluarkan oleh UKM Wisnu.
- Penelitian ini menghasilkan sebuah aplikasi 
-\emph on
-chatbot
-\emph default
- dengan memanfaatkan web 
-\emph on
-cms
-\emph default
- yang sudah tersedia, cara kerja 
-\emph on
-chatbot 
-\emph default
-dibuat terkoneksi dengan 
-\emph on
-cms
-\emph default
- yang sudah tersedia, sehingga 
-\emph on
-chat 
-\emph default
-yang terdapat pada 
-\emph on
-chatbot 
-\emph default
-juga akan terhubung dengan web 
-\emph on
-cms 
-\emph default
-untuk menampilkan informasi serta mengirimkan validasi kepada admin.
- Penelitian ini juga menjadi dasar bagi peneliti untuk melakukan pengembangan
- layanan 
-\emph on
-chatbot
-\emph default
- untuk menangani permasalahan yang dihadapi oleh PT.
- Indomobil Finance Indonesia.
-\end_layout
-
-\begin_layout Standard
-Pada tahun yang sama seperti Ananda Dwi R.
- dan kawan-kawan, Penelitian tentang chatbot juga dilakukan oleh Muhammad
- Sahid dan Rendra, dalam penelitian yang dilakukan oleh Muhammad Sahid dan
- Rendra proses pembuatan chatbot dilakukan dengan metode waterfall sehingga
- waktu yang diperlukan untuk membangun chatbot sedikit lebih lama jika dibanding
-kan dengan metode yang dikerjakan oleh Ananda Dwi R.
- dan kawan-kawan , yaitu metode 
-\emph on
-extreme programming
-\emph default
-.
- Dari penelitian tersebut langkah yang diambil sebelum melakukan pembuatan
- 
-\emph on
-chatbot 
-\emph default
-lebih panjang dan juga memakan waktu namun hasil yang didapat cenderung
- lebih matang dibanding metode 
-\emph on
-extreme programming
-\emph default
-.
- Hasil dari penelitian yang dilakukan oleh Muhammad Sahid adalah Chatbot
- yang melakukan interaksi dengan pengguna tanpa ada campur tangan manusia,
- berbeda dengan penelitian milik 
-\emph on
-chatbot 
-\emph default
-yang masih 
-\emph on
-semi auto
-\emph default
- karena masih membutuhkan 
-\emph on
-input 
-\emph default
-balasan dari sisi admin untuk verifikasi pembayaran dan konfirmasi pengiriman
- serta penerimaan.
- 
-\end_layout
-
-\begin_layout Standard
-Di tahun berikutnya, yaitu tahun 2019 terdapat 3 penelitian lain yang membahas
- tentang 
-\emph on
-chatbot.
- 
-\emph default
-yaitu penelitian yang dilakukan oleh Junadhi dan Mardainis, Marline Wijaya
- dan kawan-kawan , serta Eka Yuniar dan Heri Purnomo.
- Penelitian yang dilakukan oleh Junadhi dan Mardainis melanjutkan penelitian
- milik Muhammad Sahid dan Rendra , dengan metode yang sama yaitu 
-\emph on
-waterfall, 
-\emph default
-penelitian ini berhasil membangun sebuah aplikasi 
-\emph on
-chatbot 
-\emph default
-yang berguna untuk memberikan informasi mengenai cuaca.
-\end_layout
-
-\begin_layout Standard
-Sedikit berbeda dengan penelitian sebelumnya, pada penelitian Marline Wijaya
- dan kawan-kawan , peneliti melakukan pengembangan aplikasi 
-\emph on
-chatbot 
-\emph default
-dengan memanfaatkan layanan 
-\emph on
-cloud 
-\emph default
-sehingga resource yang digunakan dapat lebih ringan serta dapat diakses
- oleh semua pihak.
- Perbedaan yang paling mencolok adalah letak 
-\emph on
-data knowledge 
-\emph default
-pada aplikasi 
-\emph on
-chatbot 
-\emph default
-yang dilakukan pada penelitian berada pada 
-\emph on
-cloud service,
-\emph default
- artinya 
-\emph on
-data knowledge 
-\emph default
-tidak memerlukan sebuah server fisik dan aplikasi 
-\emph on
-database 
-\emph default
-yang terpasang pada server fisik untuk dapat diakses dan menampung transaksi
- ke dalam database.
- 
-\end_layout
-
-\begin_layout Standard
-Selain itu pengembangan aplikasi 
-\emph on
-chatbot 
-\emph default
-juga dapat dilakukan pada 
-\emph on
-platform 
-\emph default
-berbeda dan dengan menambahkan pengetahuan atau 
-\emph on
-NLP
-\emph default
- ke dalam 
-\emph on
-chatbot
-\emph default
-, seperti contoh pada penelitian 
-\emph on
-chatbot 
-\emph default
-dibangun dengan 
-\emph on
-platform 
-\emph default
-telegram, pada dasarnya konsep membangun aplikasi 
-\emph on
-chatbot
-\emph default
-nya sama seperti penelitian-penelitian sebelumnya, yang membedakan pada
- penelitian 
-\emph on
-chatbot 
-\emph default
-ditambahkan kecerdasan buatan dengan 
-\emph on
-platform 
-\emph default
-tambahan, sehingga membuat 
-\emph on
-chatbot 
-\emph default
-mampu belajar dari masukan yang berasal dari pengguna, sekalipun masukan
- tersebut belum pernah disiapkan responnya oleh pengembang aplikasi.
-\end_layout
-
-\begin_layout Standard
-Dari beberapa penelitian tersebut maka pada penelitian ini dilakukan pembuatan
- 
-\emph on
-chatbot
-\emph default
- dengan 
-\emph on
-platform
-\emph default
- LINE berdasarkan metode 
-\emph on
-Exteme Programming 
-\emph default
-dan 
-\emph on
-Forward Chaining
-\emph default
- seperti pada penelitian dan proses chatbot dipersiapkan untuk memberikan
- respon sesuai dengan masukan yang sudah disiapkan oleh pengembang seperti
- pada penelitian dan 
-\end_layout
-
 \begin_layout Chapter
 METODE PENELITIAN
 \end_layout
@@ -5814,7 +5580,7 @@ noindent
 \end_layout
 
 \begin_layout Section
-Analisa Masalah
+Metode Penelitian
 \end_layout
 
 \begin_layout Standard
@@ -5834,446 +5600,26 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Permintaan layanan informasi kendaraan adalah kegiatan rutin yang dilakukan
- oleh kolektor di seluruh cabang PT.
- Indomobil Finance Indonesia.
- Banyaknya permintaan informasi dari seluruh kolektor di semua cabang PT.
- Indomobil Finance Indonesia tentu menjadi sebuah masalah untuk bagian 
-\emph on
-Remedial and Collection
-\emph default
- selaku pemegang data.
- PT.
- Indomobil Finance Indonesia sudah menyediakan aplikasi layanan berbasis
- sms (SMSCenter) untuk memenuhi permintaan bagi para kolektor.
- Namun Permasalahan yang dihadapi pada aplikasi SMSCenter yang saat ini
- berjalan di PT.
- Indomobil Finance Indonesia yaitu bergantungnya sistem pada kondisi jaringan
- kartu sim yang digunakan, jika kartu sim mengalami gangguan baik dari sinyal
- maupun dari alat modem yang digunakan untuk membaca kartu sim, maka seluruh
- layanan juga akan terputus.
- 
-\end_layout
-
-\begin_layout Standard
-Selain masalah ketergantungan pada kondisi kartu sim, beban biaya operasional
- yang dikeluarkan oleh PT.
- Indomobil Finance Indonesia juga cukup besar karena banyaknya pesan yang
- dikirimkan kembali ke kolektor sebagai respon dari permintaan informasi.
- Untuk mengatasi masalah pada permintaan layanan informasi di PT.
- Indomobil Finance Indonesia, maka dilakukan pembuatan aplikasi 
-\emph on
-chatbot
-\emph default
-.
- Proses pembuatan aplikasi 
-\emph on
-chatbot
-\emph default
- berbasis LINE yang dilakukan pada penelitian ini menggunakan metode 
-\emph on
-expert programming
-\emph default
- dan strategi 
-\emph on
-forward chaining
-\emph default
- untuk menyelesaikan permasalahan permintaan layanan informasi di PT.
- Indomobil Finance.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Arsitektur Konsol SMS.png
-	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-gambar bab 3
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Metode Penelitian Pembuatan Aplikasi Chatbot Kolektor
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-fbsjkfbkdsbfds
-\end_layout
-
-\begin_layout Standard
-gdnjsdngls
-\end_layout
-
-\begin_layout Section
-metode cnn
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Proses pembuatan aplikasi 
-\emph on
-chatbot
-\emph default
- pada penelitian ini dilakukan dengan menggunakan 2 tahapan yaitu metode
- 
-\emph on
-Extreme Programming
-\emph default
- dan strategi 
-\emph on
-Forward Chaining
-\emph default
-.
- Pada penelitian ini dilakukan 4 tahapan untuk melakukan proses pembuatan
- aplikasi 
-\emph on
-chatbot
-\emph default
- sesuai dengan tahapan yang ada pada metode 
-\emph on
-Extreme Programming
-\emph default
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Carolina2019"
-literal "false"
-
-\end_inset
-
-, tahapan tersebut terdiri dari 
-\emph on
-Planning
-\emph default
-, 
-\emph on
-Design
-\emph default
-, 
-\emph on
-Coding
-\emph default
-, dan 
-\emph on
-Testing
-\emph default
-.
- Dalam pembuatan aplikasi 
-\emph on
-chatbot 
-\emph default
-ini strategi 
-\emph on
-forward chaining 
-\emph default
-diterapkan untuk menentukan alur percakapan yang akan diterapkan pada aplikasi
- 
-\emph on
-chatbot.
- 
-\emph default
-Strategi ini menggunakan konsep 
-\begin_inset Quotes eld
-\end_inset
-
-jika-maka
-\begin_inset Quotes erd
-\end_inset
-
-, dengan menentukan input apa yang akan dimasukkan oleh pengguna, maka chatbot
- akan mampu menampilkan informasi sesuai dengan apa yang diminta oleh pengguna.
-\end_layout
-
-\begin_layout Standard
-Setelah menentukan tahapan pada 
-\emph on
-extreme programming 
-\emph default
-dan strategi 
-\emph on
-forward chaining
-\emph default
-, maka dibuatlah tahapan penelitian yang mencakup kedua tahapan tersebut.
- Tahapan penelitian yang dilakukan pada penelitian ini dapat dilihat pada
- gambar 3.2.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Diagram_Penelitian.png
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Tahapan Penelitian
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Tahapan-Penelitian"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Tahapan-Penelitian"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- menunjukkan detail dari masing-masing proses dalam metode 
-\emph on
-extreme programming
-\emph default
-, yaitu garis berwarna merah untuk menunjukkan tahap 
-\emph on
-Planning
-\emph default
-, garis berwarna hijau untuk menujukkan tahap 
-\emph on
-Design
-\emph default
-, garis berwarna biru untuk menujukkan tahap 
-\emph on
-Coding
-\emph default
-, dan garis berwarna oranye untuk menunjukkan proses 
-\emph on
-Testing
-\emph default
-.
- Dari gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Tahapan-Penelitian"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- juga terlihat strategi 
-\emph on
-forward chaining 
-\emph default
-digunakan sebagai strategi pada saat proses pembuatan 
-\emph on
-logic program 
-\emph default
-yang ditandai oleh garis berwarna ungu.
- 
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Strategi 
-\emph on
-forward chaining
-\emph default
- diterapkan pada tahap 
-\emph on
-coding
-\emph default
- untuk
-\emph on
- 
-\emph default
-menentukan
-\emph on
- input 
-\emph default
-apa yang akan direspon benar oleh chatbot, selain itu 
-\emph on
-forward chaining 
-\emph default
-juga mampu menentukan bagaimana alur jika 
-\emph on
-input
-\emph default
-
-\begin_inset space ~
-\end_inset
-
-yang diberikan oleh pengguna tidak sesuai dengan kata kunci yang sudah dibuat
- oleh pengembang
-\emph on
-.
- 
-\emph default
-Untuk proses detail dari setiap tahapan, dijelaskan pada sub bab berikut.
- 
-\end_layout
-
-\begin_layout Section
-Tahapan 
-\emph on
-Extreme Programming 
-\emph default
-Pada Pembuatan Aplikasi Chatbot Kolektor
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Berdasarkan gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Tahapan-Penelitian"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, proses pembuatan 
-\emph on
-chatbot 
-\emph default
-kolektor dibuat berdasarkan 4 tahapan metode 
-\emph on
-extreme programming
-\emph default
-, di mana tahapan tersebut dibedakan menjadi 4 tahapan sesuai dengan warna
- garis yang ditunjukkan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Tahapan-Penelitian"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- Adapun 4 tahapan 
-\emph on
-extreme programming 
-\emph default
-yang digunakan pada penelitian ini yaitu Tahap 
-\emph on
-Planning
-\emph default
-, Tahap 
-\emph on
-Design
-\emph default
-, Tahap 
-\emph on
-Coding
-\emph default
-, dan Tahap 
-\emph on
-Testing
-\emph default
-.
+Dalam melakukan penelitian ini, tahapan pertama yang dilakukan adalah pengumpula
+n data.
+ Tahap ini bertujuan untuk memberikan gambaran tentang tahapan-tahapan apa
+ saja yang akan dilakukan pada proses penelitian.
+ Teknik yang digunakan pada tahapan pengumpulan data adalah studi literatur
+ atau biasa disebut dengan studi pustaka.
+ Studi literatur atau studi pustaka merupakan sebuah proses pengumpulan
+ data dan informasi berupa teori-teori yang berhubungan dengan masalah yang
+ diteliti.
+ Studi literatur dilakukan dengan mencari jurnal ilmiah, paper ilmiah, dan
+ beberapa tesis yang tersebar di internet.
+ Adapun data-data yang dibutuhkan untuk dalam penelitian ini, diantaranya
+ teori tentang CNN, teori dan proses tentang Beat Tracking, teori tentang
+ Chromagram dan cara mengubah audio ke bentuk chromagram, teori tentang
+ bahasa pemrograman Python versi 3, dan beberapa implementasi tentang backend
+ pada sebuah aplikasi.
 \end_layout
 
 \begin_layout Subsection
-Tahap 
-\emph on
-Planning
+Teori Penelitian
 \end_layout
 
 \begin_layout Standard
@@ -6293,25 +5639,18 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Tahapan 
-\emph on
-extreme programming 
-\emph default
-dimulai dengan tahap persiapan atau biasa disebut 
-\emph on
-planning
-\emph default
-.
- Pada tahap planning di penelitian ini, terdapat 2(dua) kegiatan yang dilakukan
- sebagai tahap persiapan sebelum memulai membangun aplikasi 
-\emph on
-chatbot 
-\emph default
-kolektor, pengumpulan data dan analisa sistem yang sedang berjalan.
+Menurut Kamus Besar Bahasa Indonesia (KBBI), kecerdasan adalah kesempurnaan
+ perkembangan akal budi (seperti kepandaian atau ketajaman pemikiran).
+ Helfi Nasution berpendapat bahwa Kecerdasan Buatan atau dalam bahasa Inggris
+ disebut Artificial Intelligence (AI) didefinisikan sebagai kecerdasan yang
+ ditunjukkan oleh suatu entitas buatan (Helfi Nasution, 2012), sedangkan
+ menurut Dedi Nugraha dan Sri Winati (2014), kecerdasan buatan adalah salah
+ satu cabang ilmu pengetahuan yang berhubungan dengan pemanfaatan mesin
+ untuk memecahkan persoalan yang rumit dengan cara yang lebih manusiawi.
 \end_layout
 
-\begin_layout Subsubsection
-Pengumpulan Data
+\begin_layout Section
+Kerangka Pemikiran
 \end_layout
 
 \begin_layout Standard
@@ -6331,111 +5670,40 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Tahapan penelitian yang dimulai dengan tahapan 
-\emph on
-planning, 
-\emph default
-pada tahap planning ini peneliti mengumpulkan kebutuhan yang diperlukan
- untuk membangun aplikasi 
-\emph on
-chatbot 
-\emph default
-kolektor.
- Teknik pengumpulan data yang dilakukan pada penelitian ini dengan observasi.
- Observasi dilakukan dengan melakukan wawancara langsung pada divisi 
-\emph on
-Remedial and Collection
-\emph default
- 
-\emph on
-(RC)
-\emph default
- selaku pemegang data, selain wawancara observasi juga dilakukan dengan
- mempelajari aplikasi yang saat ini berjalan di PT.
- Indomobil Finance Indonesia, yaitu SMSCenter.
- Pengumpulan data ini dilakukan untuk kebutuhan perancangan dan testing
- pada penelitian ini.
- Data yang digunakan pada penelitian ini adalah 
-\emph on
-data
-\emph default
- 
-\emph on
-primer
-\emph default
- yang terdiri dari data kolektor dan data kendaraan yang terdaftar di PT.
- Indomobil Finance Indonesia.
+Kerangka pemikiran dalam penelitian ini memiliki hasil akhir yakni mengetahui
+ akurasi dari metode CNN dalam mengenali sebuah akor dengan memanfaatkan
+ Chromagram.
+ Kerangka pemikiran yang akan dilakukan dapat dilihat pada Gambar 3.2.
 \end_layout
 
 \begin_layout Standard
-Pengumpulan data pada penelitian ini dilakukan dengan metode wawancara,
- wawancara dilakukan melalui 
-\emph on
-internal meeting
-\emph default
- yang dilakukan di ruang 
-\emph on
-meeting
-\emph default
- PT.
- Indomobil Finance Indonesia.
- 
-\emph on
-Internal Meeting
-\emph default
- untuk persiapan pembuatan 
-\emph on
-chatbot
-\emph default
- kolektor ini dihadiri oleh Ibu Nasya (Staff) dan Bapak Hengky (Kepala Departeme
-n) dari divisi 
-\emph on
-Remedial and Collection 
-\emph default
-(RC) selaku pemegang data, dan Muhamad Sidik (Staff) serta Kresnoadi (Supervisor
-) dari divisi 
-\emph on
-Information and Technology 
-\emph default
-(IT) selaku pengembang aplikasi.
- Hasil dari internal meeting ini adalah kebutuhan user yakni sebuah aplikasi
- yang menyerupai aplikasi SMSCenter namun tidak bergantung pada 
-\emph on
-simcard, 
-\emph default
-hal ini
-\emph on
- 
-\emph default
-dikarenakan seringnya terjadi masalah aplikasi SMSCenter karena adanya gangguan
- sinyal pada 
-\emph on
-simcard 
-\emph default
-maupun kondisi modem 
-\emph on
-hang.
- 
-\emph default
-Selain itu, kebutuhan ini juga bertujuan untuk melakukan penghematan pengeluaran
- biaya operasional tanpa mengurangi pelayanan yang ada.
+Gambar 3.2 Kerangka Pemikiran Penelitian.png
 \end_layout
 
 \begin_layout Standard
-Selain melalui wawancara kepada pemegang data, pengumpulan data juga dilakukan
- dengan melakukan observasi pada aplikasi berjalan, yaitu aplikasi SMSCenter.
- Tujuan dari observasi ini adalah memahami alur kerja dari aplikasi SMSCenter
- sebagai dasar pembuatan aplikasi 
-\emph on
-chatbot 
-\emph default
-kolektor bagi PT.
- Indomobil Finance Indonesia.
- Hasil dari observasi aplikasi SMSCenter dapat dilihat pada sub bab berikut.
+Langkah awal yang akan dilakukan adalah menerima input file audio yang memiliki
+ format .wav.
+ Selanjutnya akan dilakukan beat tracking.
+ Pada proses beat tracking, file audio yang telah diunggah akan dipotong
+ tiap detik dan akan dianalisa bentuk gelombangnya sehingga terbentuklah
+ sebuah onset.
+ Setelah mendapatkan onset dari proses beat tracking, selanjutnya onset
+ tersebut akan diubah ke bentuk chromagram.
+ Pada proses chromagram, onset yang telah didapatkan akan dibentuk ke bentuk
+ gambar.
+ Gambar tersebut nantinya akan dilatih dengan menggunakan metode CNN untuk
+ menemukan akor yang sesuai.
+ Setelah menemukan akor yang sesuai, selanjutnya melakukan proses pengaturan
+ direktori.
+ Proses ini dibutuhkan agar penempatan parenthesis dan child package bagian
+ backend dan frontend dapat berkomunikasi satu sama lain.
+ Dan terakhir adalah ada proses pendekatan backend.
+ Pendekatan backend dibutuhkan agar memudahkan dalam mengakses fungsi yang
+ ada pada pada script Python.
 \end_layout
 
-\begin_layout Subsubsection
-Analisa Sistem yang sedang berjalan
+\begin_layout Subsection
+Audio
 \end_layout
 
 \begin_layout Standard
@@ -6455,149 +5723,34 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Selain melakukan pengumpulan data, pada tahap 
-\emph on
-Planning
-\emph default
- peneliti juga melakukan analisa terhadap aplikasi yang sudah tersedia,
- yaitu SMSCenter.
- Analisa ini dimaksudkan untuk memahami alur kerja dari permintaan layanan
- informasi oleh kolektor PT.
- Indomobil Finance Indonesia yang selama ini sudah berjalan.
- Selain memahami alur kerja, peneliti juga mempelajari masalah yang selama
- ini terjadi pada aplikasi SMSCenter sebagai pengetahuan yang solusinya
- akan diterapkan pada aplikasi 
-\emph on
-chatbot, 
-\emph default
-hal ini bertujuan
-\emph on
- 
-\emph default
-agar permasalahan yang sama tidak terjadi pada aplikasi 
-\emph on
-chatbot 
-\emph default
-yang akan dikembangkan.
+Audio adalah sebuah deret waktu, dimana sumbu y adalah amplitudo arus yang
+ sesuai dengan sebuah membran loudspeaker dan sumbu x adalah sumbu yang
+ sesuai dengan satuan waktu data tersebut.
+ Telinga manusia hanya dapat mendengar bunyi dengan rentang frekuensi antara
+ 20 Hz hingga 20 KHz (20.000Hz).
+ Angka 20 Hz sebagai frekuensi suara terendah yang dapat didengar, sedangkan
+ 20 KHz merupakan frekuensi tertinggi yang dapat didengar.
+ Gelombang suara mengandung sejumlah komponen penting, seperti amplitudo,
+ panjang gelombang, dan frekuensi.
+ Komponen-komponen tersebut mampu membuat suara yang satu berbeda dengan
+ suara yang lain.
 \end_layout
 
 \begin_layout Standard
-Untuk memenuhi kebutuhan permintaan layanan informasi, saat ini PT.
- Indomobil Finance Indonesia menggunakan sebuah aplikasi bernama SMSCenter.
- Gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Use-Case-Diagram"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- merupakan Usecase Diagram cara kerja yang digunakan pada aplikasi SMSCenter
- PT.
- Indomobil Finance Indonesia.
+Audio yang digunakan dalam penelitian ini adalah audio yang berisi suara
+ piano dan bass serta audio yang berbentuk format *wav.
+ Audio tersebut nantinya akan diolah melalui beberapa tahapan, seperti Preproces
+sing dan Modeling.
+ Proses preprocessing terbagi atas 2 tahap, yakni Beat Tracking dan membentuk
+ gambar chroma.
+ Sedangkan untuk proses modeling akan langsung dengan menggunakan metode
+ CNN.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
+\begin_layout Subsection
 
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Arsitektur SMS Center.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Use Case Diagram aplikasi SMSCenter PT.
- Indomobil Finance Indonesia
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Use-Case-Diagram"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Berdasarkan gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Use-Case-Diagram"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, arsitektur aplikasi SMSCenter yang saat ini berjalan di PT.
- Indomobil Finance Indonesia menunjukkan bagaimana cara kerja dari aplikasi
- SMSCenter tersebut.
- Didalam aplikasi SMSCenter, terdapat beberapa kelompok modul yang bisa
- diakses oleh kolektor, modul-modul ini kemudian akan melakukan pengecekan
- terhadap database untuk mendapatkan respon 
 \emph on
-message
-\emph default
-.
- Database yang digunakan pada aplikasi SMSCenter ini adalah SQLServer, respon
- yang didapat dari 
-\emph on
-stored procedure
-\emph default
- yang dijalankan oleh database kemudian akan diteruskan ke konsol sms.
- Konsol SMS ini yang bertugas untuk menerima pesan dari kolektor dan juga
- mengirimkan respon 
-\emph on
-message
-\emph default
- yang didapat kepada kolektor dalam bentuk SMS(
-\emph on
-short message service)
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-Proses analisa aplikasi yang sedang berjalan terdiri dari 3 tahapan berikut.
-\end_layout
-
-\begin_layout Itemize
-Analisa arsitektur Aplikasi SMSCenter.
-\end_layout
-
-\begin_layout Itemize
-Analisa arsitektur teknologi yang digunakan.
-\end_layout
-
-\begin_layout Itemize
-Analisa arsitektur Konsol SMS pada Aplikasi SMSCenter.
-\end_layout
-
-\begin_layout Subsubsection
-Analisa Arsitektur Aplikasi SMSCenter
+Beat Tracking
 \end_layout
 
 \begin_layout Standard
@@ -6617,128 +5770,17 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Proses analisa arsitektur aplikasi SMSCenter dilakukan dengan mengambarkan
- cara kerja aplikasi SMSCenter.
- cara kerja aplikasi SMSCenter ditunjukkan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Arsitektur-Aplikasi-SMSCenter"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
+Beat tracking digunakan untuk menentukan contoh waktu dalam rekaman audio,
+ di mana pendengar manusia cenderung mengetuk kakinya ke musik.
+ Beat tracking pada rancangan menggunakan metode dynamic programming.
+ Dynamic programming adalah kombinasi pemikiran terstruktur dan pola pikir
+ analitis untuk menyelesaikan sebuah permasalahan.
+ Proses beat tracking ini dibutuhkan untuk membentuk ketukan dalam setiap
+ detik dari file audio yang diunggah.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/ActivityDiagramSMSCenter.png
-	scale 30
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Arsitektur Aplikasi SMSCenter
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Arsitektur-Aplikasi-SMSCenter"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Berdasarkan gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Arsitektur-Aplikasi-SMSCenter"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, kolektor yang belum memiliki akses akan mengajukan form permintaan akses
- kepada divisi RC atau 
-\emph on
-Remedial and Collection
-\emph default
-.
- Setelah mendapatkan form pengajuan akses, maka divisi RC akan melakukan
- pengecekan terlebih dahulu, jika memang data yang dikirimkan valid, maka
- divisi RC akan membuatkan akses bagi kolektor yang bersangkutan dan akan
- mengirimkan info bahwa kolektor tersebut sudah bisa melakukan request info
- 
-\emph on
-by sms
-\emph default
-.
- Jika sudah memiliki akses, user mampu meminta informasi mengenai kendaraan
- dan calon kreditur melalui modul yang didaftarkan oleh divisi RC.
- Pesan yang masuk dari nomor kolektor akan dibaca oleh konsol sms untuk
- kemudian dicek valid atau tidaknya 
-\emph on
-request
-\emph default
- di aplikasi SMSCenter.
- Jika 
-\emph on
-request 
-\emph default
-tidak valid, maka aplikasi SMSCenter akan mengirimkan balasan berupa respon
- kesalahan (
-\emph on
-exception
-\emph default
-).
- Jika 
-\emph on
-request
-\emph default
- valid, maka 
-\emph on
-request 
-\emph default
-akan diteruskan ke 
-\emph on
-database 
-\emph default
-untuk kemudian diolah dalam bentuk 
-\emph on
-stored procedure 
-\emph default
-dan hasil dari 
-\emph on
-stored procedure
-\emph default
- akan dikirimkan kembali melalui konsol sms untuk diteruskan ke kolektor.
-\end_layout
-
-\begin_layout Subsubsection
-Analisa arsitektur teknologi yang sedang berjalan
+\begin_layout Subsection
+Chromagram
 \end_layout
 
 \begin_layout Standard
@@ -6758,250 +5800,28 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Analisa arsitektur teknologi dilakukan dengan mengidentifikasikan teknologi
-\emph on
--
-\emph default
-teknologi yang digunakan pada sistem yang sedang berjalan.
- Adapun analisa teknologi dilakukan pada bagian perangkat keras dan perangkat
- lunak yang digunakan pada sistem yang sedang berjalan.
- Tabel 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Teknologi-Perangkat-Keras"
-plural "false"
-caps "false"
-noprefix "false"
+Beat tracking digunakan untuk menentukan contoh waktu dalam rekaman audio,
+ di mana pendengar manusia cenderung mengetuk kakinya ke musik.
+ Beat tracking pada rancangan menggunakan metode dynamic programming.
+ Dynamic programming adalah kombinasi pemikiran terstruktur dan pola pikir
+ analitis untuk menyelesaikan sebuah permasalahan.
+ Proses beat tracking ini dibutuhkan untuk membentuk ketukan dalam setiap
+ detik dari file audio yang diunggah.
+\end_layout
 
-\end_inset
-
- adalah teknologi perangkat keras yang digunakan pada sistem yang sedang
- berjalan.
+\begin_layout Subsection
+Convolutional Neural Network (CNN)
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
+\begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Teknologi Perangkat Keras
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Teknologi-Perangkat-Keras"
-
-\end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="3">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Nama Perangkat Keras
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Spesifikasi
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Prosesor
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Intel Pentium 4 6.0 GHz
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-RAM
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1 GB
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-Disk
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-75 GB
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Modem GSM
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8 ports GSM MODEM WAVECOM
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-Sim Card
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kartu Halo
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
+\backslash
+noindent
 \end_layout
 
 \end_inset
@@ -7010,38 +5830,85 @@ Kartu Halo
 \end_layout
 
 \begin_layout Standard
-Tabel 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Teknologi-Perangkat-Lunak"
-plural "false"
-caps "false"
-noprefix "false"
+Convolutional Neural Network (CNN) adalah salah satu jenis neural network
+ yang biasa digunakan pada data image.
+ CNN bisa digunakan untuk mendeteksi dan mengenali objek pada sebuah image.
+ Metode CNN ini digunakan untuk melatih sebuah sistem dalam mengenali akor
+ pada setiap bar.
+\end_layout
 
-\end_inset
-
- adalah teknologi perangkat lunak yang digunakan pada sistem yang sedang
- berjalan.
+\begin_layout Subsection
+Pengaturan Direktori
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
+\begin_inset ERT
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tujuan dari pengaturan direktori adalah agar penempatan parenthesis dan
+ child package bagian backend dan frontend dapat berkomunikasi satu sama
+ lain.
+ Semua direktori package dibuat di dalam direktori berjenis Git.
+ Direktori aplikasi ini dapat diunduh melalui link yang terdapat halaman
+ website Git.
+\end_layout
+
+\begin_layout Standard
+Direktori tersebut akan memiliki tiga buah direktori child (sub direktori)
+ dengan nama “app”, “app_settings”, dan “backend”.
+ Selain ketiga sub direktori tersebut, terdapat enam buah file yaitu, “.env”,
+ “.flaskenv”, “.gitignore”, “README.md”, “requirements.txt”, dan “run.py”.
+\end_layout
+
+\begin_layout Standard
+Direktori “app” merupakan bagian dari pendekatan frontend yang bertujuan
+ untuk menyediakan tampilan kepada pengguna dengan basis web.
+ Sementara itu, direktori “backend” merupakan pendekatan backend yang bertujuan
+ untuk menyediakan model dan preprocessing data masukan.
+ Direktori “app_settings” bertujuan untuk melakukan inisialisasi pengaturan
+ Redis Server dan session id dengan tujuan agar kedua pendekatan tersebut
+ dapat berkomunikasi satu sama lain.
+\end_layout
+
+\begin_layout Standard
+File “README.md” dibuat dengan tujuan memberikan penjelasan aplikasi secara
+ singkat pada situs Github.
+ File “requirements.txt” berfungsi untuk menuliskan pustaka Python yang dibutuhka
+n aplikasi ini.
+ File “requirements.txt” dapat digunakan pengguna untuk melakukan pemasangan
+ pustaka yang dibutuhkan aplikasi dengan memasukan perintah “pip install
+ -r requirements.txt” setelah mengunduh direktori aplikasi dari Github.
+ File terakhir yang ada pada direktori “web” adalah “run.py”.
+ File ini berfungsi untuk menjalankan keseluruhan aplikasi melalui perintah
+ “flask run”.
+\end_layout
+
+\begin_layout Subsection
+Pendekatan Backend
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
 
 \begin_layout Plain Layout
-Teknologi Perangkat Lunak
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Teknologi-Perangkat-Lunak"
-
-\end_inset
 
 
+\backslash
+noindent
 \end_layout
 
 \end_inset
@@ -7049,147 +5916,134 @@ name "tab:Teknologi-Perangkat-Lunak"
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset VSpace defskip
-\end_inset
-
-
+\begin_layout Standard
+Pendekatan backend pada aplikasi ini ditempatkan pada direktori “backend”
+ dan dilengkapi dengan file “__init__.py” di dalamnya.
+ Hal ini dilakukan agar direktori “app” milik pendekatan frontend dapat
+ mengakses fungsi yang ada pada pendekatan backend dengan melakukan perintah
+ import backend pada script Python.
+ Model CNN pada aplikasi menggunakan 1655 citra chromagram sebagai data
+ latih, dan 347 citra chromagram sebagai data validasi.
 \end_layout
 
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="3">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
+\begin_layout Standard
+Pembuatan model menggunakan pustaka Jupyter, Librosa, dan Keras.
+ Data latih berbentuk wav dan mp3 yang dipisah dan dikelompokan setiap dua
+ ketukan menggunakan pustaka Librosa.
+ Setiap ketukan yang terbentuk berupa detik dengan tipe data float.
+ Setiap detik ketukan kemudian disimpan ke dalam file berbentuk “.txt”.
+ Setelah membentuk file “.txt”, dilakukan labelling akor pada masing-masing
+ pasangan ketukan yang dibantu oleh Anastashia Aurelia, pelajar piano dari
+ Associated Board of the Royal School of Music (ABRSM) yang sudah berada
+ pada Grade 7.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Nama Perangkat Lunak
+\begin_layout Standard
+Akor pada aplikasi berjumlah 24 yang terdiri dari 12 akor major dan 12 akor
+ minor.
+ Setelah labelling dilakukan, dilakukan visualisasi citra spectogram MFCC
+ berdasarkan detik ketukan, dan akor yang ada pada file “.txt”.
+ Visualisasi tersebut kemudian diletakkan di dalam direktori masingmasing
+ kelas untuk dijadikan data latih.
+ Sebanyak 20 persen dari jumlah masing-masing kelas dijadikan data validasi.
+ Data latih dimasukan ke dalam direktori “data_train” dan data validasi
+ ke dalam direktori “data_test”.
+ Banyak citra data latih dan data validasi masing-masing kelas dapat dilihat
+ pada Tabel 3.2.6.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Spesifikasi
+\begin_layout Standard
+Tabel 3.2.6 Citra Data Latih Dan Data Validasi
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
+\begin_layout Standard
+Kelas Data Latih Data Validasi A 48 12 A# 50 9 A#m 248 15 Am 84 27 B 61
+ 14 Bm 53 13 C 76 16 C# 44 11 C#m 77 16 D 79 25 D# 57 13 D#m 24 8 Dm 48
+ 12 Em 56 13 F 56 13 F# 67 13 F#m 54 13 Fm 74 17 (Bersambung)25 (Sambungan)
+ G 131 17 G# 54 19 G#m 54 13 Gm 75 16 Jumlh 1655 347 
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Bahasa pemrograman
+\begin_layout Standard
+Setelah data latih dan data validasi ditempatkan pada direktori dan kelasnya
+ masing-masing, tahap selanjutnya membuat model CNN menggunakan pustaka
+ Keras.
+ Proses pelatihan menggunakan Jupyter Notebook.
+ Model dilakukan proses kompilasi menggunakan optimizer RMSprop yang ada
+ pada pustaka Keras dengan nilai learning rate sebesar 0.00001.
+ Tahap selanjutnya dalam pembuatan model adalah dengan memasukan path direktori
+ data latih dan data validasi ke dalam Keras.
+ Dimensi citra yang digunakan sebagai data masukan ke dalam model memiliki
+ dimensi 200x200 dan berbentuk tiga dimensi (RGB).
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-VB.Net
+\begin_layout Standard
+Ukuran batch data latih dan data validasi masing-masing adalah sebesar 32
+ data dan 257 data dengan mode shuffle bernilai true, sehingga data latih
+ diproses sebanyak 32 data yang dipilih secara acak oleh Keras dengan jumlah
+ pengulangan sebanyak banyak data latih dibagi besar batch yang disebut
+ sebagai steps per epoch.
+ Sementara itu, steps per epoch yang dipilih untuk data validasi adalah
+ sebanyak dua kali dengan mode shuffle bernilai true.
+ Langkah selanjutnya dalam proses pembuatan model adalah dengan melakukan
+ proses pelatihan.
+ Model yang dilatih disimpan di dalam file berbentuk “.h5” agar dapat digunakan
+ kembali.
+ Proses pelatihan berhasil mendapatkan nilai accuracy 87 persen, loss accuracy
+ 31 persen, validation loss 1.7 persen, dan validation accuracy sebanyak
+ 96 persen.
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
+\begin_layout Standard
+Selanjutnya pengaturan session id.
+ Session id dibentuk pada saat pengguna pertama kali mengunjungi halaman
+ web aplikasi dan juga setelah pengguna menggunakan fitur pengenalan akor.
+ Session id yang dibentuk berguna pada penamaan data masukan pengguna.
+ Penamaan data masukan yang unik berdasarkan session id diperlukan agar
+ data pada saat aplikasi diakses oleh pengguna lebih dari satu tidak saling
+ tumpang tindih.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Basis Data
+\begin_layout Standard
+Redis Server diinisialisasi oleh backend terlebih dahulu pada saat aplikasi
+ dijalankan pertama kali.
+ Redis Server pada aplikasi berguna untuk menyimpan session id yang sedang
+ aktif agar dapat diakses baik dari segi backend maupun frontend.
+ Selain untuk menyimpan session id, Redis Server juga berfungsi sebagai
+ media komunikasi antara frontend dengan backend pada saat pengguna memilih
+ fitur.
+ Fitur-fitur yang dapat dipilih oleh pengguna adalah memilih data masukan
+ dari direktori pengguna atau melakukan rekaman secara langsung.
+ Perbedaan fitur ini diperlukan suatu variabel pembeda agar fungsi yang
+ dijalankan oleh backend tepat sesuai pilihan pengguna.
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-SQLServer
+\begin_layout Standard
+Model yang sudah dilatih dapat diakses melalui file “.h5” yang sudah disimpan
+ terlebih dahulu pada saat proses pelatihan model, sehingga pada saat pengguna
+ melakukan fitur pengenalan dalam aplikasi, model dapat digunakan kembali.
+ Data masukan pengguna pada saat menggunakan fitur pengenalan pertama-tama
+ dibentuk “.txt” berdasarkan pasangan detik setiap ketukan pada data.
+ Setiap pasangan detik tersebut dibentuk citra spectogram.
+ Masing-masing dari citra yang dibentuk kemudian dilakukan proses pengenalan
+ oleh model.
+ Contoh data latih dan data validasi dapat dilihat pada Gambar 3.2 dan Gambar
+ 3.3.
+ Untuk mengetahui akor pada gambar chromagram, yang perlu dilihat adalah
+ baris yang paling terang (berwarna putih kekuning-kuningan).
+ Pada data latih, dapat dilihat bahwa akor A yang paling terang dan diikuti
+ oleh akor E dan akor Dm.
+ Setelah dilakukan validasi, ternyata benar bahwa akor yang dilatih adalah
+ akor A.
+ Hal tersebut dapat diketahui dari baris yang paling terang pada data validasi
+ yakni akor A.
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
+\begin_layout Standard
+Gambar 3.1 Contoh Data Latih Akor A
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-OS Server
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Windows Server 2003
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+\begin_layout Standard
+Gambar 3.2 Contoh Data Validasi Akor A
 \end_layout
 
 \begin_layout Subsubsection
