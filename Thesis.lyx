@@ -9,25 +9,25 @@
 \usepackage{sectsty}
 \chapterfont{\centering} 
 
-\newcommand{\Judul}{Analisis Dan Perancangan Aplikasi Chatbot Kolektor Menggunakan Metode Extreme Programming Dan Forward Chaining}
-\newcommand{\JudulInggris}{Analysis and Design for Chatbot Application Using Extreme Programming Methods and Forward Chaining}
-\newcommand{\DosenPembimbing}{Dr. Bambang Gunawan}
-\newcommand{\NamaMahasiswa}{Muhamad Sidik}
-\newcommand{\NIRM}{92316068}
+\newcommand{\Judul}{Pengujian Akurasi Akor Pada Suara Musik Piano Dengan Metode Convolutional Neural Network (CNN)}
+\newcommand{\JudulInggris}{Testing the Accuracy of Chords in Piano Music Using the Convolutional Neural Network (CNN) Method}
+\newcommand{\DosenPembimbing}{Dr. Onny Marlen}
+\newcommand{\NamaMahasiswa}{Muhammad Kamal Yasya}
+\newcommand{\NIRM}{92216162}
 \newcommand{\Tahun}{2020}
 \newcommand{\TempatLahir}{Bekasi}
-\newcommand{\TglLahir}{19 November 1994}
+\newcommand{\TglLahir}{20 September 1994}
 
 \newcommand{\TanggalLulus}{-}
 \newcommand{\TanggalSidang}{-}
-\newcommand{\KataKunci}{Chatbot, line, asisten virtual, extreme programming, forward chaining, vb.net, sql server 2012}
-\newcommand{\KataKunciInggris}{Chatbot, line, virtual assistant, extreme programming, forward chaining, vb.net, sql server 2012}
+\newcommand{\KataKunci}{Convolutional Neural Network (CNN), Chromagram, Chord Recognition}
+\newcommand{\KataKunciInggris}{Convolutional Neural Network (CNN), Chromagram, Chord Recognition}
 \newcommand{\JumlahHalamanDepan}{xviii}
 \newcommand{\JumlahHalaman}{115}
 \newcommand{\TahunPustaka}{2015 - 2020}
 
 \newcommand{\KotaPenulis}{Jakarta}
-\newcommand{\TglTulis}{Februari 2020}
+\newcommand{\TglTulis}{Maret 2020}
 
 \newcommand{\Rektor}{Prof. Dr. E.S. Margianti, SE, MM}
 \newcommand{\Direktur}{Dr. Tubagus Maulana Kusuma, SKom., MEngSc.}
@@ -114,11 +114,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -505327274 "Muhamad Sidik"
 \end_header
 
 \begin_body
@@ -1611,16 +1612,38 @@ JumlahHalaman
 \paragraph_spacing single
 Implementasi kecerdasan buatan dalam dunia diskusi telah diklasifikasikan
  banyak, tetapi banyak dari implementasi ini masih kurang akurat dalam hal
- akurasi seperti Chord Recognition.
+ akurasi seperti 
+\emph on
+Chord Recognition
+\emph default
+.
  Pengenalan Akor adalah sistem atau aplikasi untuk mengetahui atau mengukur
  akor dengan benar.
  Untuk membangun sistem, diperlukan metode agar akurasi yang dihasilkan
  tinggi.
- Beberapa metode yang sering digunakan adalah metode Convolutional Neural
- Network (CNN).
+ Beberapa metode yang sering digunakan adalah metode 
+\emph on
+Convolutional Neural Network
+\emph default
+ (CNN).
  Penelitian ini bertujuan untuk mengukur akurasi pengenalan akor dari piano
- dan audio bass dengan menggunakan metode Convolutional Neural Network (CNN)
- dan memanfaatkan chromagram dalam transformasi audio ke bentuk gambar.
+ dan audio 
+\emph on
+bass 
+\emph default
+dengan menggunakan metode 
+\emph on
+Convolutional Neural Network 
+\emph default
+(CNN) dan memanfaatkan 
+\emph on
+chromagram 
+\emph default
+dalam transformasi 
+\emph on
+audio 
+\emph default
+ke bentuk gambar.
  Data yang digunakan dalam penelitian ini terdiri dari 12 kelas utama dan
  12 kelas minor.
  Berdasarkan hasil tes yang dilakukan, akurasi setiap kelas memberikan nilai
@@ -2198,7 +2221,7 @@ Email
 \begin_inset Text
 
 \begin_layout Plain Layout
-m.sidik19@yahoo.com
+@yahoo.com
 \end_layout
 
 \end_inset
@@ -2736,12 +2759,7 @@ Ayahanda serta ibunda yang telah banyak memberikan dorongan dan semangat
 \end_layout
 
 \begin_layout Enumerate
-Aulia Rosiana yang telah banyak memberikan dukungan dan semangat tak terbatas
- bagi penulis.
-\end_layout
-
-\begin_layout Enumerate
-Seluruh rekan-rekan angkatan 51 MMSI seperjuangan di Universitas Gunadarma
+Seluruh rekan-rekan angkatan 51 SIB seperjuangan di Universitas Gunadarma
  yang telah banyak membantu penulis.
 \end_layout
 
@@ -3738,8 +3756,11 @@ Seiring dengan perkembangan teknologi yang semakin cepat, kecerdasan yang
  awalnya hanya dimiliki oleh makhluk hidup, sekarang mulai dikembangkan
  dan diimplementasikan ke dalam komputer.
  Hal tersebut biasa disebut dengan Kecerdasan Buatan.
- Kecerdasan Buatan atau dalam bahasa Inggris disebut Artificial Intelligence
- (AI) didefinisikan sebagai salah satu cabang ilmu pengetahuan yang berhubungan
+ Kecerdasan Buatan atau dalam bahasa Inggris disebut 
+\emph on
+Artificial Intelligence 
+\emph default
+(AI) didefinisikan sebagai salah satu cabang ilmu pengetahuan yang berhubungan
  dengan pemanfaatan mesin untuk memecahkan persoalan yang rumit dengan cara
  yang lebih manusiawi.
  Teknologi kecerdasan buatan memiliki banyak kegunaan sehingga mampu membuat
@@ -3754,13 +3775,24 @@ Seiring dengan perkembangan teknologi yang semakin cepat, kecerdasan yang
 
 \begin_layout Standard
 Namun, meskipun implementasi kecerdasan buatan dalam dunia permusikan tergolong
- banyak, namun dalam hal akurasi masih kurang akurat seperti Chord Recognition.
- Chord Recognition adalah sebuah sistem atau aplikasi untuk mengetahui atau
- mengukur akor secara tepat.
+ banyak, namun dalam hal akurasi masih kurang akurat seperti 
+\emph on
+Chord Recognition
+\emph default
+.
+ 
+\emph on
+Chord Recognition 
+\emph default
+adalah sebuah sistem atau aplikasi untuk mengetahui atau mengukur akor secara
+ tepat.
  Untuk membangun sistem tersebut, dibutuhkan metode-metode agar akurasi
  yang dihasilkan tinggi.
- Metode yang sering digunakan adalah metode Convolutional Neural Network
- (CNN).
+ Metode yang sering digunakan adalah metode 
+\emph on
+Convolutional Neural Network 
+\emph default
+(CNN).
  
 \begin_inset Newpage pagebreak
 \end_inset
@@ -3769,9 +3801,19 @@ Namun, meskipun implementasi kecerdasan buatan dalam dunia permusikan tergolong
 \end_layout
 
 \begin_layout Standard
-Convolutional Neural Network (CNN) adalah salah satu metode Machine Learning
- dari pengembangan Multi Layer Perceptron (MLP) yang didesain untuk mengolah
- data dua dimensi.
+
+\emph on
+Convolutional Neural Network
+\emph default
+ (CNN) adalah salah satu metode 
+\emph on
+Machine Learning 
+\emph default
+dari pengembangan 
+\emph on
+Multi Layer Perceptron 
+\emph default
+(MLP) yang didesain untuk mengolah data dua dimensi.
  CNN dikatakan pengembangan lebih lanjut dari MLP karena CNN menggunakan
  metode yang mirip dengan MLP, namun menggunakan dimensi yang lebih banyak.
  CNN juga sering digunakan sebagai ekstraktor fitur yang kuat dari data
@@ -3788,14 +3830,36 @@ Terdapat beberapa peneliti terdahulu yang telah melakukan penelitian serupa,
  Penelitian tersebut berjudul FEATURE LEARNING FOR CHORD RECOGNITION: THE
  DEEP CHROMA EXTRACTOR.
  Pada penelitian tersebut, Filip dan Gerhard melakukan pelatihan data menggunaka
-n chromogram terhadap Short-Time Fourier Transform (STFT) sebagai data latih.
+n 
+\emph on
+chromogram 
+\emph default
+terhadap 
+\emph on
+Short-Time Fourier Transform 
+\emph default
+(STFT) sebagai data latih.
  STFT merupakan sebuah metode yang mengubah data mentah audio ke bentuk
  satuan signal menjadi frekuensi dalam satuan waktu.
- Penelitian tersebut juga membandingkan hasil akurasi chromogram dengan
- spectogram.
- Tingkat akurasi yang didapat menggunakan chromogram yaitu sebesar 69.2%,
- sementara tingkat akurasi untuk model yang menggunakan spectogram adalah
- sebesar 78.8%.
+ Penelitian tersebut juga membandingkan hasil akurasi 
+\emph on
+chromogram 
+\emph default
+dengan 
+\emph on
+spectogram
+\emph default
+.
+ Tingkat akurasi yang didapat menggunakan 
+\emph on
+chromogram 
+\emph default
+yaitu sebesar 69.2%, sementara tingkat akurasi untuk model yang menggunakan
+ 
+\emph on
+spectogram 
+\emph default
+adalah sebesar 78.8%.
  
 \end_layout
 
@@ -3803,12 +3867,23 @@ n chromogram terhadap Short-Time Fourier Transform (STFT) sebagai data latih.
 Beberapa studi penelitian menggunakan metode CNN pada model arsitektur untuk
  melakukan klasifikasi terhadap data berupa suara.
  Penelitian tersebut menerapkan CNN asli yang diperluas secara fungsional
- untuk input spectogram suara dan menunjukkan bahwa arsitektur CNN mengungguli
- bentuk-bentuk dasar sebelumnya dari Deep Learning Network (DNN) yang terhubung
- penuh pada pengenalan telepon dan tugas-tugas besar pengenalan suara vokal.
+ untuk 
+\emph on
+input spectogram 
+\emph default
+suara dan menunjukkan bahwa arsitektur CNN mengungguli bentuk-bentuk dasar
+ sebelumnya dari 
+\emph on
+Deep Learning Network 
+\emph default
+(DNN) yang terhubung penuh pada pengenalan telepon dan tugas-tugas besar
+ pengenalan suara vokal.
  Adapun sebuah penelitian untuk melakukan klasifikasi kelaparan, kesakitan
- dan mengantuk pada suara bayi menangis menggunakan CNN terhadap spectogram
- MFCC dengan tingkat akurasi 78.5%.
+ dan mengantuk pada suara bayi menangis menggunakan CNN terhadap 
+\emph on
+spectogram 
+\emph default
+MFCC dengan tingkat akurasi 78.5%.
  
 \end_layout
 
@@ -3817,11 +3892,33 @@ Beberapa studi penelitian lainnya, seperti yang dilakukan oleh I Gede Harsemadi,
  Made Sudarman, dan Nyoman Pramaita yakni memanfaatkan algoritma KNN dalam
  mengelompokkan musik terhadap suasana hati.
  Sistem yang dibangun dalam penelitian tersebut akan menerima masukan data
- berupa file musik format mono *.wav, yang selanjutnya melakukan proses pengelomp
-okan terhadap musik dengan menggunakan klasifikasi KNN.
- Sistem tersebut akan menghasilkan keluaran berupa label jenis mood yaitu,
- contentment/ kepuasan, exuberance/ gembira, depression/ depresi dan anxious/
- cemas; kalut.
+ berupa 
+\emph on
+file 
+\emph default
+musik format mono *.wav, yang selanjutnya melakukan proses pengelompokan
+ terhadap musik dengan menggunakan klasifikasi KNN.
+ Sistem tersebut akan menghasilkan keluaran berupa label jenis 
+\emph on
+mood 
+\emph default
+yaitu, 
+\emph on
+contentment
+\emph default
+/ kepuasan, 
+\emph on
+exuberance
+\emph default
+/ gembira, 
+\emph on
+depression
+\emph default
+/ depresi dan 
+\emph on
+anxious
+\emph default
+/ cemas; kalut.
  Secara umum hasil akurasi sistem dengan menggunakan algoritma klasifikasi
  K-NN cukup baik yaitu 86,55% pada nilai k = 3, serta waktu pemrosesan klasifika
 si rata-rata 0,01021 detik per-file musik.
@@ -3924,8 +4021,12 @@ noindent
 
 \begin_layout Standard
 Adapun tujuan dari penelitian ini adalah untuk mengukur tingkat akurasi
- dari metode Convolutional Neural Network (CNN) dalam melakukan pengenalan
- terhadap data lagu yang dimainkan dengan menggunakan alat musik Piano.
+ dari metode 
+\emph on
+Convolutional Neural Network 
+\emph default
+(CNN) dalam melakukan pengenalan terhadap data lagu yang dimainkan dengan
+ menggunakan alat musik Piano.
  
 \begin_inset Newpage pagebreak
 \end_inset
@@ -4036,7 +4137,11 @@ Penelitian ini dapat digunakan untuk sebagai referensi untuk penelitian
  selanjutnya bagi peneliti lain yang berminat untuk mempelajari Kecerdasan
  Buatan.
  Selain itu, penelitian ini juga dapat digunakan untuk mengimplementasikan
- metode Machine Learning.
+ metode 
+\emph on
+Machine Learning
+\emph default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -4097,8 +4202,6 @@ TELAAH PUSTAKA
 \end_layout
 
 \begin_layout Section
-
-\emph on
 Tinjauan Pustaka Penelitian
 \end_layout
 
@@ -4121,8 +4224,19 @@ noindent
 \begin_layout Standard
 Penelitian ini dilakukan dengan terlebih dahulu membahas sejumlah teori
  dan konsep yang berhubungan dengan metode CNN.
- Landasan teori yang dibahas terdiri dari audio, akor, bass, Beat Tracking,
- Chromagram, dan Metode CNN.
+ Landasan teori yang dibahas terdiri dari audio, akor, 
+\emph on
+bass
+\emph default
+, 
+\emph on
+Beat Tracking
+\emph default
+, 
+\emph on
+Chromagram
+\emph default
+, dan Metode CNN.
 \end_layout
 
 \begin_layout Subsection
@@ -4211,54 +4325,175 @@ a :
 \end_layout
 
 \begin_layout Enumerate
+
+\emph on
 Major Triad
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
-Major triad merupakan tiga nada yang dibunyikan dengan skala nada 1-2- 1,5.
+
+\emph on
+Major triad 
+\emph default
+merupakan tiga nada yang dibunyikan dengan skala nada 1-2- 1,5.
  Akor major menunjukan identitas suatu bagian lagu lebih dekat dengan root
  karena ada satu buah akor major yang menempati Scale I.
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
+
+\emph on
 Minor triad
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
-Minor triad merupakan tiga nada yang dibunyikan dengan skala 1-1,5-2.
+
+\emph on
+Minor triad 
+\emph default
+merupakan tiga nada yang dibunyikan dengan skala 1-1,5-2.
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
+
+\emph on
 Diminished triad
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
-Diminished triad merupakan tiga nada yang dibunyikan dengan skala 1- 1,5-1,5.
+
+\emph on
+Diminished triad
+\emph default
+ merupakan tiga nada yang dibunyikan dengan skala 1- 1,5-1,5.
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
+
+\emph on
 Augmented triad
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
-Augmented triad merupakan tiga nada yang dibunyikan dengan skala 1- 1,5-2,5.
+
+\emph on
+Augmented triad 
+\emph default
+merupakan tiga nada yang dibunyikan dengan skala 1- 1,5-2,5.
+\change_inserted -505327274 1583668038
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\change_inserted -505327274 1583668040
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -505327274 1583668040
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Akor seventh merupakan akor empat not yang kelas pitchnya dapat diatur sebagai
- sepertiga.
- Skala nada akor major seventh adalah 1-2-1,5-2.
- Sedangkan skala nada untuk minor seventh adalah 1-1,5-2-2.
- Sama halnya dengan triad, kelas nada yang dimiliki oleh akor seventh menempati
- posisi yang berdekatan (rumpun empat kelas) pada lingkaran pertiga.
- Keempat anggota akor ketujuh adalah root, third, fifth, dan seventh.
- Terdapat suatu cara untuk melakukan teknik blocking pada akor minor seventh.
- Dengan memanfaatkan teknik blocking, maka root dapat berperan sebagai nada
- bass.
- Sementara third, fifth, dan seventh sebagai major triad.
+Akor 
+\emph on
+seventh
+\emph default
+ merupakan akor empat not yang kelas 
+\emph on
+pitch
+\emph default
+nya dapat diatur sebagai sepertiga.
+ Skala nada akor major 
+\emph on
+seventh 
+\emph default
+adalah 1-2-1,5-2.
+ Sedangkan skala nada untuk minor 
+\emph on
+seventh 
+\emph default
+adalah 1-1,5-2-2.
+ Sama halnya dengan triad, kelas nada yang dimiliki oleh akor 
+\emph on
+seventh 
+\emph default
+menempati posisi yang berdekatan (rumpun empat kelas) pada lingkaran pertiga.
+ Keempat anggota akor ketujuh adalah 
+\emph on
+root
+\emph default
+, 
+\emph on
+third
+\emph default
+, 
+\emph on
+fifth
+\emph default
+, dan 
+\emph on
+seventh
+\emph default
+.
+ Terdapat suatu cara untuk melakukan teknik 
+\emph on
+blocking 
+\emph default
+pada akor minor 
+\emph on
+seventh
+\emph default
+.
+ Dengan memanfaatkan teknik 
+\emph on
+blocking
+\emph default
+, maka 
+\emph on
+root
+\emph default
+ dapat berperan sebagai nada 
+\emph on
+bass
+\emph default
+.
+ Sementara 
+\emph on
+third
+\emph default
+, 
+\emph on
+fifth
+\emph default
+, dan 
+\emph on
+seventh 
+\emph default
+sebagai major triad.
 \end_layout
 
 \begin_layout Subsection
+
+\emph on
 Beat Tracking
 \end_layout
 
@@ -4279,29 +4514,71 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Beat tracking digunakan untuk menentukan contoh waktu dalam rekaman audio,
- di mana pendengar manusia cenderung mengetuk kakinya ke musik.
- Beat tracking pada rancangan menggunakan metode dynamic programming.
- Dynamic programming atau dynamic optimization bukan merupakan rumus matematika
- yang mampu memberikan jawaban dengan hanya sekedar memberikan input.
- Sebaliknya, dynamic programming adalah kombinasi pemikiran terstruktur
- dan pola pikir analitis untuk menyelesaikan sebuah permasalahan.
+
+\emph on
+Beat tracking
+\emph default
+ digunakan untuk menentukan contoh waktu dalam rekaman audio, di mana pendengar
+ manusia cenderung mengetuk kakinya ke musik.
+ 
+\emph on
+Beat tracking 
+\emph default
+pada rancangan menggunakan metode 
+\emph on
+dynamic programming
+\emph default
+.
+ 
+\emph on
+Dynamic programming 
+\emph default
+atau 
+\emph on
+dynamic optimization 
+\emph default
+bukan merupakan rumus matematika yang mampu memberikan jawaban dengan hanya
+ sekedar memberikan input.
+ Sebaliknya, 
+\emph on
+dynamic programming 
+\emph default
+adalah kombinasi pemikiran terstruktur dan pola pikir analitis untuk menyelesaik
+an sebuah permasalahan.
  
 \end_layout
 
 \begin_layout Standard
-Untuk melakukan beat tracking, hal yang harus dilakukan terlebih dahulu
- adalah mencari sinyal yang berupa onset.
+Untuk melakukan 
+\emph on
+beat tracking
+\emph default
+, hal yang harus dilakukan terlebih dahulu adalah mencari sinyal yang berupa
+ onset.
  Onset merupakan lokasi dimana sinyal berada pada nilai yang tinggi secara
  tiba-tiba.
  Onset yang ditemukan kemudian dilakukan penandaan.
- Onset yang ditemukan bisa saja merupakan false positive.
- Untuk mengurangi false positive tersebut, maka harus dilakukan perhitungan
- untuk menemukan urutan umum terpanjang dari onset.
+ Onset yang ditemukan bisa saja merupakan 
+\emph on
+false positive
+\emph default
+.
+ Untuk mengurangi 
+\emph on
+false positive 
+\emph default
+tersebut, maka harus dilakukan perhitungan untuk menemukan urutan umum terpanjan
+g dari onset.
 \end_layout
 
 \begin_layout Subsection
+
+\change_deleted -505327274 1583668117
 SQL Server 2012
+\change_inserted -505327274 1583668119
+Chromagram
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -4321,29 +4598,91 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Chromagram adalah transformasi properti frekuensi-waktu sinyal menjadi prekursor
- pitch yang berubah-ubah untuk sementara waktu.
+
+\emph on
+Chromagram
+\emph default
+ adalah transformasi properti frekuensi-waktu sinyal menjadi prekursor 
+\emph on
+pitch 
+\emph default
+yang berubah-ubah untuk sementara waktu.
  Transformasi ini didasarkan pada pengamatan persepsi tentang sistem pendengaran
  dan telah terbukti memiliki beberapa sifat matematika yang menarik.
- Chromagram memperluas konsep chroma untuk memasukkan dimensi waktu.
- Seperti halnya kita menggunakan spektrogram untuk menyimpulkan properti
- tentang distribusi energi sinyal dari frekuensi dan waktu, chromagram dapat
- digunakan untuk menyimpulkan properti tentang distribusi energi sinyal
+ 
+\emph on
+Chromagram 
+\emph default
+memperluas konsep chroma untuk memasukkan dimensi waktu.
+ Seperti halnya kita menggunakan 
+\emph on
+spektrogram 
+\emph default
+untuk menyimpulkan properti tentang distribusi energi sinyal dari frekuensi
+ dan waktu, 
+\emph on
+chromagram 
+\emph default
+dapat digunakan untuk menyimpulkan properti tentang distribusi energi sinyal
  terhadap kroma dan waktu.
  
 \end_layout
 
 \begin_layout Standard
-Terdapat dua masalah yang muncul dalam mengembangkan konsep chromagram ini,
- yakni definisi dan bagaimana cara menghitung chromagram.
- Chroma adalah pemetaan banyak-ke-satu (many-to-one) frekuensi, sementara
- chromagram adalah ukuran kekuatan sinyal sebagai fungsi dari chroma dan
- waktu.
- Oleh karena itu, chromagram dapat didefinisikan sebagai pemetaan banyak-ke-satu
- (many-to-one) kekuatan sinyal pada frekuensi milik kelas chroma yang sama.
+Terdapat dua masalah yang muncul dalam mengembangkan konsep 
+\emph on
+chromagram 
+\emph default
+ini, yakni definisi dan bagaimana cara menghitung 
+\emph on
+chromagram
+\emph default
+.
+ 
+\emph on
+Chroma 
+\emph default
+adalah pemetaan banyak-ke-satu (
+\emph on
+many-to-one
+\emph default
+) frekuensi, sementara 
+\emph on
+chromagram 
+\emph default
+adalah ukuran kekuatan sinyal sebagai fungsi dari 
+\emph on
+chroma 
+\emph default
+dan waktu.
+ Oleh karena itu, 
+\emph on
+chromagram 
+\emph default
+dapat didefinisikan sebagai pemetaan banyak-ke-satu (
+\emph on
+many-to-one
+\emph default
+) kekuatan sinyal pada frekuensi milik kelas 
+\emph on
+chroma 
+\emph default
+yang sama.
  Pembagian antara transformasi langsung dari sinyal asli dan transformasi
- dari gambar frekuensiwaktu dapat digunakan untuk menghitung chromagram.
- Contoh chromagram dapat dilihat dengan jelas pada Gambar 2.1.4.
+ dari gambar frekuensi
+\change_inserted -505327274 1583668171
+ 
+\change_unchanged
+waktu dapat digunakan untuk menghitung 
+\emph on
+chromagram
+\emph default
+.
+ Contoh 
+\emph on
+chromagram 
+\emph default
+dapat dilihat dengan jelas pada Gambar 2.1.4.
 \end_layout
 
 \begin_layout Standard
@@ -4402,18 +4741,44 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Windowing berfungsi untuk meminimalisir sinyal yang tak kontinu pada awal
- dan akhir masing-masing frame.
+
+\emph on
+Windowing
+\emph default
+ berfungsi untuk meminimalisir sinyal yang tak kontinu pada awal dan akhir
+ masing-masing 
+\emph on
+frame
+\emph default
+.
  Nilai panjang filter didapatkan dengan menggunakan rumus di bawah.
- Nilai panjang tersebut akan dipakai untuk membuat respon impulse di simulasi
- dan implementasi.
- Nilai panjang filter juga akan berpengaruh kepada faktor roll-off atau
- faktor kelandaian dari suatu filter.
+ Nilai panjang tersebut akan dipakai untuk membuat respon 
+\emph on
+impulse 
+\emph default
+di simulasi dan implementasi.
+ Nilai panjang 
+\emph on
+filter 
+\emph default
+juga akan berpengaruh kepada faktor 
+\emph on
+roll-off 
+\emph default
+atau faktor kelandaian dari suatu 
+\emph on
+filter
+\emph default
+.
  
 \end_layout
 
 \begin_layout Standard
-Rumus untuk menghitung window dapat dilihat pada persamaan 
+Rumus untuk menghitung 
+\emph on
+window 
+\emph default
+dapat dilihat pada persamaan 
 \end_layout
 
 \begin_layout Standard
@@ -4422,11 +4787,24 @@ Rumus untuk menghitung window dapat dilihat pada persamaan
 \end_layout
 
 \begin_layout Standard
-𝑌𝑡(𝑛) = 𝑥𝑡(𝑛) 𝑤(𝑛), 0 ≤ 𝑛 ≤ 𝑁 − 1 (1) 
+
+\change_inserted -505327274 1583668301
+\begin_inset Formula $Yt(n)=xt(n)w(n),0\leq n\leq N-1$
+\end_inset
+
+
+\change_deleted -505327274 1583668360
+𝑌𝑡(𝑛) = 𝑥𝑡(𝑛) 𝑤(𝑛), 0 ≤ 𝑛 ≤ 𝑁 − 1
+\change_unchanged
+ (1) 
 \end_layout
 
 \begin_layout Standard
-Rumus untuk menghitung Hamming Window dapat dilihat pada persamaan
+Rumus untuk menghitung 
+\emph on
+Hamming Window
+\emph default
+ dapat dilihat pada persamaan
 \end_layout
 
 \begin_layout Standard
@@ -4435,7 +4813,20 @@ Rumus untuk menghitung Hamming Window dapat dilihat pada persamaan
 \end_layout
 
 \begin_layout Standard
-𝑤(𝑛) = 0.54 − 0.46 𝑐𝑜𝑠 𝑐𝑜𝑠 (2𝑁𝜋−𝑛1) , 0 ≤ 𝑛 ≤ 𝑁 − 1 (2)
+
+\change_inserted -505327274 1583668427
+\begin_inset Formula $w(n)=0.54-0.46cos$
+\end_inset
+
+cos(2N𝜋−𝑛1),0
+\begin_inset Formula $\leq n\leq N-1$
+\end_inset
+
+
+\change_deleted -505327274 1583668454
+𝑤(𝑛) = 0.54 − 0.46 𝑐𝑜𝑠 𝑐𝑜𝑠 (2𝑁𝜋−𝑛1) , 0 ≤ 𝑛 ≤ 𝑁 − 1 
+\change_unchanged
+(2)
 \end_layout
 
 \begin_layout Standard
@@ -4463,9 +4854,16 @@ Data mentah dari masukan yang pertama kali dibaca oleh bahasa pemrograman
  Python adalah sinyal dalam domain waktu.
  Data sinyal dalam domain waktu tersebut perlu diubah ke dalam satuan frekuensi.
  Proses untuk mengubah data mentah yang berbentuk sinyal tersebut diubah
- dengan menggunakan metode Discrete Fourier Transform (DFT).
- Pada tahap ini, setiap frame yang terdiri dari N sampel dikonversi dari
- domain waktu ke domain frekuensi.
+ dengan menggunakan metode 
+\emph on
+Discrete Fourier Transform 
+\emph default
+(DFT).
+ Pada tahap ini, setiap 
+\emph on
+frame 
+\emph default
+yang terdiri dari N sampel dikonversi dari domain waktu ke domain frekuensi.
  Rumus dari DFT dapat dilihat di dalam persamaan 3.
 \end_layout
 
@@ -4535,14 +4933,23 @@ Keterangan:
 
 \begin_layout Standard
 Hasil perhitungan pada persamaan 6 mengandung bilangan riil dan imajiner.
- Oleh karena itu, nilai Fourier spektrum didapat dari nilai magnitude yang
- dibentuk kedua bilangan riil dan imajiner.
- Besar nilai magnitude dari persamaan z = x + y tersebut dihitung di dalam
- persamaan 7.
+ Oleh karena itu, nilai Fourier spektrum didapat dari nilai 
+\emph on
+magnitude
+\emph default
+ yang dibentuk kedua bilangan riil dan imajiner.
+ Besar nilai 
+\emph on
+magnitude 
+\emph default
+dari persamaan z = x + y tersebut dihitung di dalam persamaan 7.
 \end_layout
 
 \begin_layout Standard
-𝑟 = 𝑀(𝑛) = √𝑥2 + 𝑦2 (7)
+\begin_inset Formula $r=M(n)=\sqrt{x2+y2}$
+\end_inset
+
+ (7)
 \end_layout
 
 \begin_layout Standard
@@ -4569,16 +4976,70 @@ Keterangan:
 
 \emph on
 Convolutional Neural Network (CNN)
+\change_inserted -505327274 1583668613
+
 \end_layout
 
 \begin_layout Standard
-Convolutional Neural Network (CNN) adalah salah satu jenis neural network
- yang biasa digunakan pada data image.
- CNN bisa digunakan untuk mendeteksi dan mengenali objek pada sebuah image.
- CNN terdiri dari neuron yang memiliki weight, bias, dan fungsi aktivasi.
- Cara kerja CNN memiliki kesamaan pada MLP, namun dalam CNN setiap neuron
- dipresentasikan dalam bentuk dua dimensi, tidak seperti MLP yang setiap
- neuron hanya berukuran satu dimensi.
+
+\change_inserted -505327274 1583668613
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\change_inserted -505327274 1583668613
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Convolutional Neural Network
+\emph default
+ (CNN) adalah salah satu jenis 
+\emph on
+neural network 
+\emph default
+yang biasa digunakan pada data 
+\emph on
+image
+\emph default
+.
+ CNN bisa digunakan untuk mendeteksi dan mengenali objek pada sebuah 
+\emph on
+image
+\emph default
+.
+ CNN terdiri dari 
+\emph on
+neuron 
+\emph default
+yang memiliki 
+\emph on
+weight
+\emph default
+, bias, dan fungsi aktivasi.
+ Cara kerja CNN memiliki kesamaan pada MLP, namun dalam CNN setiap 
+\emph on
+neuron 
+\emph default
+dipresentasikan dalam bentuk dua dimensi, tidak seperti MLP yang setiap
+ 
+\emph on
+neuron 
+\emph default
+hanya berukuran satu dimensi.
  Pada CNN, data yang dipropagasikan oleh jaringan adalah data dua dimensi,
  sehingga operasi linear dan parameter bobot pada CNN berbeda.
  Pada CNN operasi linear menggunakan operasi konvolusi, sedangkan bobot
@@ -4586,8 +5047,15 @@ Convolutional Neural Network (CNN) adalah salah satu jenis neural network
  kumpulan kernel konvolusi.
  Karena sifat proses konvolusi, maka CNN hanya dapat digunakan pada data
  yang memiliki struktur dua dimensi seperti citra dan suara.
- Arsitektur dari CNN dibagi menjadi dua bagian besar, Feature Extraction
- Layer dan Fully-Connected Layer (MLP).
+ Arsitektur dari CNN dibagi menjadi dua bagian besar, 
+\emph on
+Feature Extraction Layer 
+\emph default
+dan 
+\emph on
+Fully-Connected Layer 
+\emph default
+(MLP).
  Arsitektur CNN dapat dilihat pada Gambar 2.1.6.
 \end_layout
 
@@ -4597,27 +5065,55 @@ Gambar 2.1.6 Arsitektur Convolutional Neural Network
 
 \begin_layout Standard
 I Wayan Suartika Eka Putra (2016) dalam penelitiannya yang berjudul Klasifikasi
- Citra Menggunakan Convolutional Neural Network (CNN) pada Caltech 101 mengimple
-mentasikan.
- salah satu metode machine learning yang dapat digunakan untuk klasifikasi
- citra objek yaitu CNN.
+ Citra Menggunakan 
+\emph on
+Convolutional Neural Network 
+\emph default
+(CNN) pada 
+\emph on
+Caltech 101 
+\emph default
+mengimplementasikan.
+ salah satu metode 
+\emph on
+machine learning 
+\emph default
+yang dapat digunakan untuk klasifikasi citra objek yaitu CNN.
 \end_layout
 
 \begin_layout Standard
 Pada penelitian yang dilakukan, peneliti mengimplementasikan metode CNN
  yang terdiri dari dua tahap.
- Tahap pertama adalah klasifikasi citra menggunakan feedforward.
- Tahap kedua merupakan tahap pembelajaran dengan metode backpropagation.
- Hasil uji coba dari klasifikasi citra objek dengan tingkat confusion yang
- berbeda pada basis data Caltech 101 menghasilkan rata-rata nilai akurasi
- tergolong tinggi, sehingga dapat disimpulkan bahwa metode CNN yang digunakan
- pada penelitian tersebut mampu melakukan klasifikasi dengan baik.
+ Tahap pertama adalah klasifikasi citra menggunakan 
+\emph on
+feedforward
+\emph default
+.
+ Tahap kedua merupakan tahap pembelajaran dengan metode 
+\emph on
+backpropagation
+\emph default
+.
+ Hasil uji coba dari klasifikasi citra objek dengan tingkat 
+\emph on
+confusion 
+\emph default
+yang berbeda pada basis data 
+\emph on
+Caltech 101 
+\emph default
+menghasilkan rata-rata nilai akurasi tergolong tinggi, sehingga dapat disimpulka
+n bahwa metode CNN yang digunakan pada penelitian tersebut mampu melakukan
+ klasifikasi dengan baik.
 \end_layout
 
 \begin_layout Standard
 Berbeda dengan Dzikry Maulana Hakim dan Ednawati Rainarli(2019) dalam penelitian
-nya yang berjudul Convolutional Neural Network untuk Pengenalan Citra Notasi
- Musik.
+nya yang berjudul 
+\emph on
+Convolutional Neural Network 
+\emph default
+untuk Pengenalan Citra Notasi Musik.
  Peneliti melakukan pengujian untuk melakukan pengenalan citra notasi musik
  dengan dua cara.
  Pertama, peneliti menguji performa CNN menggunakan data notasi musik yang
@@ -4632,6 +5128,8 @@ nya yang berjudul Convolutional Neural Network untuk Pengenalan Citra Notasi
 \end_layout
 
 \begin_layout Subsection
+
+\emph on
 Music Information Retrieval
 \end_layout
 
@@ -4652,40 +5150,110 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Music Information Retrieval (MIR) terutama berkaitan dengan ekstraksi dan
- inferensi fitur yang berarti dari musik seperti sinyal audio, representasi
- simbolik atau sumber eksternal seperti halaman web.
- Berikut merupakan contoh tugas MIR, antara lain fingerprinting, cover song
- detection, genre recognition, key detection, beat tracking, symbolic melodic
- similarity, source separation, pitch tracking, tempo estimation, dan masih
- banyak lagi.
+
+\emph on
+Music Information Retrieval
+\emph default
+ (MIR) terutama berkaitan dengan ekstraksi dan inferensi fitur yang berarti
+ dari musik seperti sinyal 
+\emph on
+audio
+\emph default
+, representasi simbolik atau sumber eksternal seperti halaman web.
+ Berikut merupakan contoh tugas MIR, antara lain 
+\emph on
+fingerprinting
+\emph default
+, 
+\emph on
+cover song detection
+\emph default
+, 
+\emph on
+genre recognition
+\emph default
+, 
+\emph on
+key detection
+\emph default
+, 
+\emph on
+beat tracking
+\emph default
+, 
+\emph on
+symbolic melodic similarity
+\emph default
+, 
+\emph on
+source separation
+\emph default
+, 
+\emph on
+pitch tracking
+\emph default
+, 
+\emph on
+tempo estimation
+\emph default
+, dan masih banyak lagi.
  MIR digunakan pada sistem untuk menyiapkan data mentah menjadi bentuk data
  yang dapat dilakukan observasi oleh model.
  Berikut merupakan beberapa fitur pada MIR yang digunakan oleh sistem :
 \end_layout
 
 \begin_layout Enumerate
+
+\emph on
 Beat Tracking
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
-Sistem memanfaatkan fitur beat tracking yang disediakan oleh pustaka librosa
- yang menghasilkan keluaran dalam bentuk list.
+Sistem memanfaatkan fitur 
+\emph on
+beat tracking 
+\emph default
+yang disediakan oleh pustaka librosa yang menghasilkan keluaran dalam bentuk
+ list.
  Nilai yang dihasilkan dalam satuan detik.
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
+
+\emph on
 Harmonic Separation
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
-Fitur harmonic separation berfungsi untuk memisahkan data masukan berupa
- harmonic dan percussive.
- Contoh dari harmonic adalah nada yang dibunyikan oleh piano dan suara vokal,
- sedangkan percussive merupakan kumpulan data suara yang dimainkan dengan
- cara dipukul, digesek, maupun dikocok.
+Fitur 
+\emph on
+harmonic separation 
+\emph default
+berfungsi untuk memisahkan data masukan berupa 
+\emph on
+harmonic 
+\emph default
+dan 
+\emph on
+percussive
+\emph default
+.
+ Contoh dari 
+\emph on
+harmonic 
+\emph default
+adalah nada yang dibunyikan oleh piano dan suara vokal, sedangkan 
+\emph on
+percussive 
+\emph default
+merupakan kumpulan data suara yang dimainkan dengan cara dipukul, digesek,
+ maupun dikocok.
 \end_layout
 
+\end_deeper
 \begin_layout Section
 Penelitian Terdahulu
 \end_layout
@@ -4708,51 +5276,167 @@ noindent
 
 \begin_layout Standard
 I Wayan Suartika Eka Putra (2016) dalam penelitiannya yang berjudul Klasifikasi
- Citra Menggunakan Convolutional Neural Network (CNN) pada Caltech 101 mengimple
-mentasikan salah satu metode machine learning yang dapat digunakan untuk
- klasifikasi citra objek yaitu CNN.
+ Citra Menggunakan 
+\emph on
+Convolutional Neural Network 
+\emph default
+(CNN) pada 
+\emph on
+Caltech 101 
+\emph default
+mengimplementasikan salah satu metode 
+\emph on
+machine learning 
+\emph default
+yang dapat digunakan untuk klasifikasi citra objek yaitu CNN.
  Pada penelitian yang dilakukan, peneliti mengimplementasikan metode CNN
  yang terdiri dari dua tahap.
- Tahap pertama adalah klasifikasi citra menggunakan feedforward.
- Tahap kedua merupakan tahap pembelajaran dengan metode backpropagation.
+ Tahap pertama adalah klasifikasi citra menggunakan 
+\emph on
+feedforward
+\emph default
+.
+ Tahap kedua merupakan tahap pembelajaran dengan metode 
+\emph on
+backpropagation
+\emph default
+.
  Sebelum melakukan klasifikasi, terlebih dahulu dilakukan praproses dengan
- metode wrapping dan cropping untuk memfokuskan objek yang akan diklasifikasi.
- Selanjutnya dilakukan training menggunakan metode feedforward dan backpropagati
-on.
- Terakhir adalah tahap klasifikasi menggunakan metode feedforward dengan
- bobot dan bias yang diperbarui.
- Hasil uji coba dari klasifikasi citra objek dengan tingkat confusion yang
- berbeda pada basis data Caltech 101 menghasilkan rata-rata nilai akurasi
- tergolong tinggi, sehingga dapat disimpulkan bahwa metode CNN yang digunakan
- pada penelitian tersebut mampu melakukan klasifikasi dengan baik.
+ metode 
+\emph on
+wrapping 
+\emph default
+dan 
+\emph on
+cropping 
+\emph default
+untuk memfokuskan objek yang akan diklasifikasi.
+ Selanjutnya dilakukan 
+\emph on
+training 
+\emph default
+menggunakan metode 
+\emph on
+feedforward 
+\emph default
+dan 
+\emph on
+backpropagation
+\emph default
+.
+ Terakhir adalah tahap klasifikasi menggunakan metode 
+\emph on
+feedforward 
+\emph default
+dengan bobot dan bias yang diperbarui.
+ Hasil uji coba dari klasifikasi citra objek dengan tingkat 
+\emph on
+confusion 
+\emph default
+yang berbeda pada basis data 
+\emph on
+Caltech 101 
+\emph default
+menghasilkan rata-rata nilai akurasi tergolong tinggi, sehingga dapat disimpulka
+n bahwa metode CNN yang digunakan pada penelitian tersebut mampu melakukan
+ klasifikasi dengan baik.
 \end_layout
 
 \begin_layout Standard
 Danny Lionel, Rudy Adipranata dan Endang Setyati (2016) dalam penelitian
- yang berjudul Klasifikasi Genre Musik Menggunakan Metode Deep Learning
- Convolutional Neural Network dan MelSpektrogram mengimplementasikan metode
- Mel-spectrogram.
- Dimana Mel spektrogram merupakan hasil pemetaan fitur yang telah diambil
- oleh metode MFCC, yang akan diklasifikasikan dan dimasukkan ke dalan Convolutio
-nal Neural Network.
- Yang akan dibedakan activation function nya yaitu ReLU dan ELU.
- Penelitian ini menunjukkan bahwa pengambilan fitur dari audio dengan menggunaka
-n MFCC merupakan metode yang benar dan dalam hasil pengujian, banyaknya
- dataset, iterasi training, dan spesifikasi komputer sangat mempengaruhi
- tingkat akurasi dan lama pembuatan neural network model yang optimal.
+ yang berjudul Klasifikasi Genre Musik Menggunakan Metode 
+\emph on
+Deep Learning Convolutional Neural Network 
+\emph default
+dan 
+\emph on
+MelSpektrogram 
+\emph default
+mengimplementasikan metode 
+\emph on
+Mel-spectrogram
+\emph default
+.
+ Dimana 
+\emph on
+Mel spektrogram 
+\emph default
+merupakan hasil pemetaan fitur yang telah diambil oleh metode MFCC, yang
+ akan diklasifikasikan dan dimasukkan ke dalan 
+\emph on
+Convolutional Neural Network
+\emph default
+.
+ Yang akan dibedakan 
+\emph on
+activation function 
+\emph default
+nya yaitu ReLU dan ELU.
+ Penelitian ini menunjukkan bahwa pengambilan fitur dari 
+\emph on
+audio 
+\emph default
+dengan menggunakan MFCC merupakan metode yang benar dan dalam hasil pengujian,
+ banyaknya dataset, iterasi 
+\emph on
+training
+\emph default
+, dan spesifikasi komputer sangat mempengaruhi tingkat akurasi dan lama
+ pembuatan 
+\emph on
+neural network model 
+\emph default
+yang optimal.
  Dalam hasil penelitian ini telah diuji beberapa kali didapatkan hasil akurasi
  yang paling optimal yaitu 99%.
 \end_layout
 
 \begin_layout Standard
 Dzikry Maulana Hakim dan Ednawati Rainarli (2019) pada penelitiannya yang
- berjudul Convolutional Neural Network untuk Pengenalan Citra Notasi Musik
- melakukan penelitian untuk mengenali citra notasi musik dengan metode CNN.
- Pada penelitian ini, untuk pengenalan notasi musik digunakan Convolutional
- Neural Network (CNN).
- Arsitektur CNN yang dipakai adalah kernel 3x3, jumlah layer pada feature
- learning sebanyak 3 convolutional layer, 3 pooling layer, filter pada convoluti
-onal layer 64,128, 256, dan jumlah neuron pada hidden layer sebanyak 7168.
+ berjudul 
+\emph on
+Convolutional Neural Network 
+\emph default
+untuk Pengenalan Citra Notasi Musik melakukan penelitian untuk mengenali
+ citra notasi musik dengan metode CNN.
+ Pada penelitian ini, untuk pengenalan notasi musik digunakan 
+\emph on
+Convolutional Neural Network 
+\emph default
+(CNN).
+ Arsitektur CNN yang dipakai adalah 
+\emph on
+kernel 
+\emph default
+3x3, jumlah layer pada 
+\emph on
+feature learning 
+\emph default
+sebanyak 3 
+\emph on
+convolutional layer
+\emph default
+, 3 
+\emph on
+pooling layer
+\emph default
+, 
+\emph on
+filter 
+\emph default
+pada 
+\emph on
+convolutional layer 
+\emph default
+64,128, 256, dan jumlah 
+\emph on
+neuron 
+\emph default
+pada 
+\emph on
+hidden layer 
+\emph default
+sebanyak 7168.
  Pengujian dilakukan dengan dua cara, yang pertama menguji performa CNN
  menggunakan data notasi musik yang telah dipotong dan yang kedua adalah
  melakukan pengujian menggunakan sebaris notasi musik.
@@ -4765,19 +5449,58 @@ onal layer 64,128, 256, dan jumlah neuron pada hidden layer sebanyak 7168.
 \end_layout
 
 \begin_layout Standard
-Nick Collins melakukan penelitian dengan membuat library SuperCollider Music
- Information Retrieval (SCMIR).
- SCMIR adalah set ekstensi untuk bahasa pemrograman audio yang berfungsi
- untuk melakukan analisis otomatis sebuah file audio.
- Library ini mendukung teknologi pencarian informasi musik umum, termasuk
- untuk pemrosesan batch di seluruh file suara.
- Library memiliki kelebihan yang diambil dari mode Non-Real-time scsynth
- dan plug-in untuk ekstraksi fitur cepat, serta fitur tambahan untuk perhitungan
- intensif.
+Nick Collins melakukan penelitian dengan membuat 
+\emph on
+library SuperCollider Music Information Retrieval 
+\emph default
+(SCMIR).
+ SCMIR adalah set ekstensi untuk bahasa pemrograman 
+\emph on
+audio 
+\emph default
+yang berfungsi untuk melakukan analisis otomatis sebuah 
+\emph on
+file audio
+\emph default
+.
+ 
+\emph on
+Library 
+\emph default
+ini mendukung teknologi pencarian informasi musik umum, termasuk untuk pemrosesa
+n 
+\emph on
+batch 
+\emph default
+di seluruh 
+\emph on
+file 
+\emph default
+suara.
+ 
+\emph on
+Library 
+\emph default
+memiliki kelebihan yang diambil dari mode 
+\emph on
+Non-Real-time scsynth 
+\emph default
+dan 
+\emph on
+plug-in 
+\emph default
+untuk ekstraksi fitur cepat, serta fitur tambahan untuk perhitungan intensif.
  Hasil dari penelitian ini adalah Nick Collins dapat meningkatkan hubungan
  antara sintesis pencocokan fitur, mendengarkan mesin dalam sistem interaktif,
- dan tugas MIR, melintasi real time task dan non-real time dengan memprioritaska
-n adopsi teknologi MIR dalam sistem interaktif.
+ dan tugas MIR, melintasi 
+\emph on
+real time task 
+\emph default
+dan 
+\emph on
+non-real time 
+\emph default
+dengan memprioritaskan adopsi teknologi MIR dalam sistem interaktif.
  Selain itu, library SCMIR juga membawa teknologi pencarian informasi musik
  ke bahasa pemrograman komputer musik yang sudah terkenal.
  Rincian mengenai penelitian terdahulu dapat dilihat pada tabel 2.1.
@@ -5612,10 +6335,28 @@ n data.
  Studi literatur dilakukan dengan mencari jurnal ilmiah, paper ilmiah, dan
  beberapa tesis yang tersebar di internet.
  Adapun data-data yang dibutuhkan untuk dalam penelitian ini, diantaranya
- teori tentang CNN, teori dan proses tentang Beat Tracking, teori tentang
- Chromagram dan cara mengubah audio ke bentuk chromagram, teori tentang
- bahasa pemrograman Python versi 3, dan beberapa implementasi tentang backend
- pada sebuah aplikasi.
+ teori tentang CNN, teori dan proses tentang 
+\emph on
+Beat Tracking
+\emph default
+, teori tentang 
+\emph on
+Chromagram 
+\emph default
+dan cara mengubah 
+\emph on
+audio 
+\emph default
+ke bentuk 
+\emph on
+chromagram
+\emph default
+, teori tentang bahasa pemrograman Python versi 3, dan beberapa implementasi
+ tentang 
+\emph on
+backend 
+\emph default
+pada sebuah aplikasi.
 \end_layout
 
 \begin_layout Subsection
@@ -5642,11 +6383,15 @@ noindent
 Menurut Kamus Besar Bahasa Indonesia (KBBI), kecerdasan adalah kesempurnaan
  perkembangan akal budi (seperti kepandaian atau ketajaman pemikiran).
  Helfi Nasution berpendapat bahwa Kecerdasan Buatan atau dalam bahasa Inggris
- disebut Artificial Intelligence (AI) didefinisikan sebagai kecerdasan yang
- ditunjukkan oleh suatu entitas buatan (Helfi Nasution, 2012), sedangkan
- menurut Dedi Nugraha dan Sri Winati (2014), kecerdasan buatan adalah salah
- satu cabang ilmu pengetahuan yang berhubungan dengan pemanfaatan mesin
- untuk memecahkan persoalan yang rumit dengan cara yang lebih manusiawi.
+ disebut 
+\emph on
+Artificial Intelligence 
+\emph default
+(AI) didefinisikan sebagai kecerdasan yang ditunjukkan oleh suatu entitas
+ buatan (Helfi Nasution, 2012), sedangkan menurut Dedi Nugraha dan Sri Winati
+ (2014), kecerdasan buatan adalah salah satu cabang ilmu pengetahuan yang
+ berhubungan dengan pemanfaatan mesin untuk memecahkan persoalan yang rumit
+ dengan cara yang lebih manusiawi.
 \end_layout
 
 \begin_layout Section
@@ -5672,7 +6417,11 @@ noindent
 \begin_layout Standard
 Kerangka pemikiran dalam penelitian ini memiliki hasil akhir yakni mengetahui
  akurasi dari metode CNN dalam mengenali sebuah akor dengan memanfaatkan
- Chromagram.
+ 
+\emph on
+Chromagram
+\emph default
+.
  Kerangka pemikiran yang akan dilakukan dapat dilihat pada Gambar 3.2.
 \end_layout
 
@@ -5681,28 +6430,77 @@ Gambar 3.2 Kerangka Pemikiran Penelitian.png
 \end_layout
 
 \begin_layout Standard
-Langkah awal yang akan dilakukan adalah menerima input file audio yang memiliki
- format .wav.
- Selanjutnya akan dilakukan beat tracking.
- Pada proses beat tracking, file audio yang telah diunggah akan dipotong
- tiap detik dan akan dianalisa bentuk gelombangnya sehingga terbentuklah
- sebuah onset.
- Setelah mendapatkan onset dari proses beat tracking, selanjutnya onset
- tersebut akan diubah ke bentuk chromagram.
- Pada proses chromagram, onset yang telah didapatkan akan dibentuk ke bentuk
- gambar.
+Langkah awal yang akan dilakukan adalah menerima 
+\emph on
+input file audio
+\emph default
+ yang memiliki format .wav.
+ Selanjutnya akan dilakukan 
+\emph on
+beat tracking
+\emph default
+.
+ Pada proses 
+\emph on
+beat tracking
+\emph default
+, 
+\emph on
+file audio 
+\emph default
+yang telah diunggah akan dipotong tiap detik dan akan dianalisa bentuk gelombang
+nya sehingga terbentuklah sebuah onset.
+ Setelah mendapatkan onset dari proses 
+\emph on
+beat tracking
+\emph default
+, selanjutnya onset tersebut akan diubah ke bentuk 
+\emph on
+chromagram
+\emph default
+.
+ Pada proses 
+\emph on
+chromagram
+\emph default
+, onset yang telah didapatkan akan dibentuk ke bentuk gambar.
  Gambar tersebut nantinya akan dilatih dengan menggunakan metode CNN untuk
  menemukan akor yang sesuai.
  Setelah menemukan akor yang sesuai, selanjutnya melakukan proses pengaturan
  direktori.
- Proses ini dibutuhkan agar penempatan parenthesis dan child package bagian
- backend dan frontend dapat berkomunikasi satu sama lain.
- Dan terakhir adalah ada proses pendekatan backend.
- Pendekatan backend dibutuhkan agar memudahkan dalam mengakses fungsi yang
- ada pada pada script Python.
+ Proses ini dibutuhkan agar penempatan 
+\emph on
+parenthesis 
+\emph default
+dan 
+\emph on
+child package 
+\emph default
+bagian 
+\emph on
+backend 
+\emph default
+dan 
+\emph on
+frontend 
+\emph default
+dapat berkomunikasi satu sama lain.
+ Dan terakhir adalah ada proses pendekatan 
+\emph on
+backend
+\emph default
+.
+ Pendekatan 
+\emph on
+backend 
+\emph default
+dibutuhkan agar memudahkan dalam mengakses fungsi yang ada pada pada script
+ Python.
 \end_layout
 
 \begin_layout Subsection
+
+\emph on
 Audio
 \end_layout
 
@@ -5738,13 +6536,46 @@ Audio adalah sebuah deret waktu, dimana sumbu y adalah amplitudo arus yang
 
 \begin_layout Standard
 Audio yang digunakan dalam penelitian ini adalah audio yang berisi suara
- piano dan bass serta audio yang berbentuk format *wav.
- Audio tersebut nantinya akan diolah melalui beberapa tahapan, seperti Preproces
-sing dan Modeling.
- Proses preprocessing terbagi atas 2 tahap, yakni Beat Tracking dan membentuk
- gambar chroma.
- Sedangkan untuk proses modeling akan langsung dengan menggunakan metode
- CNN.
+ piano dan 
+\emph on
+bass 
+\emph default
+serta 
+\emph on
+audio 
+\emph default
+yang berbentuk format *wav.
+ 
+\emph on
+Audio 
+\emph default
+tersebut nantinya akan diolah melalui beberapa tahapan, seperti 
+\emph on
+Preprocessing 
+\emph default
+dan 
+\emph on
+Modeling
+\emph default
+.
+ Proses 
+\emph on
+preprocessing 
+\emph default
+terbagi atas 2 tahap, yakni 
+\emph on
+Beat Tracking 
+\emph default
+dan membentuk gambar 
+\emph on
+chroma
+\emph default
+.
+ Sedangkan untuk proses 
+\emph on
+modeling 
+\emph default
+akan langsung dengan menggunakan metode CNN.
 \end_layout
 
 \begin_layout Subsection
@@ -5770,16 +6601,44 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Beat tracking digunakan untuk menentukan contoh waktu dalam rekaman audio,
- di mana pendengar manusia cenderung mengetuk kakinya ke musik.
- Beat tracking pada rancangan menggunakan metode dynamic programming.
- Dynamic programming adalah kombinasi pemikiran terstruktur dan pola pikir
- analitis untuk menyelesaikan sebuah permasalahan.
- Proses beat tracking ini dibutuhkan untuk membentuk ketukan dalam setiap
- detik dari file audio yang diunggah.
+
+\emph on
+Beat tracking
+\emph default
+ digunakan untuk menentukan contoh waktu dalam rekaman 
+\emph on
+audio
+\emph default
+, di mana pendengar manusia cenderung mengetuk kakinya ke musik.
+ 
+\emph on
+Beat tracking 
+\emph default
+pada rancangan menggunakan metode 
+\emph on
+dynamic programming
+\emph default
+.
+ 
+\emph on
+Dynamic programming 
+\emph default
+adalah kombinasi pemikiran terstruktur dan pola pikir analitis untuk menyelesaik
+an sebuah permasalahan.
+ Proses 
+\emph on
+beat tracking 
+\emph default
+ini dibutuhkan untuk membentuk ketukan dalam setiap detik dari 
+\emph on
+file audio 
+\emph default
+yang diunggah.
 \end_layout
 
 \begin_layout Subsection
+
+\emph on
 Chromagram
 \end_layout
 
@@ -5800,6 +6659,8 @@ noindent
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583669121
 Beat tracking digunakan untuk menentukan contoh waktu dalam rekaman audio,
  di mana pendengar manusia cenderung mengetuk kakinya ke musik.
  Beat tracking pada rancangan menggunakan metode dynamic programming.
@@ -5807,10 +6668,49 @@ Beat tracking digunakan untuk menentukan contoh waktu dalam rekaman audio,
  analitis untuk menyelesaikan sebuah permasalahan.
  Proses beat tracking ini dibutuhkan untuk membentuk ketukan dalam setiap
  detik dari file audio yang diunggah.
+\change_inserted -505327274 1583669122
+
+\emph on
+Chromagram
+\emph default
+ adalah transformasi properti frekuensi-waktu sinyal menjadi 
+\emph on
+prekursor pitch 
+\emph default
+yang berubah-ubah untuk sementara waktu.
+ Transformasi ini didasarkan pada pengamatan persepsi tentang sistem pendengaran
+ dan telah terbukti memiliki beberapa sifat matematika yang menarik.
+ 
+\emph on
+Chromagram 
+\emph default
+memperluas konsep 
+\emph on
+chroma 
+\emph default
+untuk memasukkan dimensi waktu.
+ Seperti halnya kita menggunakan 
+\emph on
+spektrogram 
+\emph default
+untuk menyimpulkan properti tentang distribusi energi sinyal dari frekuensi
+ dan waktu, 
+\emph on
+chromagram 
+\emph default
+dapat digunakan untuk menyimpulkan properti tentang distribusi energi sinyal
+ terhadap kroma dan waktu.
+ 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
-Convolutional Neural Network (CNN)
+
+\emph on
+Convolutional Neural Network
+\emph default
+ (CNN)
 \end_layout
 
 \begin_layout Standard
@@ -5830,9 +6730,24 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Convolutional Neural Network (CNN) adalah salah satu jenis neural network
- yang biasa digunakan pada data image.
- CNN bisa digunakan untuk mendeteksi dan mengenali objek pada sebuah image.
+
+\emph on
+Convolutional Neural Network 
+\emph default
+(CNN) adalah salah satu jenis 
+\emph on
+neural network 
+\emph default
+yang biasa digunakan pada data 
+\emph on
+image
+\emph default
+.
+ CNN bisa digunakan untuk mendeteksi dan mengenali objek pada sebuah 
+\emph on
+image
+\emph default
+.
  Metode CNN ini digunakan untuk melatih sebuah sistem dalam mengenali akor
  pada setiap bar.
 \end_layout
@@ -5858,29 +6773,73 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Tujuan dari pengaturan direktori adalah agar penempatan parenthesis dan
- child package bagian backend dan frontend dapat berkomunikasi satu sama
- lain.
- Semua direktori package dibuat di dalam direktori berjenis Git.
+Tujuan dari pengaturan direktori adalah agar penempatan 
+\emph on
+parenthesis 
+\emph default
+dan 
+\emph on
+child package 
+\emph default
+bagian 
+\emph on
+backend 
+\emph default
+dan 
+\emph on
+frontend 
+\emph default
+dapat berkomunikasi satu sama lain.
+ Semua 
+\emph on
+direktori package 
+\emph default
+dibuat di dalam direktori berjenis Git.
  Direktori aplikasi ini dapat diunduh melalui link yang terdapat halaman
  website Git.
 \end_layout
 
 \begin_layout Standard
-Direktori tersebut akan memiliki tiga buah direktori child (sub direktori)
- dengan nama “app”, “app_settings”, dan “backend”.
+Direktori tersebut akan memiliki tiga buah 
+\emph on
+direktori child 
+\emph default
+(sub direktori) dengan nama “app”, “app_settings”, dan “backend”.
  Selain ketiga sub direktori tersebut, terdapat enam buah file yaitu, “.env”,
  “.flaskenv”, “.gitignore”, “README.md”, “requirements.txt”, dan “run.py”.
 \end_layout
 
 \begin_layout Standard
-Direktori “app” merupakan bagian dari pendekatan frontend yang bertujuan
- untuk menyediakan tampilan kepada pengguna dengan basis web.
- Sementara itu, direktori “backend” merupakan pendekatan backend yang bertujuan
- untuk menyediakan model dan preprocessing data masukan.
+Direktori “app” merupakan bagian dari pendekatan 
+\emph on
+frontend
+\emph default
+ yang bertujuan untuk menyediakan tampilan kepada pengguna dengan basis
+ web.
+ Sementara itu, direktori “
+\emph on
+backend
+\emph default
+” merupakan pendekatan 
+\emph on
+backend 
+\emph default
+yang bertujuan untuk menyediakan 
+\emph on
+model 
+\emph default
+dan 
+\emph on
+preprocessing 
+\emph default
+data masukan.
  Direktori “app_settings” bertujuan untuk melakukan inisialisasi pengaturan
- Redis Server dan session id dengan tujuan agar kedua pendekatan tersebut
- dapat berkomunikasi satu sama lain.
+ Redis Server dan 
+\emph on
+session id 
+\emph default
+dengan tujuan agar kedua pendekatan tersebut dapat berkomunikasi satu sama
+ lain.
 \end_layout
 
 \begin_layout Standard
@@ -5897,7 +6856,9 @@ n aplikasi ini.
 \end_layout
 
 \begin_layout Subsection
-Pendekatan Backend
+Pendekatan 
+\emph on
+Backend
 \end_layout
 
 \begin_layout Standard
@@ -5917,33 +6878,74 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Pendekatan backend pada aplikasi ini ditempatkan pada direktori “backend”
- dan dilengkapi dengan file “__init__.py” di dalamnya.
- Hal ini dilakukan agar direktori “app” milik pendekatan frontend dapat
- mengakses fungsi yang ada pada pendekatan backend dengan melakukan perintah
- import backend pada script Python.
- Model CNN pada aplikasi menggunakan 1655 citra chromagram sebagai data
- latih, dan 347 citra chromagram sebagai data validasi.
+Pendekatan 
+\emph on
+backend
+\emph default
+ pada aplikasi ini ditempatkan pada direktori “
+\emph on
+backend
+\emph default
+” dan dilengkapi dengan file “__init__.py” di dalamnya.
+ Hal ini dilakukan agar direktori “app” milik pendekatan 
+\emph on
+frontend
+\emph default
+ dapat mengakses fungsi yang ada pada pendekatan 
+\emph on
+backend 
+\emph default
+dengan melakukan perintah 
+\emph on
+import backend 
+\emph default
+pada script Python.
+ Model CNN pada aplikasi menggunakan 1655 citra 
+\emph on
+chromagram 
+\emph default
+sebagai data latih, dan 347 citra 
+\emph on
+chromagram 
+\emph default
+sebagai data validasi.
 \end_layout
 
 \begin_layout Standard
 Pembuatan model menggunakan pustaka Jupyter, Librosa, dan Keras.
  Data latih berbentuk wav dan mp3 yang dipisah dan dikelompokan setiap dua
  ketukan menggunakan pustaka Librosa.
- Setiap ketukan yang terbentuk berupa detik dengan tipe data float.
+ Setiap ketukan yang terbentuk berupa detik dengan tipe data 
+\emph on
+float
+\emph default
+.
  Setiap detik ketukan kemudian disimpan ke dalam file berbentuk “.txt”.
- Setelah membentuk file “.txt”, dilakukan labelling akor pada masing-masing
- pasangan ketukan yang dibantu oleh Anastashia Aurelia, pelajar piano dari
- Associated Board of the Royal School of Music (ABRSM) yang sudah berada
- pada Grade 7.
+ Setelah membentuk file “.txt”, dilakukan 
+\emph on
+labelling 
+\emph default
+akor pada masing-masing pasangan ketukan yang dibantu oleh Anastashia Aurelia,
+ pelajar piano dari 
+\emph on
+Associated Board of the Royal School of Music 
+\emph default
+(ABRSM) yang sudah berada pada Grade 7.
 \end_layout
 
 \begin_layout Standard
 Akor pada aplikasi berjumlah 24 yang terdiri dari 12 akor major dan 12 akor
  minor.
- Setelah labelling dilakukan, dilakukan visualisasi citra spectogram MFCC
- berdasarkan detik ketukan, dan akor yang ada pada file “.txt”.
- Visualisasi tersebut kemudian diletakkan di dalam direktori masingmasing
+ Setelah 
+\emph on
+labelling 
+\emph default
+dilakukan, dilakukan visualisasi citra 
+\emph on
+spectogram 
+\emph default
+MFCC berdasarkan detik ketukan, dan akor yang ada pada file “.txt”.
+ Visualisasi tersebut kemudian diletakkan di dalam direktori masing-masing
  kelas untuk dijadikan data latih.
  Sebanyak 20 persen dari jumlah masing-masing kelas dijadikan data validasi.
  Data latih dimasukan ke dalam direktori “data_train” dan data validasi
@@ -5957,40 +6959,79 @@ Tabel 3.2.6 Citra Data Latih Dan Data Validasi
 \end_layout
 
 \begin_layout Standard
-Kelas Data Latih Data Validasi A 48 12 A# 50 9 A#m 248 15 Am 84 27 B 61
- 14 Bm 53 13 C 76 16 C# 44 11 C#m 77 16 D 79 25 D# 57 13 D#m 24 8 Dm 48
- 12 Em 56 13 F 56 13 F# 67 13 F#m 54 13 Fm 74 17 (Bersambung)25 (Sambungan)
- G 131 17 G# 54 19 G#m 54 13 Gm 75 16 Jumlh 1655 347 
-\end_layout
-
-\begin_layout Standard
 Setelah data latih dan data validasi ditempatkan pada direktori dan kelasnya
  masing-masing, tahap selanjutnya membuat model CNN menggunakan pustaka
  Keras.
  Proses pelatihan menggunakan Jupyter Notebook.
- Model dilakukan proses kompilasi menggunakan optimizer RMSprop yang ada
- pada pustaka Keras dengan nilai learning rate sebesar 0.00001.
- Tahap selanjutnya dalam pembuatan model adalah dengan memasukan path direktori
- data latih dan data validasi ke dalam Keras.
+ Model dilakukan proses kompilasi menggunakan 
+\emph on
+optimizer
+\emph default
+ RMSprop yang ada pada pustaka Keras dengan nilai 
+\emph on
+learning rate 
+\emph default
+sebesar 0.00001.
+ Tahap selanjutnya dalam pembuatan model adalah dengan memasukan 
+\emph on
+path 
+\emph default
+direktori data latih dan data validasi ke dalam Keras.
  Dimensi citra yang digunakan sebagai data masukan ke dalam model memiliki
  dimensi 200x200 dan berbentuk tiga dimensi (RGB).
 \end_layout
 
 \begin_layout Standard
-Ukuran batch data latih dan data validasi masing-masing adalah sebesar 32
- data dan 257 data dengan mode shuffle bernilai true, sehingga data latih
- diproses sebanyak 32 data yang dipilih secara acak oleh Keras dengan jumlah
- pengulangan sebanyak banyak data latih dibagi besar batch yang disebut
- sebagai steps per epoch.
- Sementara itu, steps per epoch yang dipilih untuk data validasi adalah
- sebanyak dua kali dengan mode shuffle bernilai true.
+Ukuran 
+\emph on
+batch 
+\emph default
+data latih dan data validasi masing-masing adalah sebesar 32 data dan 257
+ data dengan mode 
+\emph on
+shuffle 
+\emph default
+bernilai true, sehingga data latih diproses sebanyak 32 data yang dipilih
+ secara acak oleh Keras dengan jumlah pengulangan sebanyak banyak data latih
+ dibagi besar 
+\emph on
+batch 
+\emph default
+yang disebut sebagai 
+\emph on
+steps per epoch
+\emph default
+.
+ Sementara itu, 
+\emph on
+steps per epoch 
+\emph default
+yang dipilih untuk data validasi adalah sebanyak dua kali dengan mode 
+\emph on
+shuffle 
+\emph default
+bernilai true.
  Langkah selanjutnya dalam proses pembuatan model adalah dengan melakukan
  proses pelatihan.
  Model yang dilatih disimpan di dalam file berbentuk “.h5” agar dapat digunakan
  kembali.
- Proses pelatihan berhasil mendapatkan nilai accuracy 87 persen, loss accuracy
- 31 persen, validation loss 1.7 persen, dan validation accuracy sebanyak
- 96 persen.
+ Proses pelatihan berhasil mendapatkan nilai 
+\emph on
+accuracy 
+\emph default
+87 persen, 
+\emph on
+loss accuracy 
+\emph default
+31 persen, 
+\emph on
+validation loss 
+\emph default
+1.7 persen, dan 
+\emph on
+validation accuracy 
+\emph default
+sebanyak 96 persen.
 \end_layout
 
 \begin_layout Standard
@@ -6004,17 +7045,39 @@ Selanjutnya pengaturan session id.
 \end_layout
 
 \begin_layout Standard
-Redis Server diinisialisasi oleh backend terlebih dahulu pada saat aplikasi
- dijalankan pertama kali.
+Redis Server diinisialisasi oleh 
+\emph on
+backend 
+\emph default
+terlebih dahulu pada saat aplikasi dijalankan pertama kali.
  Redis Server pada aplikasi berguna untuk menyimpan session id yang sedang
- aktif agar dapat diakses baik dari segi backend maupun frontend.
+ aktif agar dapat diakses baik dari segi 
+\emph on
+backend 
+\emph default
+maupun 
+\emph on
+frontend
+\emph default
+.
  Selain untuk menyimpan session id, Redis Server juga berfungsi sebagai
- media komunikasi antara frontend dengan backend pada saat pengguna memilih
- fitur.
+ media komunikasi antara 
+\emph on
+frontend 
+\emph default
+dengan 
+\emph on
+backend 
+\emph default
+pada saat pengguna memilih fitur.
  Fitur-fitur yang dapat dipilih oleh pengguna adalah memilih data masukan
  dari direktori pengguna atau melakukan rekaman secara langsung.
  Perbedaan fitur ini diperlukan suatu variabel pembeda agar fungsi yang
- dijalankan oleh backend tepat sesuai pilihan pengguna.
+ dijalankan oleh 
+\emph on
+backend 
+\emph default
+tepat sesuai pilihan pengguna.
 \end_layout
 
 \begin_layout Standard
@@ -6023,13 +7086,21 @@ Model yang sudah dilatih dapat diakses melalui file “.h5” yang sudah disimpa
  melakukan fitur pengenalan dalam aplikasi, model dapat digunakan kembali.
  Data masukan pengguna pada saat menggunakan fitur pengenalan pertama-tama
  dibentuk “.txt” berdasarkan pasangan detik setiap ketukan pada data.
- Setiap pasangan detik tersebut dibentuk citra spectogram.
+ Setiap pasangan detik tersebut dibentuk citra 
+\emph on
+spectogram
+\emph default
+.
  Masing-masing dari citra yang dibentuk kemudian dilakukan proses pengenalan
  oleh model.
  Contoh data latih dan data validasi dapat dilihat pada Gambar 3.2 dan Gambar
  3.3.
- Untuk mengetahui akor pada gambar chromagram, yang perlu dilihat adalah
- baris yang paling terang (berwarna putih kekuning-kuningan).
+ Untuk mengetahui akor pada gambar 
+\emph on
+chromagram
+\emph default
+, yang perlu dilihat adalah baris yang paling terang (berwarna putih kekuning-ku
+ningan).
  Pada data latih, dapat dilihat bahwa akor A yang paling terang dan diikuti
  oleh akor E dan akor Dm.
  Setelah dilakukan validasi, ternyata benar bahwa akor yang dilatih adalah
@@ -6068,16 +7139,25 @@ noindent
 
 \begin_layout Standard
 Hasil dari kerangka penelitian adalah mengukur akurasi data akor yang dihasilkan
- pada Chord Recognition dengan menggunakan metode CNN, kemudian menarik
- kesimpulan dari hasil yang telah didapatkan.
+ pada 
+\emph on
+Chord Recognition 
+\emph default
+dengan menggunakan metode CNN, kemudian menarik kesimpulan dari hasil yang
+ telah didapatkan.
  Pada bab ini disajikan beberapa hal yang berkaitan dengan proses, hasil,
  dan pembahasan hasil penelitian, diantaranya, hasil pengujian prediksi
- model menggunakan Confusion Matrix, dan hasil pengujian akurasi akor beserta
- pembahasannya.
+ model menggunakan 
+\emph on
+Confusion Matrix
+\emph default
+, dan hasil pengujian akurasi akor beserta pembahasannya.
 \end_layout
 
 \begin_layout Section
-Pengujian Prediksi Model Menggunakan Confusion Matrix
+Pengujian Prediksi Model Menggunakan 
+\emph on
+Confusion Matrix
 \end_layout
 
 \begin_layout Standard
@@ -6097,52 +7177,95 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Confusion matrix berbentuk tabel yang sering digunakan untuk memberikan
- keterangan performa dari model klasifikasi terhadap sekumpulan data tes.
+
+\emph on
+Confusion matrix 
+\emph default
+berbentuk tabel yang sering digunakan untuk memberikan keterangan performa
+ dari model klasifikasi terhadap sekumpulan data tes.
  Pada aplikasi sistem terdapat 1192 data latih dan 247 data validasi dengan
  kelas sebanyak 24.
  Terdapat tiga variabel untuk melakukan perhitungan tingkat akurasi terhadap
  klasifikasi yang dilakukan oleh model.
- Ketiga variabel itu adalah precision, recall, dan F1-score.
- Untuk mendapatkan nilai dari ketiga variabel tersebut dibutuhkan confusion
- matrix yang memiliki nilai-nilai sebagai berikut:
+ Ketiga variabel itu adalah 
+\emph on
+precision
+\emph default
+, 
+\emph on
+recall
+\emph default
+, dan 
+\emph on
+F1-score
+\emph default
+.
+ Untuk mendapatkan nilai dari ketiga variabel tersebut dibutuhkan 
+\emph on
+confusion matrix 
+\emph default
+yang memiliki nilai-nilai sebagai berikut:
 \end_layout
 
 \begin_layout Enumerate
-True Negative (TN) 
+
+\emph on
+True Negative 
+\emph default
+(TN) 
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 TN merupakan jumlah prediksi benar untuk data salah.
  
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
-True Positive (TP) 
+
+\emph on
+True Positive 
+\emph default
+(TP) 
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 TP merupakan jumlah prediksi benar untuk data benar.
  
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
-False Negative (FN) 
+
+\emph on
+False Negative 
+\emph default
+(FN) 
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 FN merupakan jumlah prediksi salah untuk data salah.
  
 \end_layout
 
+\end_deeper
 \begin_layout Enumerate
-False Positive (FP) 
+
+\emph on
+False Positive 
+\emph default
+(FP) 
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 FP merupakan jumlah prediksi salah untuk data benar.
 \end_layout
 
+\end_deeper
 \begin_layout Section
 Hasil dan Pembahasan
 \end_layout
@@ -6168,9 +7291,28 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Hasil confusion matrix pada pengujian dapat dilihat pada Tabel 4.1.
- Berdasarkan nilai dari confusion matrix tersebut, maka nilai precision,
- recall, dan F1-score dapat dilihat pada Tabel 4.2.
+Hasil 
+\emph on
+confusion matrix 
+\emph default
+pada pengujian dapat dilihat pada Tabel 4.1.
+ Berdasarkan nilai dari 
+\emph on
+confusion matrix 
+\emph default
+tersebut, maka nilai 
+\emph on
+precision
+\emph default
+, 
+\emph on
+recall
+\emph default
+, dan 
+\emph on
+F1-score 
+\emph default
+dapat dilihat pada Tabel 4.2.
  Hasil dari pengujian, nilai akurasi yang didapatkan sebesar 89% terhadap
  72 data yang diuji.
  Pada Tabel 4.2 dapat dilihat bahwa prediksi perbedaan akor dapat mudah dilakukan
@@ -6233,7 +7375,19 @@ Terdapat 30 visualisasi yang didapat dari data lagu masukan akor C dengan
 \end_layout
 
 \begin_layout Standard
-Tabel 4.3 Perhitungan Precision, Recall, dan F1-Score Akor C Major
+Tabel 4.3 Perhitungan 
+\emph on
+Precision
+\emph default
+,
+\emph on
+ Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor C Major
 \end_layout
 
 \begin_layout Standard
@@ -6263,13 +7417,27 @@ Pengujian akor C minor mendapatkan nilai F1 sebesar 77 persen dari total
 \end_layout
 
 \begin_layout Standard
-Tabel 4.4 Perhitungan Precision, Recall, dan F1-Score Akor C Minor
+Tabel 4.4 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor C Minor
+\change_deleted -505327274 1583672589
+
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672589
 Precision Recall F1-Score Support Cm 0,62 1,00 0,77 28 C 0,00 0,00 0,00
  28 D# 0,00 0,00 0,00 5 Macro Avg 0,21 0,33 0,26 - Weighted Avg 0,39 0,62
- 0,48 - 
+ 0,48 
+\change_unchanged
+- 
 \end_layout
 
 \begin_layout Standard
@@ -6328,13 +7496,27 @@ Gambar 4.4 Data Validasi C# Major
 \end_layout
 
 \begin_layout Standard
-Tabel 4.5 Perhitungan Precision, Recall, dan F1-Score Akor C# Major
+Tabel 4.5 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor C# Major
+\change_deleted -505327274 1583672585
+
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672585
 Precision Recall F1-Score Support C# 0,84 1,00 0,91 41 C#m 0,00 0,00 0,00
  3 Fm 0,00 0,00 0,00 5 Macro Avg 0,28 0,33 0,30 - Weighted Avg 0,70 0,84
  0,76 - 
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -6358,7 +7540,15 @@ Baris yang terang pada data latih C# major adalah baris akor C# major, akor
 \end_layout
 
 \begin_layout Standard
-Tabel 4.6 Perhitungan Precision, Recall, dan F1-Score Akor C# Minor
+Tabel 4.6 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor C# Minor
 \end_layout
 
 \begin_layout Standard
@@ -6414,7 +7604,15 @@ Gambar 4.6 Data Validasi D Major
 \end_layout
 
 \begin_layout Standard
-Tabel 4.7 Perhitungan Precision, Recall, dan F1-Score Akor D Major
+Tabel 4.7 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor D Major
 \end_layout
 
 \begin_layout Standard
@@ -6438,7 +7636,15 @@ Nilai F1 yang diperoleh dari hasil pengujian pengenalan kelas akor D minor
 \end_layout
 
 \begin_layout Standard
-Tabel 4.8 Perhitungan Precision, Recall, dan F1-Score Akor D Minor
+Tabel 4.8 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor D Minor
 \end_layout
 
 \begin_layout Standard
@@ -6493,7 +7699,15 @@ Gambar 4.8 Data Latih D# Major
 \end_layout
 
 \begin_layout Standard
-Tabel 4.9 Perhitungan Precision, Recall, dan F1-Score Akor D# Major
+Tabel 4.9 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor D# Major
 \end_layout
 
 \begin_layout Standard
@@ -6574,7 +7788,15 @@ Gambar 4.10 Data Validasi E Major
 \end_layout
 
 \begin_layout Standard
-Tabel 4.11 Perhitungan Precision, Recall, dan F1-Score Akor E Major
+Tabel 4.11 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor E Major
 \end_layout
 
 \begin_layout Standard
@@ -6652,7 +7874,15 @@ Gambar 4.12 Data Validasi F Major
 \end_layout
 
 \begin_layout Standard
-Tabel 4.13 Perhitungan Precision, Recall, dan F1-Score Akor F Major
+Tabel 4.13 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor F Major
 \end_layout
 
 \begin_layout Standard
@@ -6727,7 +7957,15 @@ Nilai F1 pada pengenalan kelas akor F# major sebesar 84 persen dari total
 \end_layout
 
 \begin_layout Standard
-Tabel 4.15 Perhitungan Precision, Recall, dan F1-Score Akor F# Major
+Tabel 4.15 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor F# Major
 \end_layout
 
 \begin_layout Standard
@@ -6804,7 +8042,15 @@ Gambar 4.16 Data Validasi G Major
 \end_layout
 
 \begin_layout Standard
-Tabel 4.17 Perhitungan Precision, Recall, dan F1-Score Akor G Major
+Tabel 4.17 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor G Major
 \end_layout
 
 \begin_layout Standard
@@ -6831,7 +8077,15 @@ Pada pengujian akor G minor, Model berhasil memberikan pengenalan dengan
 \end_layout
 
 \begin_layout Standard
-Tabel 4.18 Perhitungan Precision, Recall, dan F1-Score Akor G Minor 
+Tabel 4.18 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor G Minor 
 \end_layout
 
 \begin_layout Standard
@@ -6890,7 +8144,15 @@ Gambar 4.18 Data Validasi G# Major
 \end_layout
 
 \begin_layout Standard
-Tabel 4.19 Perhitungan Precision, Recall, dan F1-Score Akor G# Major 
+Tabel 4.19 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor G# Major 
 \end_layout
 
 \begin_layout Standard
@@ -6915,7 +8177,15 @@ Nilai F1 yang diperoleh dari pengujian kelas akor G# minor adalah sebesar
 \end_layout
 
 \begin_layout Standard
-Tabel 4.20 Perhitungan Precision, Recall, dan F1-Score Akor G# Minor
+Tabel 4.20 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor G# Minor
 \end_layout
 
 \begin_layout Standard
@@ -6963,7 +8233,15 @@ Nilai F1 yang didapat dari pengujian pengenalan akor A major adalah sebesar
 \end_layout
 
 \begin_layout Standard
-Tabel 4.21 Perhitungan Precision, Recall, dan F1-Score Akor A Major
+Tabel 4.21 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor A Major
 \end_layout
 
 \begin_layout Standard
@@ -6994,7 +8272,15 @@ Nilai F1 yang didapat dari pengujian pengenalan kelas akor A minor adalah
 \end_layout
 
 \begin_layout Standard
-Tabel 4.22 Perhitungan Precision, Recall, dan F1-Score Akor A Minor 
+Tabel 4.22 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor A Minor 
 \end_layout
 
 \begin_layout Standard
@@ -7040,7 +8326,15 @@ Nilai F1 yang diperoleh dari pengujian pengenalan kelas akor A# major adalah
 \end_layout
 
 \begin_layout Standard
-Tabel 4.23 Perhitungan Precision, Recall, dan F1-Score Akor A# Major
+Tabel 4.23 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor A# Major
 \end_layout
 
 \begin_layout Standard
@@ -7058,7 +8352,15 @@ Gambar 4.22 Data Validasi A# Major
 \end_layout
 
 \begin_layout Standard
-Tabel 4.24 Perhitungan Precision, Recall, dan F1-Score Akor A# Minor 
+Tabel 4.24 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor A# Minor 
 \end_layout
 
 \begin_layout Standard
@@ -7153,7 +8455,15 @@ Nilai F1 yang didapat dari hasil pengujian pengenalan kelas akor B major
 \end_layout
 
 \begin_layout Standard
-Tabel 4.25 Perhitungan Precision, Recall, dan F1-Score Akor B Major
+Tabel 4.25 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor B Major
 \end_layout
 
 \begin_layout Standard
@@ -7189,7 +8499,15 @@ Nilai F1 yang didapat dari hasil pengujian kelas akor B minor adalah sebesar
 \end_layout
 
 \begin_layout Standard
-Tabel 4.26 Perhitungan Precision, Recall, dan F1-Score Akor B Minor 
+Tabel 4.26 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Akor B Minor 
 \end_layout
 
 \begin_layout Standard
@@ -7235,8 +8553,15 @@ Pengujian selanjutnya adalah menggunakan lagu “Fly Me To The Moon”.
 \end_layout
 
 \begin_layout Standard
-Tabel 4.27 Perhitungan Precision, Recall, dan F1-Score Pengujian Lagu “Fly
- Me To The Moon”
+Tabel 4.27 Perhitungan 
+\emph on
+Precision, Recall
+\emph default
+, dan 
+\emph on
+F1-Score 
+\emph default
+Pengujian Lagu “Fly Me To The Moon”
 \end_layout
 
 \begin_layout Standard
@@ -7546,10 +8871,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 3
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -7582,10 +8911,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 WSFunction.vb
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "code/WSFunction.vb"
@@ -7597,10 +8930,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 4
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -7633,10 +8970,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 SCT_Modul.vb
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "code/DomainObject/SCT_Modul.vb"
@@ -7648,10 +8989,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 5
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -7684,10 +9029,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 SCT_LineUser.vb
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "code/DomainObject/SCT_LineUser.vb"
@@ -7699,10 +9048,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 6
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -7735,10 +9088,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 SCT_LineMessage.vb
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "code/DomainObject/SCT_LineMessage.vb"
@@ -7750,10 +9107,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 7
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -7786,10 +9147,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 SCT_InboxLine.vb
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "code/DomainObject/SCT_InboxLine.vb"
@@ -7801,10 +9166,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 8
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -7837,10 +9206,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 SCT_JsonObject.vb
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "code/DomainObject/SCT_JsonObject.vb"
@@ -7852,10 +9225,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 9
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -7888,10 +9265,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 SCT_ModulMapper.vb
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "code/DataMapper/SCT_ModulMapper.vb"
@@ -7903,10 +9284,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 10
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -7939,10 +9324,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 SCT_LineUserMapper.vb
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "code/DataMapper/SCT_LineUserMapper.vb"
@@ -7954,10 +9343,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 11
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -7990,10 +9383,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 SCT_InboxLineMapper.vb
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "code/DataMapper/SCT_InboxLineMapper.vb"
@@ -8005,10 +9402,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 12
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -8041,10 +9442,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 SCT_ModulBusinessFacade.vb
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "code/BusinessFacade/SCT_ModulBusinessFacade.vb"
@@ -8056,10 +9461,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 13
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -8092,10 +9501,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 SCT_LineUserBusinessFacade.vb
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "code/BusinessFacade/SCT_LineUserBusinessFacade.vb"
@@ -8107,10 +9520,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 14
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -8143,10 +9560,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 SCT_InboxLineBusinessFacade.vb
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset CommandInset include
 LatexCommand lstinputlisting
 filename "code/BusinessFacade/SCT_InboxLineBusinessFacade.vb"
@@ -8158,10 +9579,14 @@ lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstrings
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 15
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -8194,11 +9619,15 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 Form UAT Page 1
 \end_layout
 
 \begin_layout Standard
 \align center
+
+\change_deleted -505327274 1583672846
 \begin_inset Graphics
 	filename images/FormUAT1.jpg
 	scale 50
@@ -8210,10 +9639,14 @@ Form UAT Page 1
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 16
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -8246,11 +9679,15 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 Form UAT Page 2
 \end_layout
 
 \begin_layout Standard
 \align center
+
+\change_deleted -505327274 1583672846
 \begin_inset Graphics
 	filename images/FormUAT2.jpg
 	scale 50
@@ -8262,10 +9699,14 @@ Form UAT Page 2
 \end_layout
 
 \begin_layout Chapter*
+
+\change_deleted -505327274 1583672846
 Lampiran 17
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset ERT
 status collapsed
 
@@ -8298,10 +9739,14 @@ thepage}
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 Tabel Data Pengujian User Acceptance Test Kolektor ke 31-100.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -505327274 1583672846
 \begin_inset Tabular
 <lyxtabular version="3" rows="71" columns="5">
 <features islongtable="true" longtabularalignment="center">
@@ -16841,6 +18286,8 @@ Passed
 
 \end_inset
 
+
+\change_unchanged
 
 \end_layout
 
