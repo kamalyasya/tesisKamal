@@ -5897,7 +5897,7 @@ n aplikasi ini.
 \end_layout
 
 \begin_layout Subsection
-Analisa arsitektur teknologi yang sedang berjalan
+Pendekatan Backend
 \end_layout
 
 \begin_layout Standard
@@ -5917,4083 +5917,167 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Analisa arsitektur teknologi dilakukan dengan mengidentifikasikan teknologi
-\emph on
--
-\emph default
-teknologi yang digunakan pada sistem yang sedang berjalan.
- Adapun analisa teknologi dilakukan pada bagian perangkat keras dan perangkat
- lunak yang digunakan pada sistem yang sedang berjalan.
- Tabel 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Teknologi-Perangkat-Keras"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah teknologi perangkat keras yang digunakan pada sistem yang sedang
- berjalan.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Teknologi Perangkat Keras
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Teknologi-Perangkat-Keras"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="3">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Nama Perangkat Keras
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Spesifikasi
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Prosesor
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Intel Pentium 4 6.0 GHz
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-RAM
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1 GB
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-Disk
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-75 GB
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Modem GSM
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8 ports GSM MODEM WAVECOM
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-Sim Card
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kartu Halo
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tabel 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Teknologi-Perangkat-Lunak"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah teknologi perangkat lunak yang digunakan pada sistem yang sedang
- berjalan.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Teknologi Perangkat Lunak
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Teknologi-Perangkat-Lunak"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="3">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Nama Perangkat Lunak
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Spesifikasi
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Bahasa pemrograman
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-VB.Net
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Basis Data
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-SQLServer
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-OS Server
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Windows Server 2003
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-Analisa arsitektur konsol pada Aplikasi SMSCenter
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Analisa yang dilakukan pada Konsol ini berguna untuk mengetahui bagaimana
- flow dari pesan diterima, dibaca, dan diteruskan ke aplikasi SMSCenter.
- Selain itu, juga dianalisa bagaimana proses konsol ini menerima respon
- dari aplikasi SMSCenter untuk kemudian diteruskan ke kolektor dalam format
- sms.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Arsitektur Konsol SMS.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Arsitektur Konsol SMSCenter
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Arsitektur-Konsol-SMSCenter"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Adapun tahapan
-\emph on
--
-\emph default
-tahapan yang dilakukan berdasarkan gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Arsitektur-Konsol-SMSCenter"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah sebagai berikut.
-\end_layout
-
-\begin_layout Enumerate
-Kolektor mengirimkan SMS ke nomor PT.
- Indomobil Finance Indonesia.
-\end_layout
-
-\begin_layout Enumerate
-SMS yang dikirim user akan diterima oleh SIMCard yang terletak pada Modem
- WAVECOM.
-\end_layout
-
-\begin_layout Enumerate
-Aplikasi Konsol SMSCenter akan membaca pesan melalui komunikasi antara aplikasi
- dengan Modem GSM.
-\end_layout
-
-\begin_layout Enumerate
-Jika format sesuai dengan yang ditentukan, maka aplikasi akan melakukan
- pencarian data ke database SMSCenter.
-\end_layout
-
-\begin_layout Enumerate
-Respon yang didapatkan dari database akan diteruskan kembali ke aplikasi
- Konsol SMSCenter.
-\end_layout
-
-\begin_layout Enumerate
-Konsol SMSCenter akan mengirimkan respon yang didapatkan menuju simcard
- melalui modem GSM.
-\end_layout
-
-\begin_layout Enumerate
-Simcard akan mengirimkan respon melalui sms kepada kolektor.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Wavecom_GSM_8_Ports_gsm_Modem.jpg
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Modem GSM untuk Konsol SMSCenter
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Tahap
-\emph on
- Design
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Proses 
-\emph on
-design 
-\emph default
-digunakan untuk memberikan gambaran awal tentang aplikasi 
-\emph on
-chatbot
-\emph default
- yang akan dibuat, rancangan dibuat secara sederhana dan langsung diberikan
- kepada pihak pemegang data (divisi 
-\emph on
-Remedial and Collection
-\emph default
-).
- Jika rancangan disetujui maka pembangunan aplikasi 
-\emph on
-chatbot
-\emph default
- akan mengacu pada rancangan yang sudah disepakati pada tahap ini.
- Rancangan tampilan aplikasi chatbot kolektor pada penelitian ini dibangun
- dengan menggunakan aplikasi Balsamiq mockup.
- Rancangan juga dibuat untuk menentukan format 
-\emph on
-keyword 
-\emph default
-atau kata kunci yang akan memberikan respon benar jika di
-\emph on
-input 
-\emph default
-pada layar pesan Aplikasi Chatbot Kolektor.
- Format kata kunci pada Aplikasi Chatbot Kolektor dapat dilihat pada tabel
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Tabel-Format-Kata"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- berikut.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Tabel Format Kata Kunci Aplikasi Chatbot Kolektor
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Tabel-Format-Kata"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="4">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top" width="3cm">
-<column alignment="center" valignment="top" width="5cm">
-<column alignment="center" valignment="top" width="5cm">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Nama Modul
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Format
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Contoh
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Blacklist
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-BLK[spasi]JenisKonsumen [spasi]NoID
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-BLK K 3211234567890123
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Kolektor
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-KOL[spasi]NoPolisi
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-KOL B1234ABC
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Mesin
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-MSN[spasi]NoMesin
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-MSN 1234567890
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Rangka
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-RNK[spasi]NoRangka
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-RNK 123456789012345678
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Pada tabel 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Tabel-Format-Kata"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, Format yang ditentukan berbeda sesuai dengan masing-masing modul, format
- terdiri dari 3 karakter inisal masing-masing modul diikuti dengan 
-\emph on
-parameter 
-\emph default
-yang dibutuhkan untuk masing-masing modul.
- Untuk modul blacklist terdapat parameter jenis konsumen, jenis konsumen
- yang terdaftar pada modul ini adalah K untuk konsumen dengen pekerjaan
- sebagai karyawan, F untuk konsumen Profesional seperti Dokter dan TNI,
- W untuk konsumen dengan pekerjaan sebagai Wiraswasta, dan P untuk konsumen
- tingkat Perusahaan.
- Format pada Modul BLK diikuti dengan kode konsumen kemudian nomor id konsumen,
- terdapat modul KOL diikuti dengan nomor polisi kendaraan, modul MSN diikuti
- dengan nomor mesin kendaraan, dan modul RNK diikuti dengan nomor rangka
- kendaraan.
-\end_layout
-
-\begin_layout Standard
-Pembuatan Chatbot Kolektor pada penelitian ini menerapkan strategi 
-\emph on
-forward chaining
-\emph default
-, dengan menerapkan sistem 
-\begin_inset Quotes eld
-\end_inset
-
-jika-maka
-\begin_inset Quotes erd
-\end_inset
-
- dalam strategi forward chaining, maka struktur alur aplikasi Chatbot Kolektor
- dapat dilihat pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Network-Diagram-Forward"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/ForwardChaining3.png
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Network Diagram Forward Chaining pada Aplikasi Chatbot Kolektor
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Network-Diagram-Forward"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan arsitektur Chatbot Kolektor
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Arsitektur Chatbot Line Kolektor.png
-	scale 53
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan Arsitektur Chatbot Kolektor dengan platform LINE
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-Arsitektur-Chatbot"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-Arsitektur-Chatbot"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- ditunjukkan rancangan arsitektur chatbot kolektor yang merupakan pengembangan
- dari arsitektur dari konsol SMSCenter.
- Perubahan dilakukan pada platform yang digunakan, yaitu dari sms menjadi
- menggunakan LINE 
-\emph on
-Messaging
-\emph default
-.
- Jika dibandingkan dengan konsol SMSCenter, perbedaan terletak pada penerimaan
- serta pengiriman pesan dan respon.
- Jika pada konsol SMSCenter yang bertugas menerima dan mengirimkan pesan
- adalah simcard yang terletak pada GSM Modem, maka pada Chatbot Kolektor
- yang bertugas menerima dan mengirim pesan adalah
-\emph on
- messaging
-\emph default
- 
-\emph on
-API
-\emph default
- yang disediakan dari platform LINE.
- 
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Messaging API
-\emph default
- LINE kemudian akan melakukan interaksi dengan 
-\emph on
-chatbot webhook
-\emph default
- yang sudah dikonfigurasi, kemudian 
-\emph on
-chatbot webhook 
-\emph default
-akan memproses permintaan yang dikirim oleh 
-\emph on
-user
-\emph default
- melalui 
-\emph on
-messaging API
-\emph default
- LINE jika permintaan dari 
-\emph on
-user
-\emph default
- sesuai dengan format yang ditentukan.
- Permintaan 
-\emph on
-user
-\emph default
- akan diproses dengan menjalankan 
-\emph on
-stored procedure
-\emph default
- yang sudah disiapkan di 
-\emph on
-database
-\emph default
-.
- 
-\emph on
-Stored procedure
-\emph default
- ini kemudian akan menghasilkan suatu respon yang akan dikirimkan kembali
- ke 
-\emph on
-chatbot webhook
-\emph default
-.
- 
-\emph on
-chatbot webhook
-\emph default
- kemudian mengirimkan respon tersebut kepada 
-\emph on
-messaging API
-\emph default
- LINE untuk diteruskan dan dikirimkan kembali kepada 
-\emph on
-user
-\emph default
-.
- 
-\end_layout
-
-\begin_layout Standard
-Adapun penggunaan 
-\emph on
-simcard
-\emph default
- dan modem GSM pada arstitektur ini berfungsi untuk mengirimkan kode 
-\emph on
-OTP
-\emph default
- ketika 
-\emph on
-user
-\emph default
- pertama kali mendaftarkan diri di Aplikasi Chatbot Kolektor.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan 
-\emph on
-chatbot
-\emph default
- ketika ditambahkan menjadi Teman.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Pesan ketika chatbot ditambahkan.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan Chatbot Kolektor ketika ditambahkan sebagai Teman
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-Chatbot"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-Chatbot"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah tampilan ketika akun Chatbot Kolektor ditambahkan menjadi Teman
- oleh 
-\emph on
-user
-\emph default
-.
- Pesan otomatis akan selalu ditampilkan setiap kali akun LINE Official Chatbot
- Kolektor ditambahkan oleh pengguna LINE.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan 
-\emph on
-chatbot
-\emph default
- ketika 
-\emph on
-user
-\emph default
- valid melakukan pendaftaran.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/User ketik daftar.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan Chatbot Kolektor ketika 
-\emph on
-user
-\emph default
- valid melakukan Pendaftaran
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-Chatbot-1"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-Chatbot-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan ketika 
-\emph on
-user
-\emph default
- valid melakukan pendaftaran.
- 
-\emph on
-User
-\emph default
- valid yang dimaksud adalah user yang nomor 
-\emph on
-handphone
-\emph default
- nya sudah terdaftar sebagai kolektor di aplikasi SMSCenter.
- Respon dari aksi yang dilakukan 
-\emph on
-user 
-\emph default
-pada halaman ini adalah 
-\emph on
-chatbot 
-\emph default
-akan menampilkan pesan permintaan kepada 
-\emph on
-user 
-\emph default
-untuk melakukan pengecekan sms.
- Pengecekan sms dilakukan untuk memeriksa kode 
-\emph on
-OTP
-\emph default
- yang sudah dikirimkan sebagai bentuk validasi akan pendaftaran yang dilakukan.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan 
-\emph on
-chatbot
-\emph default
- ketika 
-\emph on
-user
-\emph default
- tidak valid melakukan pendaftaran.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/User tidak terdaftar.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan Chatbot Kolektor ketika 
-\emph on
-user 
-\emph default
-tidak
-\emph on
- 
-\emph default
-valid melakukan Pendaftaran
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-Chatbot-2"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-Chatbot-2"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan ketika 
-\emph on
-user
-\emph default
- tidak valid melakukan pendaftaran.
- 
-\emph on
-User 
-\emph default
-tidak valid yang dimaksud adalah user yang nomor 
-\emph on
-handphone
-\emph default
- nya tidak terdaftar di database aplikasi SMSCenter.
- Respon dari aksi yang dilakukan 
-\emph on
-user 
-\emph default
-pada halaman ini adalah 
-\emph on
-chatbot
-\emph default
- akan menampilkan pesan permintaan kepada 
-\emph on
-user 
-\emph default
-untuk menghubungi bagian ITHelpdesk dan melakukan konfirmasi untuk mendaftarkan
- nomor 
-\emph on
-handphone
-\emph default
-nya terlebih dahulu.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan contoh kode 
-\emph on
-OTP
-\emph default
- yang dikirimkan kepada 
-\emph on
-user
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/isi pesan sms OTP.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan sms berisi kode 
-\emph on
-OTP 
-\emph default
-yang dikirimkan oleh chatbot kolektor
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-sms"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-sms"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan isi pesan berupa kode 
-\emph on
-OTP
-\emph default
- yang akan dikirimkan ke nomor 
-\emph on
-handphone
-\emph default
- yang didaftarkan oleh kolektor untuk pendaftaran 
-\emph on
-Chatbot 
-\emph default
-Kolektor.
- 
-\emph on
-User 
-\emph default
-akan diminta untuk memasukkan kode 
-\emph on
-OTP
-\emph default
- yang tertera pada pesan ini untuk memvalidasi jika pendaftaran benar dilakukan
- oleh 
-\emph on
-user
-\emph default
- yang bersangkutan.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan 
-\emph on
-user
-\emph default
- memasukkan kode 
-\emph on
-OTP
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/User memasukkan OTP.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan ketika 
-\emph on
-user
-\emph default
- memasukkan kode 
-\emph on
-OTP
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-ketika"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-ketika"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan ketika 
-\emph on
-user
-\emph default
- memasukkan kode 
-\emph on
-OTP
-\emph default
- yang sebelumnya sudah dikirimkan melalui 
-\emph on
-SMS
-\emph default
- ke nomor yang didaftarkan oleh 
-\emph on
-user
-\emph default
-.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan notifikasi kode 
-\emph on
-OTP
-\emph default
- salah.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Notifikasi OTP Salah.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan notifikasi 
-\emph on
-OTP
-\emph default
- salah
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-notifikasi"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-notifikasi"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan notifikasi jika 
-\emph on
-user
-\emph default
- memasukkan kode 
-\emph on
-OTP
-\emph default
- yang salah.
- 
-\emph on
-User
-\emph default
- akan diminta untuk memasukkan kode 
-\emph on
-OTP
-\emph default
- yang dikirimkan oleh chatbot kolektor melalui 
-\emph on
-SMS
-\emph default
-.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan notifikasi pendaftaran 
-\emph on
-user
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Notifikasi pendaftaran berhasil.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan notifikasi pendaftaran
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-notifikasi-1"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-notifikasi-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan notifikasi setelah 
-\emph on
-user
-\emph default
- berhasil memasukkan kode 
-\emph on
-OTP
-\emph default
- yang sesuai dengan kode 
-\emph on
-OTP
-\emph default
- yang dikirimkan oleh chatbot kolektor.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan menu 
-\emph on
-user
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/user ketik MENU.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan halaman menu 
-\emph on
-user
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-halaman"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-halaman"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- memasukkan kata MENU pada halaman pesan 
-\emph on
-chatbot
-\emph default
-.
- Respon yang akan diberikan oleh 
-\emph on
-chatbot
-\emph default
- adalah modul apa saja yang dapat diakses oleh 
-\emph on
-user
-\emph default
-, serta memberikan 
-\emph on
-suggest 
-\emph default
-ketik HELP jika user ingin mengetahui format pesan yang ditentukan.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan 
-\emph on
-help
-\emph default
- 
-\emph on
-user
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/User ketik HELP.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan halaman 
-\emph on
-help user
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-halaman-1"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-halaman-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- memasukkan kata HELP pada halaman pesan 
-\emph on
-chatbot
-\emph default
-.
- Respon yang akan diberikan oleh 
-\emph on
-chatbot
-\emph default
- adalah 
-\emph on
-template
-\emph default
- pesan yang dapat digunakan oleh 
-\emph on
-user
-\emph default
- untuk meminta infromasi layanan sesuai dengan modul yang dapat diakses
- oleh 
-\emph on
-user
-\emph default
-.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan 
-\emph on
-user
-\emph default
- jika memasukkan kata yang bukan termasuk kata kunci.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/User ketik hai.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan 
-\emph on
-user 
-\emph default
-ketika 
-\emph on
-user
-\emph default
- memasukkan kata 
-\begin_inset Quotes eld
-\end_inset
-
-hai
-\begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-user"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/user ketik asal.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan 
-\emph on
-user 
-\emph default
-ketika 
-\emph on
-user
-\emph default
- memasukkan kata asal
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-user-1"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-user"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- dan gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-user-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- memasukkan kata yang tidak termasuk dalam kata kunci pada halaman pesan
- 
-\emph on
-chatbot
-\emph default
-.
- Respon yang akan diberikan oleh 
-\emph on
-chatbot
-\emph default
- adalah pesan menu yang berisikan modul apa saja yang dapat diakses oleh
- 
-\emph on
-user
-\emph default
-, serta memberikan 
-\emph on
-suggest 
-\emph default
-ketik HELP jika user ingin mengetahui format pesan yang ditentukan.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul BLK (
-\emph on
-Blacklist
-\emph default
-) bila status calon konsumen OK.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/BLK Konsumen OK.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul BLK konsumen OK
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul BLK (
-\emph on
-Blacklist
-\emph default
-) dengan memasukkan keyword BLK + (kode konsumen) + Nomor NIK calon konsumen.
- Jika NIK calon konsumen tidak ada dalam 
-\emph on
-database
-\emph default
- konsumen dan tidak ada dalam database konsumen 
-\emph on
-blacklist
-\emph default
- PT.
- Indomobil Finance Indonesia.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon 
-\begin_inset Quotes eld
-\end_inset
-
-Status OK
-\begin_inset Quotes erd
-\end_inset
-
-, yang artinya calon konsumen tersebut dapat diproses menjadi konsumen di
- PT.
- Indomobil Finance Indonesia.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul BLK (
-\emph on
-Blacklist
-\emph default
-) bila status calon konsumen sudah pernah menjadi konsumen sebelumnya.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/BLK Pernah jadi konsumen.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul BLK calon konsumen pernah menjadi konsumen
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon-1"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul BLK (
-\emph on
-Blacklist
-\emph default
-) dengan memasukkan keyword BLK + (kode konsumen) + Nomor NIK calon konsumen.
- Jika NIK calon konsumen ada dalam 
-\emph on
-database
-\emph default
- konsumen dan tidak ada dalam database konsumen 
-\emph on
-blacklist
-\emph default
- PT.
- Indomobil Finance Indonesia.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon informasi mengenai konsumen tersebut, yang artinya
- calon konsumen tersebut dapat diproses menjadi konsumen di PT.
- Indomobil Finance Indonesia.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul BLK (
-\emph on
-Blacklist
-\emph default
-) bila status calon konsumen tidak OK.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/BKL Konsumen tidak OK.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul BLK calon konsumen tidak OK
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon-2"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon-2"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul BLK (
-\emph on
-Blacklist
-\emph default
-) dengan memasukkan keyword BLK + (kode konsumen) + Nomor NIK calon konsumen.
- Jika NIK calon konsumen ada dalam 
-\emph on
-database
-\emph default
- konsumen dan ada dalam database konsumen 
-\emph on
-blacklist
-\emph default
- PT.
- Indomobil Finance Indonesia.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon informasi bahwa calon konsumen tersebut 
-\begin_inset Quotes eld
-\end_inset
-
-Tidak OK
-\begin_inset Quotes erd
-\end_inset
-
-, yang artinya calon konsumen tersebut tidak dapat diproses menjadi konsumen
- di PT.
- Indomobil Finance Indonesia.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul KOL (Kolektor) bila status lancar.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/KOL Lancar.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul KOL lancar
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon-3"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon-3"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul KOL (Kolektor) dengan memasukkan keyword KOL
- + Nomor Polisi kendaraan.
- Jika NoPol Kendaraan yang dimasukkan ada dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia dan tidak memiliki tunggakan.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon informasi mengenai detail nomor PJJ (Perjanjian)
- konsumen, nama konsumen, serta detail unit yang diambil oleh konsumen.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul KOL (Kolektor) bila status overdue.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/KOL OD.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul KOL 
-\emph on
-overdue
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon-4"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon-4"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul KOL (Kolektor) dengan memasukkan keyword KOL
- + Nomor Polisi kendaraan.
- Jika NoPol Kendaraan yang dimasukkan ada dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia dan memiliki tunggakan.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon informasi mengenai detail nomor PJJ (Perjanjian)
- konsumen, nama konsumen, lama tunggakan dalam satuan hari, serta detail
- unit yang diambil oleh konsumen.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul KOL (Kolektor) bila status ditarik.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/KOL Ditarik.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul KOL 
-\emph on
-overdue
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon-5"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon-5"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul KOL (Kolektor) dengan memasukkan keyword KOL
- + Nomor Polisi kendaraan.
- Jika NoPol Kendaraan yang dimasukkan ada dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia dan unit sudah ditarik oleh kolektor.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon informasi mengenai detail nomor PJJ (Perjanjian)
- konsumen, nama konsumen, status jika unit sudah ditarik, serta detail unit
- yang diambil oleh konsumen.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul KOL (Kolektor) bila data tidak ditemukan.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/KOL Tidak ada data.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul KOL 
-\emph on
-overdue
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon-6"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon-6"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul KOL (Kolektor) dengan memasukkan keyword KOL
- + Nomor Polisi kendaraan.
- Jika NoPol Kendaraan yang dimasukkan tidak ada dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon informasi bahwa Nomor Polisi yang dimasukkan tidak
- terdaftar dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia (bukan unit yang diambil melalui PT.
- Indomobil Finance Indonesia).
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul MSN (Mesin) bila data OK.
+Pendekatan backend pada aplikasi ini ditempatkan pada direktori “backend”
+ dan dilengkapi dengan file “__init__.py” di dalamnya.
+ Hal ini dilakukan agar direktori “app” milik pendekatan frontend dapat
+ mengakses fungsi yang ada pada pendekatan backend dengan melakukan perintah
+ import backend pada script Python.
+ Model CNN pada aplikasi menggunakan 1655 citra chromagram sebagai data
+ latih, dan 347 citra chromagram sebagai data validasi.
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/MSN Lunas.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul MSN OK
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon-7"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon-7"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul MSN (Mesin) dengan memasukkan keyword MSN +
- Nomor Mesin kendaraan.
- Jika No.
- Mesin Kendaraan yang dimasukkan ada dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia dan tidak memiliki tunggakan.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon informasi mengenai detail nama konsumen, cabang
- dimana unit tersebut diajukan, No.
- PJJ (Perjanjian) konsumen, serta status bahwa kendaraan tersebut sudah
- lunas.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul MSN (Mesin) bila data 
-\emph on
-overdue
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/MSN OD.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul MSN 
-\emph on
-overdue
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon-8"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon-8"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul MSN (Mesin) dengan memasukkan keyword MSN +
- Nomor Mesin kendaraan.
- Jika No.
- Mesin Kendaraan yang dimasukkan ada dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia dan memiliki tunggakan.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon informasi mengenai detail nama konsumen, cabang
- dimana unit tersebut diajukan, No.
- PJJ (Perjanjian) konsumen, serta status bahwa kendaraan tersebut memiliki
- lama tunggakan dalam satuan hari.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul MSN (Mesin) bila data tidak ditemukan.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/MSN Tidak ditemukan.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul MSN tidak ditemukan
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon-9"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon-9"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul MSN (Mesin) dengan memasukkan keyword MSN +
- Nomor Mesin kendaraan.
- Jika No.
- Mesin Kendaraan yang dimasukkan tidak ada dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon informasi bahwa Nomor Mesin Kendaraan yang dimasukkan
- tidak terdaftar dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia (bukan unit yang diambil melalui PT.
- Indomobil Finance Indonesia).
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul RNK (Rangka) bila data OK.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/RNK Lunas.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul RNK data OK
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon-10"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon-10"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul RNK (Rangka) dengan memasukkan keyword RNK +
- Nomor Rangka kendaraan.
- Jika No.
- Rangka Kendaraan yang dimasukkan ada dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia dan tidak memiliki tunggakan.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon informasi mengenai detail nama konsumen, cabang
- dimana unit tersebut diajukan, No.
- PJJ (Perjanjian) konsumen, serta status bahwa kendaraan tersebut sudah
- lunas.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul RNK (Rangka) bila data 
-\emph on
-overdue
-\emph default
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/RNK OD.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul RNK data 
-\emph on
-overdue
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon-11"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon-11"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul RNK (Rangka) dengan memasukkan keyword RNK +
- Nomor Rangka kendaraan.
- Jika No.
- Rangka Kendaraan yang dimasukkan ada dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia dan memiliki tunggakan.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon informasi mengenai detail nama konsumen, cabang
- dimana unit tersebut diajukan, No.
- PJJ (Perjanjian) konsumen, serta status bahwa kendaraan tersebut memiliki
- lama tunggakan dalam satuan hari.
-\end_layout
-
-\begin_layout Subsubsection
-Rancangan tampilan respon modul RNK (Rangka) bila data tidak ditemukan.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
+\begin_layout Standard
+Pembuatan model menggunakan pustaka Jupyter, Librosa, dan Keras.
+ Data latih berbentuk wav dan mp3 yang dipisah dan dikelompokan setiap dua
+ ketukan menggunakan pustaka Librosa.
+ Setiap ketukan yang terbentuk berupa detik dengan tipe data float.
+ Setiap detik ketukan kemudian disimpan ke dalam file berbentuk “.txt”.
+ Setelah membentuk file “.txt”, dilakukan labelling akor pada masing-masing
+ pasangan ketukan yang dibantu oleh Anastashia Aurelia, pelajar piano dari
+ Associated Board of the Royal School of Music (ABRSM) yang sudah berada
+ pada Grade 7.
+\end_layout
+
+\begin_layout Standard
+Akor pada aplikasi berjumlah 24 yang terdiri dari 12 akor major dan 12 akor
+ minor.
+ Setelah labelling dilakukan, dilakukan visualisasi citra spectogram MFCC
+ berdasarkan detik ketukan, dan akor yang ada pada file “.txt”.
+ Visualisasi tersebut kemudian diletakkan di dalam direktori masingmasing
+ kelas untuk dijadikan data latih.
+ Sebanyak 20 persen dari jumlah masing-masing kelas dijadikan data validasi.
+ Data latih dimasukan ke dalam direktori “data_train” dan data validasi
+ ke dalam direktori “data_test”.
+ Banyak citra data latih dan data validasi masing-masing kelas dapat dilihat
+ pada Tabel 3.2.6.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/RNK tidak ditemukan.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Rancangan tampilan respon modul RNK data 
-\emph on
-overdue
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Rancangan-tampilan-respon-12"
-
-\end_inset
-
-
+Tabel 3.2.6 Citra Data Latih Dan Data Validasi
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
-Tampilan pada gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Rancangan-tampilan-respon-12"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah rancangan tampilan respon 
-\emph on
-chatbot
-\emph default
- kolektor ketika 
-\emph on
-user
-\emph default
- melakukan permintaan modul RNK (Rangka) dengan memasukkan keyword RNK +
- Nomor Rangka kendaraan.
- Jika No.
- Rangka Kendaraan yang dimasukkan tidak ada dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia.
- Maka 
-\emph on
-chatbot
-\emph default
- akan memberikan respon informasi bahwa Nomor Rangka Kendaraan yang dimasukkan
- tidak terdaftar dalam 
-\emph on
-database
-\emph default
- PT.
- Indomobil Finance Indonesia (bukan unit yang diambil melalui PT.
- Indomobil Finance Indonesia).
-\end_layout
-
-\begin_layout Subsection
-Tahap Pembuatan 
-\emph on
-Coding
+Kelas Data Latih Data Validasi A 48 12 A# 50 9 A#m 248 15 Am 84 27 B 61
+ 14 Bm 53 13 C 76 16 C# 44 11 C#m 77 16 D 79 25 D# 57 13 D#m 24 8 Dm 48
+ 12 Em 56 13 F 56 13 F# 67 13 F#m 54 13 Fm 74 17 (Bersambung)25 (Sambungan)
+ G 131 17 G# 54 19 G#m 54 13 Gm 75 16 Jumlh 1655 347 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
+Setelah data latih dan data validasi ditempatkan pada direktori dan kelasnya
+ masing-masing, tahap selanjutnya membuat model CNN menggunakan pustaka
+ Keras.
+ Proses pelatihan menggunakan Jupyter Notebook.
+ Model dilakukan proses kompilasi menggunakan optimizer RMSprop yang ada
+ pada pustaka Keras dengan nilai learning rate sebesar 0.00001.
+ Tahap selanjutnya dalam pembuatan model adalah dengan memasukan path direktori
+ data latih dan data validasi ke dalam Keras.
+ Dimensi citra yang digunakan sebagai data masukan ke dalam model memiliki
+ dimensi 200x200 dan berbentuk tiga dimensi (RGB).
 \end_layout
 
 \begin_layout Standard
-Pada tahap 
-\emph on
-coding
-\emph default
-, secara umum peneliti memecah kegiatan menjadi 4 bagian umum, yaitu :
-\end_layout
-
-\begin_layout Enumerate
-Pembuatan 
-\emph on
-web service
-\emph default
-, pembuatan 
-\emph on
-web service 
-\emph default
-bertujuan untuk membuat suatu wadah sebagai pintu gerbang komunikasi antara
- 
-\emph on
-chatbot
-\emph default
- dengan 
-\emph on
-knowledge base
-\emph default
- yang ada di sistem internal di PT.
- Indomobil Finance Indonesia, pembuatan 
-\emph on
-web service
-\emph default
- ini menggunakan bantuan 
-\emph on
-tools
-\emph default
- visual studio 2010 dengan bahasa pemrograman visual basic Net.
- 2010.
-\end_layout
-
-\begin_layout Enumerate
-Pembuatan 
-\emph on
-Knowledge Base
-\emph default
-, pembuatan 
-\emph on
-knowledge base 
-\emph default
-merupakan bagian inti dari pembuatan sebuah 
-\emph on
-chatbot,
-\emph default
- karena dengan knowledge base ini-lah 
-\emph on
-chatbot 
-\emph default
-akan mampu memberikan respon informasi yang dibutuhkan oleh pengguna.
- Pembuatan 
-\emph on
-knowledge base
-\emph default
- pada penelitian ini memanfaatkan 
-\emph on
-database 
-\emph default
-yang sudah ada, dengan menjalankan 
-\emph on
-store procedure 
-\emph default
-yang sudah disiapkan pada 
-\emph on
-database 
-\emph default
-maka hasil dari 
-\emph on
-query store procedure 
-\emph default
-tersebut yang kemudian akan diteruskan menjadi respon dari masukkan yang
- di
-\emph on
-input 
-\emph default
-oleh pengguna.
-\end_layout
-
-\begin_layout Enumerate
-Konfigurasi 
-\emph on
-Webhook,
-\emph default
- konfigurasi webhook pada penelitian ini dilakukan untuk menghubungkan 
-\emph on
-web service 
-\emph default
-dengan layanan 
-\emph on
-API 
-\emph default
-LINE.
- Untuk bisa melakukan konfigurasi, maka dibutuhkan akun line developer,
- didalam akun line developer ini juga peneliti melakukan konfigurasi lain
- untuk 
-\emph on
-chatbot
-\emph default
-, misal ikon 
-\emph on
-chatbot
-\emph default
-, nama 
-\emph on
-chatbot
-\emph default
-, dan lain-lain.
-\end_layout
-
-\begin_layout Enumerate
-Pembuatan 
-\emph on
-Logic Program
-\emph default
-, pembuatan 
-\emph on
-logic program 
-\emph default
-dilakukan pada 
-\emph on
-web service 
-\emph default
-yang sudah disiapkan sebelumnya, pada proses pembuatan 
-\emph on
-logic program 
-\emph default
-ini strategi 
-\emph on
-forward chaining 
-\emph default
-diterapkan.
- Dengan menerapkan strategi jika-maka yang ada pada 
-\emph on
-forward chaining
-\emph default
-, seluruh 
-\emph on
-input 
-\emph default
-yang akan dimasukan oleh 
-\emph on
-user 
-\emph default
-untuk berinteraksi dengan 
-\emph on
-chatbot
-\emph default
- akan ditentukan pada tahap ini, respon yang sudah disiapkan pada 
-\emph on
-knowledge base
-\emph default
- juga akan diatur sebagai respon dalam tahap ini.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Strategi Forward Chaining
+Ukuran batch data latih dan data validasi masing-masing adalah sebesar 32
+ data dan 257 data dengan mode shuffle bernilai true, sehingga data latih
+ diproses sebanyak 32 data yang dipilih secara acak oleh Keras dengan jumlah
+ pengulangan sebanyak banyak data latih dibagi besar batch yang disebut
+ sebagai steps per epoch.
+ Sementara itu, steps per epoch yang dipilih untuk data validasi adalah
+ sebanyak dua kali dengan mode shuffle bernilai true.
+ Langkah selanjutnya dalam proses pembuatan model adalah dengan melakukan
+ proses pelatihan.
+ Model yang dilatih disimpan di dalam file berbentuk “.h5” agar dapat digunakan
+ kembali.
+ Proses pelatihan berhasil mendapatkan nilai accuracy 87 persen, loss accuracy
+ 31 persen, validation loss 1.7 persen, dan validation accuracy sebanyak
+ 96 persen.
 \end_layout
 
-\begin_deeper
 \begin_layout Standard
-Strategi forward chaining pada penelitian ini digunakan untuk menentukan
- alur atau arah interaksi yang dilakukan oleh chatbot dengan pengguna.
- Setelah user/client menambahkan 
-\emph on
-chatbot
-\emph default
- kolektor sebagai teman maka bot akan menampilkan pesan pembuka.
- Kemudian 
-\emph on
-user 
-\emph default
-akan melakukan 
-\emph on
-input 
-\emph default
-kata kunci yang nantinya akan diproses oleh 
-\emph on
-chatbot
-\emph default
-, apabila kata kunci sesuai maka akan langsung direspon oleh 
-\emph on
-chatbot
-\emph default
-, apabila tidak sesuai maka 
-\emph on
-chatbot
-\emph default
- akan menampilkan “
-\emph on
-default feedback
-\emph default
-
-\begin_inset Quotes erd
-\end_inset
-
- dengan chat kata-kata yang diinginkan, semisal “saya tidak mengerti maksud
- anda?”, “mohon masukkan kata kunci yang sesuai”, dll.
- Setelah ditampilkan hasil dari masukan tersebut, 
-\emph on
-user 
-\emph default
-bisa memasukkan kata kunci kembali atau mengakhiri percakapan.
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Subsection
-Tahap 
-\emph on
-Testing 
-\emph default
-Aplikasi
+Selanjutnya pengaturan session id.
+ Session id dibentuk pada saat pengguna pertama kali mengunjungi halaman
+ web aplikasi dan juga setelah pengguna menggunakan fitur pengenalan akor.
+ Session id yang dibentuk berguna pada penamaan data masukan pengguna.
+ Penamaan data masukan yang unik berdasarkan session id diperlukan agar
+ data pada saat aplikasi diakses oleh pengguna lebih dari satu tidak saling
+ tumpang tindih.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
+Redis Server diinisialisasi oleh backend terlebih dahulu pada saat aplikasi
+ dijalankan pertama kali.
+ Redis Server pada aplikasi berguna untuk menyimpan session id yang sedang
+ aktif agar dapat diakses baik dari segi backend maupun frontend.
+ Selain untuk menyimpan session id, Redis Server juga berfungsi sebagai
+ media komunikasi antara frontend dengan backend pada saat pengguna memilih
+ fitur.
+ Fitur-fitur yang dapat dipilih oleh pengguna adalah memilih data masukan
+ dari direktori pengguna atau melakukan rekaman secara langsung.
+ Perbedaan fitur ini diperlukan suatu variabel pembeda agar fungsi yang
+ dijalankan oleh backend tepat sesuai pilihan pengguna.
 \end_layout
 
 \begin_layout Standard
-Setelah proses pembuatan aplikasi 
-\emph on
-chatbot
-\emph default
- selesai, maka untuk memastikan chatbot sudah siap digunakan dibutuhkan
- proses testing, proses 
-\emph on
-testing
-\emph default
- dilakukan dengan metode 
-\emph on
-blackbox testing
-\emph default
-.
- 
-\emph on
-Testing 
-\emph default
-dikerjakan secara bertahap sesuai dengan kasus yang dirasa perlu diuji,
- dari mulai menambahkan 
-\emph on
-chatbot 
-\emph default
-sebagai teman, melakukan 
-\emph on
-input 
-\emph default
-yang sesuai dengan kata kunci, hingga melakukan 
-\emph on
-input 
-\emph default
-yang tidak sesuai dengan kata kunci.
- Selain testing secara 
-\emph on
-blackbox
-\emph default
-, untuk memastikan bahwa pengembangan aplikasi pada penelitian ini sudah
- sesuai dengan keinginan user, maka pada penelitian ini dilakukan 
-\emph on
-user acceptance test
-\emph default
- (
-\emph on
-UAT
-\emph default
-).
+Model yang sudah dilatih dapat diakses melalui file “.h5” yang sudah disimpan
+ terlebih dahulu pada saat proses pelatihan model, sehingga pada saat pengguna
+ melakukan fitur pengenalan dalam aplikasi, model dapat digunakan kembali.
+ Data masukan pengguna pada saat menggunakan fitur pengenalan pertama-tama
+ dibentuk “.txt” berdasarkan pasangan detik setiap ketukan pada data.
+ Setiap pasangan detik tersebut dibentuk citra spectogram.
+ Masing-masing dari citra yang dibentuk kemudian dilakukan proses pengenalan
+ oleh model.
+ Contoh data latih dan data validasi dapat dilihat pada Gambar 3.2 dan Gambar
+ 3.3.
+ Untuk mengetahui akor pada gambar chromagram, yang perlu dilihat adalah
+ baris yang paling terang (berwarna putih kekuning-kuningan).
+ Pada data latih, dapat dilihat bahwa akor A yang paling terang dan diikuti
+ oleh akor E dan akor Dm.
+ Setelah dilakukan validasi, ternyata benar bahwa akor yang dilatih adalah
+ akor A.
+ Hal tersebut dapat diketahui dari baris yang paling terang pada data validasi
+ yakni akor A.
 \end_layout
 
-\begin_layout Section
-Pengujian Perangkat Lunak
-\end_layout
-
 \begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
+Gambar 3.1 Contoh Data Latih Akor A
 \end_layout
 
 \begin_layout Standard
-Setelah dilakukan proses pembuatan 
-\emph on
-chatbot
-\emph default
- kolektor, untuk memastikan 
-\emph on
-chatbot 
-\emph default
-memberikan respon sesuai dengan harapan maka diperlukan pengujian perangkat
- lunak.
- Pengujian perangkat lunak pada penelitian ini menggunakan 
-\emph on
-blackbox testing
-\emph default
-.
- Pengujian dengan menggunakan 
-\emph on
-blackbox testing 
-\emph default
-ini dilakukan dengan cara memberikan 
-\emph on
-input
-\emph default
- langsung kepada 
-\emph on
-chatbot 
-\emph default
-kolektor, baik 
-\emph on
-input 
-\emph default
-yang sesuai dengan aturan maupun 
-\emph on
-input 
-\emph default
-yang tidak sesuai dengan aturan.
- Testing juga dilakukan dengan mengajukan form 
-\emph on
-User Acceptance Test 
-\emph default
-(
-\emph on
-UAT
-\emph default
-) untuk diberikan kepada 
-\emph on
-user
-\emph default
-, hal ini bertujuan untuk memastikan bahwa aplikasi yang dibangun sudah
- sesuai dengan yang 
-\emph on
-user 
-\emph default
-inginkan.
+Gambar 3.2 Contoh Data Validasi Akor A
 \end_layout
 
 \begin_layout Chapter
-HASIL PENELITIAN DAN PEMBAHASAN
+HASIL DAN PEMBAHASAN
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hasil dari kerangka penelitian adalah mengukur akurasi data akor yang dihasilkan
+ pada Chord Recognition dengan menggunakan metode CNN, kemudian menarik
+ kesimpulan dari hasil yang telah didapatkan.
+ Pada bab ini disajikan beberapa hal yang berkaitan dengan proses, hasil,
+ dan pembahasan hasil penelitian, diantaranya, hasil pengujian prediksi
+ model menggunakan Confusion Matrix, dan hasil pengujian akurasi akor beserta
+ pembahasannya.
 \end_layout
 
 \begin_layout Section
-Implementasi Aplikasi Chatbot Kolektor
+Pengujian Prediksi Model Menggunakan Confusion Matrix
 \end_layout
 
 \begin_layout Standard
@@ -10013,335 +6097,69 @@ noindent
 \end_layout
 
 \begin_layout Standard
-Setelah tahap 
-\emph on
-planning 
-\emph default
-selesai dikerjakan, maka tahap berikutnya yang dilakukan adalah tahap 
-\emph on
-design.
- 
-\emph default
-Tahap 
-\emph on
-design 
-\emph default
-dibuat berdasarkan hasil dari pertemuan dengan 
-\emph on
-user
-\emph default
- pada tahap 
-\emph on
-planning, 
-\emph default
-hasil dari tahap 
-\emph on
-design
-\emph default
- ini akan menjadi acuan untuk tahap berikutnya yaitu tahap 
-\emph on
-coding
-\emph default
-.
+Confusion matrix berbentuk tabel yang sering digunakan untuk memberikan
+ keterangan performa dari model klasifikasi terhadap sekumpulan data tes.
+ Pada aplikasi sistem terdapat 1192 data latih dan 247 data validasi dengan
+ kelas sebanyak 24.
+ Terdapat tiga variabel untuk melakukan perhitungan tingkat akurasi terhadap
+ klasifikasi yang dilakukan oleh model.
+ Ketiga variabel itu adalah precision, recall, dan F1-score.
+ Untuk mendapatkan nilai dari ketiga variabel tersebut dibutuhkan confusion
+ matrix yang memiliki nilai-nilai sebagai berikut:
+\end_layout
+
+\begin_layout Enumerate
+True Negative (TN) 
+\end_layout
+
+\begin_layout Standard
+TN merupakan jumlah prediksi benar untuk data salah.
  
 \end_layout
 
-\begin_layout Standard
-Tampilan yang akan dibuat pada tahap design ini adalah tampilan aplikasi
- secara keseluruhan, dari mulai kolektor menambahkan LINE 
-\emph on
-chatbot 
-\emph default
-kolektor menjadi teman, hingga semua 
-\emph on
-input message 
-\emph default
-dari kolektor dan respon yang diberikan oleh 
-\emph on
-chatbot 
-\emph default
-kolektor.
- Hasil tampilan dari tahap 
-\emph on
-design 
-\emph default
-yang dilakukan pada penelitian ini adalah sebagai berikut :
-\end_layout
-
-\begin_layout Subsection
-Tampilan 
-\emph on
-chatbot
-\emph default
- ketika ditambahkan menjadi Teman.
+\begin_layout Enumerate
+True Positive (TP) 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Greeting Message chatbot.jpg
-	scale 15
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Tampilan Chatbot Kolektor ketika ditambahkan sebagai Teman
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Tampilan-Chatbot-Kolektor"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Tampilan-Chatbot-Kolektor"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- menunjukkan tampilan ketika akun Chatbot Kolektor ditambahkan menjadi Teman
- oleh 
-\emph on
-user
-\emph default
-.
- Pesan otomatis akan selalu ditampilkan setiap kali akun LINE Official Chatbot
- Kolektor ditambahkan oleh pengguna LINE.
-\end_layout
-
-\begin_layout Subsection
-Tampilan 
-\emph on
-chatbot
-\emph default
- ketika 
-\emph on
-user
-\emph default
- valid melakukan pendaftaran.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Pendaftaran valid.jpg
-	scale 20
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Tampilan Chatbot Kolektor ketika 
-\emph on
-user
-\emph default
- valid melakukan Pendaftaran
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Tampilan-Chatbot-Kolektor-1"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Tampilan-Chatbot-Kolektor-1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- menunjukkan tampilan ketika 
-\emph on
-user
-\emph default
- valid melakukan pendaftaran.
+TP merupakan jumlah prediksi benar untuk data benar.
  
-\emph on
-User
-\emph default
- valid yang dimaksud adalah user yang nomor 
-\emph on
-handphone
-\emph default
- nya sudah terdaftar sebagai kolektor di aplikasi SMSCenter.
- Respon dari aksi yang dilakukan 
-\emph on
-user 
-\emph default
-pada halaman ini adalah 
-\emph on
-chatbot 
-\emph default
-akan menampilkan pesan permintaan kepada 
-\emph on
-user 
-\emph default
-untuk melakukan pengecekan sms.
- Pengecekan sms dilakukan untuk memeriksa kode 
-\emph on
-OTP
-\emph default
- yang sudah dikirimkan sebagai bentuk validasi akan pendaftaran yang dilakukan.
 \end_layout
 
-\begin_layout Subsection
-Tampilan 
-\emph on
-chatbot
-\emph default
- ketika 
-\emph on
-user
-\emph default
- tidak valid melakukan pendaftaran.
+\begin_layout Enumerate
+False Negative (FN) 
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Pendaftaran tidak valid.jpg
-	scale 15
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Tampilan Chatbot Kolektor ketika 
-\emph on
-user 
-\emph default
-tidak
-\emph on
+FN merupakan jumlah prediksi salah untuk data salah.
  
-\emph default
-valid melakukan Pendaftaran
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Tampilan-Chatbot-Kolektor-2"
-
-\end_inset
-
-
 \end_layout
 
-\end_inset
+\begin_layout Enumerate
+False Positive (FP) 
+\end_layout
+
+\begin_layout Standard
+FP merupakan jumlah prediksi salah untuk data benar.
+\end_layout
+
+\begin_layout Section
+Hasil dan Pembahasan
+\end_layout
+
+\begin_layout Subsection
+Hasil Pengujian Model.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
 
 
+\backslash
+noindent
 \end_layout
 
 \end_inset
@@ -10350,60 +6168,120 @@ name "fig:Tampilan-Chatbot-Kolektor-2"
 \end_layout
 
 \begin_layout Standard
-Gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Tampilan-Chatbot-Kolektor-2"
-plural "false"
-caps "false"
-noprefix "false"
+Hasil confusion matrix pada pengujian dapat dilihat pada Tabel 4.1.
+ Berdasarkan nilai dari confusion matrix tersebut, maka nilai precision,
+ recall, dan F1-score dapat dilihat pada Tabel 4.2.
+ Hasil dari pengujian, nilai akurasi yang didapatkan sebesar 89% terhadap
+ 72 data yang diuji.
+ Pada Tabel 4.2 dapat dilihat bahwa prediksi perbedaan akor dapat mudah dilakukan
+, sementara itu prediksi jenis akor lebih sukar dibedakan.
+ Sebagai contoh untuk kelas akor A#m terdapat kesalahan prediksi menjadi
+ kelas akor A#.
+ Terdapat juga kesalahan prediksi pada kelas akor G#.
+ Model memprediksi kelas akor G# menjadi kelas akor G dan kelas akor G#m.
+ Hal ini dikarenakan akor major dan minor hanya memiliki perbedaan nada
+ kedua sebesar setengah langkah.
+ Akor A# (A# major) terdiri dari nada A#, D, dan F, sedangkan akor A#m (A#
+ minor) terdiri dari nada A#, C#, dan F.
+ Perbedaan nada yang tidak terlalu signifikan mengakibatkan sistem sukar
+ membedakan akor minor dan major.
+\end_layout
+
+\begin_layout Standard
+Tabel 4.1 Hasil Confusion Matrix
+\end_layout
+
+\begin_layout Standard
+Tabel 4.2 Perhitungan Precision, Recall, F1-score, dan Support
+\end_layout
+
+\begin_layout Subsection
+Hasil Pengujian Akurasi Akor C Major dan C Minor
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
 
 \end_inset
 
- menunjukkan tampilan ketika 
-\emph on
-user
-\emph default
- tidak valid melakukan pendaftaran.
+
+\end_layout
+
+\begin_layout Standard
+Terdapat 30 visualisasi yang didapat dari data lagu masukan akor C dengan
+ nilai F1 yang didapat sebesar 95 persen.
+ Terdapat beberapa kelas akor lain yang diprediksi oleh model yaitu, kelas
+ akor C minor dan kelas akor F major.
+ Kesalahan ini dikarenakan akor C major dan akor C minor hanya memiliki
+ satu buah nada yang berbeda.
+ Akor C major terdiri dari nada C, E, dan G.
+ Sementara akor C minor terdiri dari nada C, D#, dan G.
+ Frekuensi nada E adalah 329.63 Hz sedangkan frekuensi nada D# adalah 311.13
+ Hz.
+ Kedua frekuensi tersebut saling berdekatan sehingga model salah mengenali
+ akor C major sebagai akor C minor sebanyak dua kali.
+ Detil hasil pengujian pada kelas akor C major dapat dilihat pada Tabel
+ 4.3.
+\end_layout
+
+\begin_layout Standard
+Tabel 4.3 Perhitungan Precision, Recall, dan F1-Score Akor C Major
+\end_layout
+
+\begin_layout Standard
+Precision Recall F1-Score Support C 0,90 1,00 0,95 27 Cm 0,00 0,00 0,00
+ 2 F 0,00 0,00 0,00 1 Macro Avg 0,30 0,33 0,32 - Weighted Avg 0,82 0,90
+ 0,85 - 
+\end_layout
+
+\begin_layout Standard
+Pengujian akor C minor mendapatkan nilai F1 sebesar 77 persen dari total
+ 45 data masukan.
+ Model salah memprediksi akor C minor sebanyak 12 prediksi untuk akor C
+ major.
+ Hal ini dikarenakan kemiripan antara komposisi nada yang membentuk akor
+ C minor dan C major saling berdekatan.
+ Selain kesalahan prediksi C major dari model, terdapat juga kesalahan prediksi
+ pada kelas akor D# major.
+ Komposisi nada penyusun akor C minor adalah C, D#, dan G.
+ Komposisi nada penyusun akor D# major adalah D#, G, dan A#.
+ Kesamaan komposisi nada penyusun akor C minor dan D# major adalah nada
+ D# dan G.
+ Perhitungan precision, recall, dan F1-score akor C minor dapat dilihat
+ pada Tabel 4.4.
+ Untuk data latih akor C major dapat dilihat pada Gambar 4.1 dan untuk data
+ validasi C major dapat dilihat pada Gambar 4.2.
  
-\emph on
-User 
-\emph default
-tidak valid yang dimaksud adalah user yang nomor 
-\emph on
-handphone
-\emph default
- nya tidak terdaftar di database aplikasi SMSCenter.
- Respon dari aksi yang dilakukan 
-\emph on
-user 
-\emph default
-pada halaman ini adalah 
-\emph on
-chatbot
-\emph default
- akan menampilkan pesan permintaan kepada 
-\emph on
-user 
-\emph default
-untuk menghubungi bagian ITHelpdesk dan melakukan konfirmasi untuk mendaftarkan
- nomor 
-\emph on
-handphone
-\emph default
-nya terlebih dahulu.
+\end_layout
+
+\begin_layout Standard
+Tabel 4.4 Perhitungan Precision, Recall, dan F1-Score Akor C Minor
+\end_layout
+
+\begin_layout Standard
+Precision Recall F1-Score Support Cm 0,62 1,00 0,77 28 C 0,00 0,00 0,00
+ 28 D# 0,00 0,00 0,00 5 Macro Avg 0,21 0,33 0,26 - Weighted Avg 0,39 0,62
+ 0,48 - 
+\end_layout
+
+\begin_layout Standard
+Gambar 4.1 Data Latih Akor C Major
+\end_layout
+
+\begin_layout Standard
+Gambar 4.2 Data Validasi Akor C Major 
 \end_layout
 
 \begin_layout Subsection
-Tampilan contoh kode 
-\emph on
-OTP
-\emph default
- yang dikirimkan kepada 
-\emph on
-user
-\emph default
-.
+Hasil Pengujian Akurasi Akor C# Major dan C# Minor
 \end_layout
 
 \begin_layout Standard
@@ -10423,100 +6301,74 @@ noindent
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/SMS OTP.jpg
-	scale 70
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Tampilan sms berisi kode 
-\emph on
-OTP 
-\emph default
-yang dikirimkan oleh chatbot kolektor
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Tampilan-sms-berisi"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+Nilai F1 yang diperoleh dari pengujian akor C# major adalah sebesar 91 persen
+ dari total 49 data masukan.
+ Model salah memprediksi akor C# major sebagai akor C# minor dan akor F
+ minor.
+ Komposisi nada penyusun akor C# major adalah C#, F, dan G#.
+ Komposisi nada penyusun akor C# minor adalah C#, E, dan G#.
+ Komposisi nada penyusun akor F minor adalah F, G#, dan C.
+ Kesalahan terbanyak dari prediksi model adalah pada akor F minor dimana
+ terdapat kemiripan komposisi nada penyusun antara kedua akor tersebut.
+ Besar frekuensi nada C adalah 261.63 Hz, sedangkan besar frekuensi nada
+ C# adalah 277.18 Hz.
+ Kedekatan antara kedua nada tersebut memuat model salah memprediksi.
+ Rincian hasil pengujian terhadap akor C# major dapat dilihat pada Tabel
+ 4.5.
+ Untuk data latih akor C# major dapat dilihat pada Gambar 4.3 dan untuk data
+ validasi C# major dapat dilihat pada Gambar 4.4.
 \end_layout
 
 \begin_layout Standard
-Gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Tampilan-sms-berisi"
-plural "false"
-caps "false"
-noprefix "false"
+Gambar 4.3 Data Latih C# Major
+\end_layout
 
-\end_inset
+\begin_layout Standard
+Gambar 4.4 Data Validasi C# Major
+\end_layout
 
- menunjukkan tampilan isi pesan berupa kode 
-\emph on
-OTP
-\emph default
- yang akan dikirimkan ke nomor 
-\emph on
-handphone
-\emph default
- yang didaftarkan oleh kolektor untuk pendaftaran 
-\emph on
-Chatbot 
-\emph default
-Kolektor.
- 
-\emph on
-User 
-\emph default
-akan diminta untuk memasukkan kode 
-\emph on
-OTP
-\emph default
- yang tertera pada pesan ini untuk memvalidasi jika pendaftaran benar dilakukan
- oleh 
-\emph on
-user
-\emph default
- yang bersangkutan.
+\begin_layout Standard
+Tabel 4.5 Perhitungan Precision, Recall, dan F1-Score Akor C# Major
+\end_layout
+
+\begin_layout Standard
+Precision Recall F1-Score Support C# 0,84 1,00 0,91 41 C#m 0,00 0,00 0,00
+ 3 Fm 0,00 0,00 0,00 5 Macro Avg 0,28 0,33 0,30 - Weighted Avg 0,70 0,84
+ 0,76 - 
+\end_layout
+
+\begin_layout Standard
+Baris yang terang pada data latih C# major adalah baris akor C# major, akor
+ F minor, dan akor C#m.
+ Setelah dilakukan validasi, hasil baris yang terang adalah baris akor C#
+ major, A minor, dan F.
+ Nilai F1 yang diperoleh dari pengujian kelas akor C# minor adalah sebesar
+ 80 persen.
+ Model salah memprediksi akor C# minor sebagai akor C# major dan E major.
+ Kesalahan terbanyak prediksi adalah akor E major yaitu sebesar 12 kesalahan
+ prediksi.
+ Komposisi nada penyusun akor C# minor adalah C#, E, dan G#.
+ Komposisi nada penyusun akor E major adalah E, G#, dan B.
+ Terdapat kesamaan sebanyak dua nada yang ada pada akor C# minor dan E major,
+ yaitu nada E dan G#.
+ Kesalahan pengenalan akor C# minor lainnya adalah kesalahan prediksi kelas
+ akor C# major Kesamaan penyusun nada tersebut membuat model salah memprediksi.
+ Rincian hasil pengujian terhadap akor C# minor dapat dilihat pada Tabel
+ 4.6.
+\end_layout
+
+\begin_layout Standard
+Tabel 4.6 Perhitungan Precision, Recall, dan F1-Score Akor C# Minor
+\end_layout
+
+\begin_layout Standard
+Precision Recall F1-Score Support C#m 0,67 1,00 0,80 41 C# 0,00 0,00 0,00
+ 8 Fm 0,00 0,00 0,00 12 Macro Avg 0,22 0,33 0,27 - Weighted Avg 0,45 0,67
+ 0,54 - 
 \end_layout
 
 \begin_layout Subsection
-Tampilan 
-\emph on
-user
-\emph default
- memasukkan kode 
-\emph on
-OTP
-\emph default
-.
+Hasil Pengujian Akurasi Akor D Major dan D Minor
 \end_layout
 
 \begin_layout Standard
@@ -10536,88 +6388,67 @@ noindent
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Masukkan OTP.jpg
-	scale 15
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Tampilan ketika 
-\emph on
-user
-\emph default
- memasukkan kode 
-\emph on
-OTP
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Tampilan-ketika-user"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+Nilai F1 yang diperoleh dari pengujian kelas akor D major adalah sebesar
+ 83 persen dari total 37 data.
+ Pengujian pada akor D major berhasil memperoleh nilai F1-score sebesar
+ 83 persen.
+ Model salah memprediksi akor D major sebagai akor D minor dan akoe B major.
+ Kesalahan pengenalan akor major dan minor terjadi kembali pada pengujian
+ ini, sedangkan kesalahan mengenali akor D major sebagai B major dikarenakan
+ adanya kedekatan antara kedua komposisi nada penyusun akor-akor tersebut.
+ Komposisi nada penyusun akor D major adalah D, F#, dan A.
+ Komposisi nada penyusun akor B major adalah B, D#, dan F#.
+ Frekuensi nada D dan D# berturut-turut adalah 293.66 Hz dan 311.13 Hz.
+ Rincian hasil pengujian terhadap akor D major dapat dilihat pada Tabel
+ 4.7.
+ Untuk data latih akor D major dapat dilihat pada Gambar 4.5 dan untuk data
+ validasi D major dapat dilihat pada Gambar 4.6.
 \end_layout
 
 \begin_layout Standard
-Gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Tampilan-ketika-user"
-plural "false"
-caps "false"
-noprefix "false"
+Gambar 4.5 Data Latih D Major
+\end_layout
 
-\end_inset
+\begin_layout Standard
+Gambar 4.6 Data Validasi D Major
+\end_layout
 
- menunjukkan tampilan ketika 
-\emph on
-user
-\emph default
- memasukkan kode 
-\emph on
-OTP
-\emph default
- yang sebelumnya sudah dikirimkan melalui 
-\emph on
-SMS
-\emph default
- ke nomor yang didaftarkan oleh 
-\emph on
-user
-\emph default
-.
+\begin_layout Standard
+Tabel 4.7 Perhitungan Precision, Recall, dan F1-Score Akor D Major
+\end_layout
+
+\begin_layout Standard
+Precision Recall F1-Score Support D 0,70 1,00 0,83 26 B 0,00 0,00 0,00 3
+ Dm 0,00 0,00 0,00 8 Macro Avg 0,23 0,33 0,28 - Weighted Avg 0,49 0,70 0,58
+ - 
+\end_layout
+
+\begin_layout Standard
+Nilai F1 yang diperoleh dari hasil pengujian pengenalan kelas akor D minor
+ yaitu sebesar 75 persen dari total 48 data.
+ Model salah memprediksi akor D minor sebagai kelas akor A# major, D major,
+ dan F major.
+ Komposisi nada penyusun akor D minor adalah D, F, dan A.
+ Komposisi nada penyusun A# major adalah A#, D, dan F.
+ Komposisi nada penyusun F major adalah F, A, dan C.
+ Kesalahan pengenalan untuk kelas-kelas tersebut dikarenakan komposisi nada
+ penyusun antara masing-masing akor sama dan berdekatan.
+ Rincian hasil pengujian terhadap akor D minor dapat dilihat pada Tabel
+ 4.8
+\end_layout
+
+\begin_layout Standard
+Tabel 4.8 Perhitungan Precision, Recall, dan F1-Score Akor D Minor
+\end_layout
+
+\begin_layout Standard
+Precision Recall F1-Score Support D 0,70 1,00 0,83 26 B 0,00 0,00 0,00 3
+ Dm 0,00 0,00 0,00 8 Macro Avg 0,23 0,33 0,28 - Weighted Avg 0,49 0,70 0,58
+ - 
 \end_layout
 
 \begin_layout Subsection
-Tampilan notifikasi kode 
-\emph on
-OTP
-\emph default
- salah.
+Hasil Pengujian Akurasi Akor D# Major dan D# Minor
 \end_layout
 
 \begin_layout Standard
@@ -10637,91 +6468,68 @@ noindent
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Masukkan OTP yang salah.jpg
-	scale 15
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Tampilan notifikasi 
-\emph on
-OTP
-\emph default
- salah
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Tampilan-notifikasi-OTP"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+Nilai F1 yang diperoleh dari hasil pengujian kelas akor D# major yaitu sebesar
+ 81 persen dari total 22 data observasi akor.
+ Model salah mengenali kelas akor D# major sebagai kelas akor B major, D#
+ minor, dan G minor.
+ Kesalahan pengenalan paling banyak adalah mengenali kelas akor G minor
+ sebagai akor D# major.
+ Komposisi nada penyusun akor D# major adalah D#, G, dan A#.
+ Komposisi nada penyusun akor G minor adalah G, A#, dan D.
+ Kemiripan komposisi kedua akor tersebut membuat model salah memprediksi
+ akor D# major sebagai akor G minor sebanyak empat pengenalan.
+ Rincian hasil pengujian terhadap akor D# major dapat dilihat pada Tabel
+ 4.9.
+ Untuk data latih akor D# major dapat dilihat pada Gambar 4.7 dan untuk data
+ validasi D# major dapat dilihat pada Gambar 4.8.
 \end_layout
 
 \begin_layout Standard
-Gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Tampilan-notifikasi-OTP"
-plural "false"
-caps "false"
-noprefix "false"
+Gambar 4.7 Data Latih D# Major
+\end_layout
 
-\end_inset
+\begin_layout Standard
+Gambar 4.8 Data Latih D# Major
+\end_layout
 
- menunjukkan tampilan notifikasi jika 
-\emph on
-user
-\emph default
- memasukkan kode 
-\emph on
-OTP
-\emph default
- yang salah.
- 
-\emph on
-User
-\emph default
- akan diminta untuk memasukkan kode 
-\emph on
-OTP
-\emph default
- yang dikirimkan oleh chatbot kolektor melalui 
-\emph on
-SMS
-\emph default
-.
+\begin_layout Standard
+Tabel 4.9 Perhitungan Precision, Recall, dan F1-Score Akor D# Major
+\end_layout
+
+\begin_layout Standard
+Precision Recall F1-Score Support D# 0,68 1,00 0,81 15 B 0,00 0,00 0,00
+ 2 D#m 0,00 0,00 0,00 1 Gm 0,00 0,00 0,00 4 Macro Avg 0,17 0,25 0,20 - Weighted
+ Avg 0,46 0,68 0,55 - 
+\end_layout
+
+\begin_layout Standard
+Nilai F1 yang diperoleh dari hasil pengujian kelas akor D# minor adalah
+ sebesar 82 persen dari total 62 data observasi.
+ Model salah memprediksi akor D# minor sebagai akor F# major dan G# major.
+ Kesalahan terbanyak adalah mengenali akor F# major.
+ Pada pengujian akor ini, tidak terdapat kesalahan pengenalan akor minor
+ sebagai akor major dalam root yang sama.
+ Komposisi nada penyusun akor D# minor adalah D#, F#, dan A#.
+ Komposisi nada penyusun akor F# major adalah F#, A#, dan C#.
+ Komposisi nada penyusun akor G# major adalah G#, C, dan D#.
+ Ketiga kelas akor tersebut memiliki nada penyusun akor masing-masing yang
+ mirip sehingga terdapat kesalahan pengenalan dari model pada sistem aplikasi.
+ Rincian hasil pengujian terhadap akor D# minor dapat dilihat pada Tabel
+ 4.10
+\end_layout
+
+\begin_layout Standard
+Tabel 4.10 Perhitungan Precision, Recall, dan F1-Score Akor D# Minor
+\end_layout
+
+\begin_layout Standard
+Precision Recall F1-Score Support D#m 0,69 1,00 0,82 43 F# 0,00 0,00 0,00
+ 12 G# 0,00 0,00 0,00 7 Macro Avg 0,23 0,33 0,27 - Weighted Avg 0,48 0,69
+ 0,57 - 
 \end_layout
 
 \begin_layout Subsection
-Tampilan notifikasi pendaftaran 
-\emph on
-user
-\emph default
-.
+Hasil Pengujian Akurasi Akor E Major dan E Minor
 \end_layout
 
 \begin_layout Standard
@@ -10741,70 +6549,41 @@ noindent
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Masukkan OTP yang benar.jpg
-	scale 15
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Tampilan notifikasi pendaftaran berhasil
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Tampilan-notifikasi-pendaftaran"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+Nilai F1 yang diperoleh dari hasil pengujian kelas akor E major adalah sebesar
+ 89 persen dari total 21 data observasi akor.
+ Kesalahan pada pengujian ini dikarenakan kemiripan antara akor major dan
+ akor minor pada root yang sama.
+ Komposisi nada penyusun akor E major adalah E, G#, dan G.
+ Sedangkan, komposisi nada penyusun akor E minor adalah E, G, dan B.
+ Komposisi nada penyusun yang sama antara akor E major dan E minor adalah
+ pada naga E dan B.
+ Selain memiliki kesamaan pada nada E dan B, nada G# dan G memiliki frekuensi
+ yang dekat satu sama lain.
+ Rincian hasil pengujian terhadap akor E major dapat dilihat pada Tabel
+ 4.11.
+ Untuk data latih akor E major dapat dilihat pada Gambar 4.9 dan untuk data
+ validasi E major dapat dilihat pada Gambar 4.10.
 \end_layout
 
 \begin_layout Standard
-Gambar 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Tampilan-notifikasi-pendaftaran"
-plural "false"
-caps "false"
-noprefix "false"
+Gambar 4.9 Data Latih E Major
+\end_layout
 
-\end_inset
+\begin_layout Standard
+Gambar 4.10 Data Validasi E Major
+\end_layout
 
- menunjukkan tampilan notifikasi setelah 
-\emph on
-user
-\emph default
- berhasil memasukkan kode 
-\emph on
-OTP
-\emph default
- yang sesuai dengan kode 
-\emph on
-OTP
-\emph default
- yang dikirimkan oleh chatbot kolektor.
+\begin_layout Standard
+Tabel 4.11 Perhitungan Precision, Recall, dan F1-Score Akor E Major
+\end_layout
+
+\begin_layout Standard
+Precision Recall F1-Score Support E 0,81 1,00 0,89 17 Em 0,00 0,00 0,00
+ 4 Macro Avg 0,40 0,50 0,45 - Weighted Avg 0,66 0,81 0,72 - 
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Subsection
