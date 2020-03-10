@@ -2138,7 +2138,7 @@ Alamat Rumah
 \begin_inset Text
 
 \begin_layout Plain Layout
-Jalan Anggrek 3 rt.04 rw.015 no.15
+Royal Platinum Residence Blok B No 1-2 rt.001 rw.009
 \end_layout
 
 \end_inset
@@ -2167,8 +2167,9 @@ Jalan Anggrek 3 rt.04 rw.015 no.15
 \begin_inset Text
 
 \begin_layout Plain Layout
-Desa Setia Mekar, Kec.
- Tambun Selatan
+Kel.
+ Mustika Jaya, Kec.
+ Mustika Jaya
 \end_layout
 
 \end_inset
@@ -2197,7 +2198,7 @@ Desa Setia Mekar, Kec.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Kab.
+Kota.
  Bekasi, Jawa Barat - 17510
 \end_layout
 
@@ -2281,7 +2282,7 @@ Sarjana Sistem Informasi Universitas Gunadarma
 \begin_inset Text
 
 \begin_layout Plain Layout
-SMKN 1 Tambelang
+SMAN 5 Tambun Selatan
 \end_layout
 
 \end_inset
@@ -2305,7 +2306,7 @@ SMKN 1 Tambelang
 \begin_inset Text
 
 \begin_layout Plain Layout
-SMPN 1 Tambun Selatan
+SMPN 26 Kota Bekasi
 \end_layout
 
 \end_inset
@@ -2329,7 +2330,7 @@ SMPN 1 Tambun Selatan
 \begin_inset Text
 
 \begin_layout Plain Layout
-SDN Jatimulya 02
+SDN Lambang Sari 04
 \end_layout
 
 \end_inset
@@ -2372,8 +2373,9 @@ Pengalaman Kerja
 \begin_inset Text
 
 \begin_layout Plain Layout
-Staff IT Development PT.
- Indomobil Finance Indonesia
+Senior Test Engineer & Tech.
+ Expert PT.
+ PT Global Media Visual
 \end_layout
 
 \end_inset
@@ -2382,7 +2384,7 @@ Staff IT Development PT.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Mey 2018
+Okt 2018
 \emph on
 -
 \emph default
@@ -2397,7 +2399,8 @@ Sekarang
 \begin_inset Text
 
 \begin_layout Plain Layout
-Freelance Project by Universitas Gunadarma
+QA Manual & QA Automation PT.
+ Prudential Life Assurance
 \end_layout
 
 \end_inset
@@ -2406,11 +2409,11 @@ Freelance Project by Universitas Gunadarma
 \begin_inset Text
 
 \begin_layout Plain Layout
-Feb 201
+Sep 201
 \emph on
-7-
+8-
 \emph default
-Mar 2019
+Okt 2019
 \end_layout
 
 \end_inset
@@ -2421,8 +2424,8 @@ Mar 2019
 \begin_inset Text
 
 \begin_layout Plain Layout
-IOS Developer PT.
- IKonsultan Inovatama
+QA Manual & Data Analis PT.
+ Bank Mandiri
 \end_layout
 
 \end_inset
@@ -2431,11 +2434,36 @@ IOS Developer PT.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Nov 2016
+Jan 201
 \emph on
--
+7-
 \emph default
-Feb 2017
+Sep 2018
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Java Developer PT.
+ Digital Artha Media
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Jul 201
+\emph on
+6-
+\emph default
+Des 2016
 \end_layout
 
 \end_inset
@@ -2460,31 +2488,6 @@ Jul 2014
 -
 \emph default
 Juni 2016
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Staff Customer Relation PT.
- Multifiling Mitra Indonesia
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-May 2012
-\emph on
--
-\emph default
-Jan 2013
 \end_layout
 
 \end_inset
@@ -2762,6 +2765,12 @@ Ibu Dr.
 Ayahanda serta ibunda yang telah banyak memberikan dorongan dan semangat
  tak ternilai serta doa restu mereka jugalah terlaksananya penulisan tesis
  ini.
+\end_layout
+
+\begin_layout Enumerate
+Chris Muladi R, Panji Tamzil, Cincin Jati Sudarminto, Muhammad Sidik, Nadiailhaq
+, Refha Febriana, Kasman Wicaksono, Roy Yohannes, Arvin yang telah mambantu
+ untuk memberikan masukan 
 \end_layout
 
 \begin_layout Enumerate
@@ -31637,18 +31646,7 @@ thepage}
 \end_layout
 
 \begin_layout Standard
-LineChatbotCollector_GetInfo.ashx.vb
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand lstinputlisting
-filename "code/LineChatbotCollector_Handler.ashx.vb"
-lstparams "language=Java,basicstyle={\\footnotesize},breaklines=true,showstringspaces=false,tabsize=4,frame=tb"
-
-\end_inset
-
-
+Source Code 2 
 \end_layout
 
 \end_body
